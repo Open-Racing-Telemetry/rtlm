@@ -10,3 +10,14 @@ The telemetry system shall be split between two primary physical componenets:
 
 The transmitter will be mounted on the vehicle and is responsible for both data logging and transmission over LoRa to the reciever.
 The reciever simply recieves the transmitted telemetry over LoRa and communicates it to a host computer over usb-c.
+
+Our primary measurement targets we intend to specifically support are as following:
+- Acceleration and angular velocity
+- Wheel speed(s)
+- Motor temperature(s)
+- Controller temperature(s)
+- Battery temperature(s)
+- Brake temperature(s)
+- Battery voltage/current/energy
+- Steering angle
+- Pedal/throttle position(s)
