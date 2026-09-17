@@ -1,5 +1,8 @@
 # RTLM Design Proposal
 
+## Rationale
+The nexus of our problem is data visibility in a high stakes racing environment. Hobby electric racing vehicles, including but not limited to Electrathon® vehicles, lack a reliable method of transmitting vital information about their status. Often, the driver is responsible for reading out voltages and current from a small onboard display, increasing their already high cognitive load and forcing them to divert their attention from the task at hand. To us, this is unnaceptable. RTLM (loosely meaning "Racing Telemetry") will provide an affordable, modular, and easy to install hobby racing telemetry system that provides realtime updates regarding performance of critical onboard systems. Our modular design will allow the end-user to select which sensors are neccessary for their vehicle, preventing unneccesary expenditures and maximizing compatibility.
+
 ## Overview
 The telemetry system shall be split between two primary physical componenets:
 - Transmitter (henceforth reffered to as "The Onboard Box")
