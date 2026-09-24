@@ -260,7 +260,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "ground_pin_not_ground|6261100|939800|4ab7011a-e224-4b4c-b0d3-bce634c0e16f|00000000-0000-0000-0000-000000000000|/18642f86-b1da-4982-a59b-b3bbb269065a|/18642f86-b1da-4982-a59b-b3bbb269065a|",
+        "PACK_NEG is the isolated traction-pack ground; intentionally separate from logger GND."
+      ],
+      [
+        "ground_pin_not_ground|6388100|1193800|1fb01320-660a-48ee-a1d2-a3a8c03d1044|00000000-0000-0000-0000-000000000000|/18642f86-b1da-4982-a59b-b3bbb269065a|/18642f86-b1da-4982-a59b-b3bbb269065a|",
+        "PACK_NEG is the isolated traction-pack ground; intentionally separate from logger GND."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -661,7 +670,7 @@
         "uuid": "18642f86-b1da-4982-a59b-b3bbb269065a"
       }
     ],
-    "used_designators": "R1-86,J1-18,IC1-9,L1-9,#PWR1-197,U1-8,C1-66,Q1-2,D1-24,SW1-2,Y1-2,JP1",
+    "used_designators": "R1-92,J1-20,IC1-9,L1-9,#PWR1-229,U1-9,C1-77,Q1-2,D1-35,SW1-2,Y1-2,JP1",
     "variants": []
   },
   "sheets": [
