@@ -23,23 +23,3 @@ Our primary measurement targets we intend to specifically support are as followi
 - Pedal/throttle position(s)
 
 Please note that our intent to support these targets will in no way impose them upon the user.
-
-## Part selection
-
-*DigiKey USD prices, quantity 1; excludes shipping and tax.*
-
-Processor: [ESP32-S3FN8](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3FN8/15822446) $4.17000
-
-LoRa radio: [SX1262IMLTRT](https://www.digikey.com/en/products/detail/semtech-corporation/SX1262IMLTRT/8564369) $9.04000
-
-IMU: [BMI088](https://www.digikey.com/en/products/detail/bosch-sensortec/BMI088/8634942) $5.92000 — out of stock
-
-Analog sensor ADC: [MCP3208-CI/SL](https://www.digikey.com/en/products/detail/microchip-technology/MCP3208-CI-SL/305929) $2.78000
-
-Battery monitor: [INA228AIDGSR](https://www.digikey.com/en/products/detail/texas-instruments/INA228AIDGSR/13691042) $4.68000; external shunt required
-
-CAN transceiver: [TCAN1042HGVDRQ1](https://www.digikey.com/en/products/detail/texas-instruments/TCAN1042HGVDRQ1/5967664) $2.23000
-
-3.3 V regulator: [TPS62130RGTR](https://www.digikey.com/en/products/detail/texas-instruments/TPS62130RGTR/4833914) $1.99000
-
-Sensor connector, PCB side: [Micro-Fit 3.0 0430450400](https://www.digikey.com/en/products/detail/molex/0430450400/252527) $1.45000 each
