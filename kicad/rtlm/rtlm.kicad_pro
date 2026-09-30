@@ -268,6 +268,14 @@
       [
         "ground_pin_not_ground|6388100|1193800|1fb01320-660a-48ee-a1d2-a3a8c03d1044|00000000-0000-0000-0000-000000000000|/18642f86-b1da-4982-a59b-b3bbb269065a|/18642f86-b1da-4982-a59b-b3bbb269065a|",
         "PACK_NEG is the isolated traction-pack ground; intentionally separate from logger GND."
+      ],
+      [
+        "lib_symbol_mismatch|3822700|3390900|52f2cbd0-a3dc-4ddf-b2e9-0aa3e9b49e20|00000000-0000-0000-0000-000000000000|||",
+        "MCP3208 pin 12 DOUT corrected to Tri-state; output is high impedance when CS is high."
+      ],
+      [
+        "pin_to_pin|3175000|1371600|b92569d4-b793-455c-ae09-6aecad32e237|fb0b9e73-6642-4daa-997c-4ce07167ed00|/18642f86-b1da-4982-a59b-b3bbb269065a|/18642f86-b1da-4982-a59b-b3bbb269065a|/18642f86-b1da-4982-a59b-b3bbb269065a",
+        "DIO3 supplies LORA_3V0 in TCXO power mode; firmware configures a 3.0 V output."
       ]
     ],
     "meta": {
@@ -620,14 +628,86 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "j",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -670,7 +750,7 @@
         "uuid": "18642f86-b1da-4982-a59b-b3bbb269065a"
       }
     ],
-    "used_designators": "R1-94,J1-20,IC1-10,L1-9,#PWR1-234,U1-10,C1-79,Q1-2,D1-35,SW1-2,Y1-2,JP1,BT1",
+    "used_designators": "#FLG1-6,R1-94,J1-20,IC1-10,L1-9,#PWR1-236,U1-10,C1-79,Q1-2,D1-35,SW1-2,Y1-2,JP1,BT1",
     "variants": []
   },
   "sheets": [
