@@ -14174,6 +14174,10 @@
 		(uuid "e926eddb-ffe8-4f67-a2aa-36bda2c485c8")
 	)
 	(no_connect
+		(at 632.46 30.48)
+		(uuid "f0465c8d-7918-44c4-9af6-eacafcb3e7f0")
+	)
+	(no_connect
 		(at 203.2 384.81)
 		(uuid "f3a799b6-34d9-47fc-ba7f-a5b747cc591d")
 	)
@@ -17265,16 +17269,6 @@
 		)
 		(uuid "0ac29226-652e-4487-acf3-4c63c026b9d3")
 	)
-	(label "PACK_POS"
-		(at 632.46 55.88 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bf8a45d-53be-4ce7-8f7d-94a3899c2a9c")
-	)
 	(label "LED_OUT6"
 		(at 44.45 520.7 180)
 		(effects
@@ -17444,16 +17438,6 @@
 			(justify left bottom)
 		)
 		(uuid "186f8069-11b2-44ca-934e-ee8214517f0f")
-	)
-	(label "PACK_NEG"
-		(at 635 55.88 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19134cf5-6646-4717-906a-f5dad89131b3")
 	)
 	(label "SENSOR_5V_MON"
 		(at 209.55 135.89 0)
@@ -18676,7 +18660,7 @@
 		(uuid "863dd15e-1846-4ba0-bf4c-f68a6a05d026")
 	)
 	(label "PACK_NEG"
-		(at 632.46 30.48 270)
+		(at 629.92 30.48 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21628,7 +21612,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 632.46 25.4 90)
 		(unit 1)
 		(body_style 1)
@@ -21650,7 +21634,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BATTERY_IN"
+		(property "Value" "BATTERY_VOLTAGE_SENSE_LINE"
 			(at 637.54 26.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21661,7 +21645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal"
 			(at 632.46 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -21683,7 +21667,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 632.46 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -21699,6 +21683,9 @@
 		)
 		(pin "1"
 			(uuid "92a8fc67-7b84-419e-b7c5-f89668dabadf")
+		)
+		(pin "3"
+			(uuid "e4116a3c-e27a-490b-8190-08e927daa806")
 		)
 		(instances
 			(project "rtlm"
@@ -62087,88 +62074,6 @@
 			(project "rtlm"
 				(path "/18642f86-b1da-4982-a59b-b3bbb269065a"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 635 60.96 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8964fc7-a004-4c75-b922-1d026c920959")
-		(property "Reference" "J20"
-			(at 637.54 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BATTERY_OUT"
-			(at 637.54 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 635 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 635 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 635 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c026e448-dc63-4d83-a444-ed50da7da1bb")
-		)
-		(pin "1"
-			(uuid "a5e016fb-edca-4d82-a23d-10527eb369e9")
-		)
-		(instances
-			(project "rtlm"
-				(path "/18642f86-b1da-4982-a59b-b3bbb269065a"
-					(reference "J20")
 					(unit 1)
 				)
 			)

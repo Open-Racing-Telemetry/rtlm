@@ -69,8 +69,31 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|199500000|170000000|1e9c2e0d-3673-4365-9a55-2b80aa3d0e0e|00000000-0000-0000-0000-000000000000",
+          "intentional"
+        ],
+        [
+          "items_not_allowed|199500000|270000000|7e53781e-393c-4cea-8663-e17548e57ae5|00000000-0000-0000-0000-000000000000",
+          "intentional"
+        ],
+        [
+          "items_not_allowed|389500000|170000000|fd645018-8bc2-4df2-9a97-995c48567543|00000000-0000-0000-0000-000000000000",
+          "intentional"
+        ],
+        [
+          "items_not_allowed|389500000|270000000|28fcfc3c-223f-436f-ba66-b80460d6542a|00000000-0000-0000-0000-000000000000",
+          "intentional"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -140,12 +163,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -153,9 +176,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -203,7 +226,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.15,
+        0.2,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +261,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -528,6 +568,17 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -535,7 +586,40 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/5V_SYS"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/5V_PULSE"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/5V_CAN"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/USB_5V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/EXT_5V_RAW"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/EXT_5V_POLARITY_OK"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/EXT_5V_PROTECTED"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -750,7 +834,7 @@
         "uuid": "18642f86-b1da-4982-a59b-b3bbb269065a"
       }
     ],
-    "used_designators": "#FLG1-6,R1-94,J1-20,IC1-10,L1-9,#PWR1-236,U1-10,C1-79,Q1-2,D1-35,SW1-2,Y1-2,JP1,BT1",
+    "used_designators": "#FLG1-6,R1-94,J1-20,IC1-10,L1-9,#PWR1-236,U1-10,C1-79,Q1-2,D1-35,SW1-2,Y1-2,JP1,BT1,F1",
     "variants": []
   },
   "sheets": [
