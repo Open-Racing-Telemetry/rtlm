@@ -58598,28 +58598,12 @@
 		(uuid "53cdb71a-225d-4b41-9401-c9187ec9f246")
 	)
 	(segment
-		(start 217 194.19636)
-		(end 217 193.67)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "5831c53f-5c08-43f6-acf7-e6bdd2e390f9")
-	)
-	(segment
 		(start 219.175 208.8325)
 		(end 219.175 210.2575)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "5b0405ee-46d4-4eff-b13b-8f45346dcaee")
-	)
-	(segment
-		(start 217 193.67)
-		(end 216.99 193.66)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "64e385af-750b-4695-9f9f-2631538ef2c3")
 	)
 	(segment
 		(start 212 199.825)
