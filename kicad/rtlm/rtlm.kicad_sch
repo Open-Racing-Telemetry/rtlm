@@ -19429,7 +19429,7 @@
 		)
 		(uuid "cdce8972-552b-4b70-bf43-32387218fbaf")
 	)
-	(label "ESP_XTAL_P"
+	(label "ESP_XTAL_N"
 		(at 59.69 39.37 90)
 		(effects
 			(font
