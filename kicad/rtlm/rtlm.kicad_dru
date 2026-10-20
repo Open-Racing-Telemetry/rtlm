@@ -1,0 +1,11 @@
+(version 1)
+
+# Six-layer stack: F.Cu signals / In1.Cu GND / In2.Cu +3.3V /
+# In3.Cu split 5 V rails / In4.Cu GND / B.Cu signals.
+# Keep inner copper continuous for planes. Through-vias, pads, and zones
+# remain allowed; their normal clearance and keepout rules still apply.
+# Freerouting layer restrictions must also be configured independently.
+(rule "Inner copper reserved for planes"
+  (layer inner)
+  (severity error)
+  (constraint disallow track))
