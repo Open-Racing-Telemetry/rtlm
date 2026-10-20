@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.25,
+          "thermal_relief_spoke_width": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -76,24 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "items_not_allowed|199500000|170000000|1e9c2e0d-3673-4365-9a55-2b80aa3d0e0e|00000000-0000-0000-0000-000000000000",
-          "intentional"
-        ],
-        [
-          "items_not_allowed|199500000|270000000|7e53781e-393c-4cea-8663-e17548e57ae5|00000000-0000-0000-0000-000000000000",
-          "intentional"
-        ],
-        [
-          "items_not_allowed|389500000|170000000|fd645018-8bc2-4df2-9a97-995c48567543|00000000-0000-0000-0000-000000000000",
-          "intentional"
-        ],
-        [
-          "items_not_allowed|389500000|270000000|28fcfc3c-223f-436f-ba66-b80460d6542a|00000000-0000-0000-0000-000000000000",
-          "intentional"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -649,7 +632,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../../../../../Desktop/rtlm.dsn",
       "step": "",
       "vrml": ""
     },
