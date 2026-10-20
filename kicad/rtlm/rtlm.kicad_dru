@@ -1,0 +1,25 @@
+(version 1)
+
+# Six-layer stack: F.Cu signals / In1.Cu GND / In2.Cu +3.3V /
+# In3.Cu split 5 V rails / In4.Cu GND / B.Cu signals.
+# Keep inner copper continuous for planes. Through-vias, pads, and zones
+# remain allowed; their normal clearance and keepout rules still apply.
+# Freerouting layer restrictions must also be configured independently.
+(rule "Inner copper reserved for planes"
+  (layer inner)
+  (severity error)
+  (constraint disallow track))
+
+# USB: JLC06161H-3313, 1 oz outer, 0.0994 mm to adjacent GND.
+# JLC masked non-coplanar differential calculation: 90 ohm,
+# 6.05 mil width = 0.15367 mm; use 0.154 mm, 0.200 mm edge gap.
+# These are layout dimensions, not a fabricated-impedance guarantee.
+# Keep same-layer copper away from the pair; recalculate for coplanar routing.
+(rule "USB 90 ohm trace width both sides of series resistors"
+  (condition "A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN'")
+  (constraint track_width (min 0.154mm) (opt 0.154mm) (max 0.154mm)))
+
+# Pair-gap checks apply to both recognized USB pairs.
+(rule "USB 90 ohm differential gap"
+  (condition "A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN'")
+  (constraint diff_pair_gap (min 0.200mm) (opt 0.200mm) (max 0.200mm)))
