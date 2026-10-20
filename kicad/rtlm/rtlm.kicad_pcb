@@ -59097,6 +59097,14 @@
 		(uuid "5d4fd381-268c-48d4-919f-798798f78001")
 	)
 	(segment
+		(start 206.325 208)
+		(end 207.38 208)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "5d639872-ea69-42b9-a62f-6655da85c011")
+	)
+	(segment
 		(start 343.089 219.6819)
 		(end 343.089 217.6872)
 		(width 0.15)
@@ -59255,6 +59263,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "a2b86136-bfbd-43ef-8157-7c375e39066d")
+	)
+	(segment
+		(start 206.325 212)
+		(end 207.35 212)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "a2c5cb9b-2594-4698-a7a1-0d9374d1e654")
 	)
 	(segment
 		(start 270.08 194.08)
@@ -59489,6 +59505,14 @@
 		(uuid "f9e208c0-108a-4f1e-a42d-a7b6cc08f078")
 	)
 	(via
+		(at 207.35 212)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "09ad9da8-e33f-4d14-8585-b2b4e4b7fc9c")
+	)
+	(via
 		(at 217.35 186.81)
 		(size 0.6)
 		(drill 0.3)
@@ -59543,6 +59567,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "a32756fe-261f-4878-8071-72d29d3f6da3")
+	)
+	(via
+		(at 207.38 208)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "cd4a4ced-77e5-436f-9f18-bb13ef767d14")
 	)
 	(via
 		(at 239.58 232.73)
@@ -69354,7 +69386,7 @@
 	)
 	(zone
 		(locked yes)
-		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "Edge.Cuts")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "Edge.Cuts")
 		(uuid "078a6a53-eef7-4413-a4fb-d9c14e6777c7")
 		(name "Isolation Keepout_1")
 		(hatch edge 0.5)
@@ -69386,7 +69418,7 @@
 	)
 	(zone
 		(locked yes)
-		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "Edge.Cuts")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "Edge.Cuts")
 		(uuid "2f7e3f80-0888-413b-b586-fde4bacb660c")
 		(name "Isolation Keepout")
 		(hatch edge 0.5)
