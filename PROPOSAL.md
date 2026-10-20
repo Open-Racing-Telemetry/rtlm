@@ -23,3 +23,16 @@ Our primary measurement targets we intend to specifically support are as followi
 - Pedal/throttle position(s)
 
 Please note that our intent to support these targets will in no way impose them upon the user.
+
+## PCB
+Six-layer PCB, nominal 1.6 mm thickness, JLC06161H-3313 stackup, 1 oz outer copper and 0.5 oz inner copper.
+
+| Layer | Purpose |
+|---|---|
+| F.Cu | Signals, primarily horizontal |
+| In1.Cu | GND |
+| In2.Cu | +3.3V |
+| In3.Cu | Separate 5V_SYS, 5V_PULSE and 5V_CAN zones |
+| In4.Cu | GND |
+| B.Cu | Signals, primarily vertical |
+
