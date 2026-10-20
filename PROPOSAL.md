@@ -23,3 +23,13 @@ Our primary measurement targets we intend to specifically support are as followi
 - Pedal/throttle position(s)
 
 Please note that our intent to support these targets will in no way impose them upon the user.
+
+## Power Budget and Operating Modes
+
+The initial external-power design targets are **1.25 A on +3.3 V**, **50 mA per sensor across eight 5 V outputs (400 mA combined)**, and **250 mA total for CAN expansion**. These are provisional selection allowances; sensor startup current, SD-card write peaks and simultaneous radio activity must be verified. Including the onboard CAN transceiver and conversion losses, the planning case requires approximately **1.81 A from the shared 5 V supply** at 4.5 V and 85% buck efficiency. Qualify the external power path for **2 A normal operation**, with separate startup and protection margins.
+
+The current sensor/expansion switches are each limited to approximately 200 mA, and the external-input eFuse to approximately 1.5 A. Their settings must be revised to support these targets while respecting the power mux's 2.5 A continuous rating. Size source traces, plane necks, thermal connections and via banks for voltage drop and heating; the buck's 3 A rating and the POWER class's 0.50 mm width do not establish system capacity.
+
+**USB power is intended for programming and service only.** Sensor and CAN-expansion supplies must default off; radio transmission, SD writes and LED loads must remain disabled in USB-only service mode. USB still powers the shared 3.3 V circuitry, so verify whole-board startup, enumeration and flashing current rather than budgeting only the ESP. First programming must work without application firmware.
+
+The battery circuit has a **60 A fuse upstream of the branch**. Provide branch protection coordinated with the branch wiring, maximum battery voltage and fault current; the main fuse does not establish protection for the smaller telemetry or sense wiring.
