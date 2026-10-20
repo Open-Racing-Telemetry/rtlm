@@ -15121,16 +15121,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 120.65) (xy 74.93 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56ad46f9-9422-4100-8705-7589f741bd8b")
-	)
-	(wire
-		(pts
 			(xy 39.37 295.91) (xy 39.37 293.37)
 		)
 		(stroke
@@ -16921,16 +16911,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 77.47 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed213588-83f1-4937-8fdc-22b3f58e5c49")
-	)
-	(wire
-		(pts
 			(xy 53.34 425.45) (xy 54.61 425.45)
 		)
 		(stroke
@@ -17569,6 +17549,16 @@
 		)
 		(uuid "23d51019-3447-48e1-81dc-b22bb6af22e6")
 	)
+	(label "USB_MCU_DN"
+		(at 82.55 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2463b5b4-3153-4435-acc8-f0b6cc3f4075")
+	)
 	(label "ANALOG2_RAW"
 		(at 176.53 289.56 180)
 		(effects
@@ -17748,6 +17738,16 @@
 			(justify right bottom)
 		)
 		(uuid "38bc7f75-b96b-4203-b7ea-15b7b3eaf9de")
+	)
+	(label "USB_MCU_DN"
+		(at 74.93 118.11 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a022b06-c08b-4f24-93bd-a93a6dcbd54a")
 	)
 	(label "LORA_BUSY"
 		(at 41.91 85.09 180)
@@ -18150,12 +18150,12 @@
 		(uuid "567b5db7-b864-4546-b6a0-9cf5d4a378dc")
 	)
 	(label "USB_DP"
-		(at 77.47 128.27 270)
+		(at 90.17 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "57378073-6d72-4d7c-9eec-48b5d5c7cdc8")
 	)
@@ -18378,6 +18378,16 @@
 			(justify left bottom)
 		)
 		(uuid "6a23a767-d43c-4b5a-b926-bbac108b6200")
+	)
+	(label "USB_MCU_DP"
+		(at 77.47 118.11 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ae66844-b8cd-45f5-ae9c-132108a061d7")
 	)
 	(label "USB_DP"
 		(at 58.42 151.13 90)
@@ -19129,6 +19139,16 @@
 		)
 		(uuid "b40e36a7-fe5c-44e5-824e-5c0f1369204c")
 	)
+	(label "USB_MCU_DP"
+		(at 82.55 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4f71e9f-9531-4379-994c-1a68d9ec0124")
+	)
 	(label "ADC_VREF_2V5"
 		(at 199.39 365.76 180)
 		(effects
@@ -19260,12 +19280,12 @@
 		(uuid "bfe2e576-44e2-43f6-9713-8fe948096595")
 	)
 	(label "USB_DN"
-		(at 74.93 128.27 270)
+		(at 90.17 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c03cdf28-9ea3-4d52-be1b-3f4f34ec2e23")
 	)
@@ -41735,7 +41755,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 124.46 180)
+		(at 86.36 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41745,7 +41765,7 @@
 		(dnp no)
 		(uuid "85c5b85f-0024-452e-a49e-7e096279764f")
 		(property "Reference" "R4"
-			(at 77.47 123.444 90)
+			(at 85.344 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41755,7 +41775,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 77.47 125.984 90)
+			(at 87.884 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41765,7 +41785,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 79.248 124.46 90)
+			(at 86.36 135.382 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41776,7 +41796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 124.46 0)
+			(at 86.36 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41787,7 +41807,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 124.46 0)
+			(at 86.36 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43226,7 +43246,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9093b37b-99c1-43e0-b78d-bf110d57a641")
 		(property "Reference" "#PWR0125"
 			(at 69.85 127 0)
@@ -43240,7 +43259,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 69.85 135.89 0)
+			(at 67.31 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49338,7 +49357,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 124.46 180)
+		(at 86.36 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49348,7 +49367,7 @@
 		(dnp no)
 		(uuid "a88bb02f-a287-46fa-991e-1902421ba9dd")
 		(property "Reference" "R3"
-			(at 74.93 123.444 90)
+			(at 85.344 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49358,7 +49377,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 74.93 125.73 90)
+			(at 87.63 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49368,7 +49387,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 76.708 124.46 90)
+			(at 86.36 137.922 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49379,7 +49398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 124.46 0)
+			(at 86.36 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49390,7 +49409,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 124.46 0)
+			(at 86.36 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

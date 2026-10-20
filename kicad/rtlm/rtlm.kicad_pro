@@ -76,7 +76,64 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "diff_pair_gap_out_of_range|200790000|209173000|6b31d1ec-b371-41d2-8a87-37e0b30f85d3|177a3586-62d2-49b2-bd83-516830738c50",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|200952000|210327000|6b31d1ec-b371-41d2-8a87-37e0b30f85d3|35d96d1e-fe77-4b40-bf74-bc067ee64f47",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|200952000|210327000|820f8b6c-7910-4157-be38-e73d9b089640|35d96d1e-fe77-4b40-bf74-bc067ee64f47",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|201555501|209250000|6b31d1ec-b371-41d2-8a87-37e0b30f85d3|65e2b522-e6c0-4614-bc52-a37cfc6dbbfd",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|202436251|210250000|8c4c732d-6295-42fd-aa6b-9dea42c9d9ae|261f6130-0999-4c20-b2be-0017da62fc7c",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|204862500|210350000|f1ef5da5-2354-417d-bc79-7a089673778c|23dac9b2-e203-4d6b-83ce-1d468d20daec",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|205087501|210350000|cccada28-63a4-4590-aa71-e2c560b95277|2f3764a6-182c-4c83-9730-54130a334470",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|206088002|210577000|6299cea8-f5ef-4198-bdc8-60f11b7429fa|3b6916a2-f7e2-40c7-ad01-d4431e28d61a",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|216310459|210177000|efa1ff1f-64ef-4813-bfe3-69718ae23a32|0e2ff786-00da-43b3-8a5e-816ce9ee889c",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|217293500|209926501|b3fe1e12-cddf-4395-aed3-e9a462b046cc|dc2a0cce-ec1c-4d53-81cb-bfd813d300c6",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|217783001|209676001|6f746f22-f27b-4067-a3ee-7b007e049fd9|5b1f811f-ad20-493c-806b-49808f17462f",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|218212003|209866001|c0f65531-e4cf-494c-9f73-33e13e38ce14|9f9be335-02cf-49cc-b80a-f3eca76bfd5f",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|230577000|215087751|12ddac24-509e-4a6a-97e6-c9ead8ecb94e|7baf8e73-76ab-47b7-8f00-241d02c7fd7c",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|231200000|213646251|66fd479e-b062-4d9d-8eb2-d6160ac45ede|dbfb4afe-4f53-489a-bffb-da316b26c3fe",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -568,12 +625,12 @@
       {
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.291,
+        "diff_pair_width": 0.154,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.291,
+        "track_width": 0.154,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -624,6 +681,14 @@
       {
         "netclass": "USB",
         "pattern": "/USB_DP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB_MCU_DN"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB_MCU_DP"
       }
     ]
   },
