@@ -16589,16 +16589,10 @@
 		)
 		(uuid "cfc563c3-5592-486d-a13c-cacb301dbec7")
 	)
-	(wire
-		(pts
-			(xy 36.83 59.69) (xy 36.83 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d02c7f86-bb7a-4c96-8a6a-a8f557773c25")
-	)
+	(wire (pts (xy 36.83 59.69) (xy 36.83 64.77)) (stroke (width 0) (type default)) (uuid "152c3e70-fd63-4c2b-a28a-31c0a1b7881c"))
+
+	(wire (pts (xy 36.83 64.77) (xy 36.83 67.31)) (stroke (width 0) (type default)) (uuid "f7cf1eb4-06d5-4dde-98cb-6cf24d2a9c18"))
+
 	(wire
 		(pts
 			(xy 40.64 64.77) (xy 41.91 64.77)
@@ -45847,7 +45841,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 59.69 270)
+		(at 25.4 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45858,7 +45852,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ded97ed-9b93-4d15-8a05-e8d485c264e7")
 		(property "Reference" "#PWR045"
-			(at 22.86 59.69 0)
+			(at 19.05 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45869,7 +45863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 59.6899 90)
+			(at 21.59 59.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45880,7 +45874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 59.69 0)
+			(at 25.4 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45891,7 +45885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 59.69 0)
+			(at 25.4 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45902,7 +45896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 59.69 0)
+			(at 25.4 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63242,4 +63236,92 @@
 		)
 	)
 	(embedded_fonts no)
+
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e0031c3-4dbf-4ee0-bbb1-0fcad114e2dc")
+		(property "Reference" "C80"
+			(at 29.972 64.008 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 29.972 65.786 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 36.83 63.8048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "VDD3P3 bulk decoupling after L2; 10uF 10V X7R +/-10%; verify DC-bias capacitance"
+			(at 33.02 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "29452697-702f-4175-a378-968fa711b29d")
+		)
+		(pin "1"
+			(uuid "f1a5a6e1-eb9a-44b4-8d9a-2be17b0c28d5")
+		)
+		(instances
+			(project "rtlm"
+				(path "/18642f86-b1da-4982-a59b-b3bbb269065a"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire (pts (xy 29.21 59.69) (xy 25.4 59.69)) (stroke (width 0) (type default)) (uuid "e4ab7b6c-42a0-4c2f-8666-50e31f96b55c"))
+
+	(wire (pts (xy 25.4 59.69) (xy 25.4 64.77)) (stroke (width 0) (type default)) (uuid "d855dbaa-b645-445e-8c5f-ee15dd0229e4"))
+
+	(wire (pts (xy 25.4 64.77) (xy 29.21 64.77)) (stroke (width 0) (type default)) (uuid "1bf383e0-a784-4b64-871c-ff5731d979dc"))
+
+	(junction (at 36.83 64.77) (diameter 0) (color 0 0 0 0) (uuid "76fb76cd-86b5-4e33-be1a-852b85e90443"))
+
 )
