@@ -4407,6 +4407,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -13636,6 +13788,12 @@
 		(uuid "761cde83-8c24-4c09-8eb6-ee480317f599")
 	)
 	(junction
+		(at 36.83 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76fb76cd-86b5-4e33-be1a-852b85e90443")
+	)
+	(junction
 		(at 580.39 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14451,6 +14609,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 59.69) (xy 36.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152c3e70-fd63-4c2b-a28a-31c0a1b7881c")
+	)
+	(wire
+		(pts
 			(xy 95.25 160.02) (xy 99.06 160.02)
 		)
 		(stroke
@@ -14498,6 +14666,16 @@
 			(type default)
 		)
 		(uuid "1a4b7135-2235-4bbd-bb05-bdd6432b1478")
+	)
+	(wire
+		(pts
+			(xy 25.4 64.77) (xy 29.21 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf383e0-a784-4b64-871c-ff5731d979dc")
 	)
 	(wire
 		(pts
@@ -14748,6 +14926,16 @@
 			(type default)
 		)
 		(uuid "312ccc92-f46d-4330-8ba4-81b387407d30")
+	)
+	(wire
+		(pts
+			(xy 598.17 138.43) (xy 605.79 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3259d679-5718-4a94-91ce-097e1ff52bab")
 	)
 	(wire
 		(pts
@@ -16589,10 +16777,6 @@
 		)
 		(uuid "cfc563c3-5592-486d-a13c-cacb301dbec7")
 	)
-	(wire (pts (xy 36.83 59.69) (xy 36.83 64.77)) (stroke (width 0) (type default)) (uuid "152c3e70-fd63-4c2b-a28a-31c0a1b7881c"))
-
-	(wire (pts (xy 36.83 64.77) (xy 36.83 67.31)) (stroke (width 0) (type default)) (uuid "f7cf1eb4-06d5-4dde-98cb-6cf24d2a9c18"))
-
 	(wire
 		(pts
 			(xy 40.64 64.77) (xy 41.91 64.77)
@@ -16672,6 +16856,16 @@
 			(type default)
 		)
 		(uuid "d7fcc588-225e-41f8-ac6a-f0cde86bb3f1")
+	)
+	(wire
+		(pts
+			(xy 25.4 59.69) (xy 25.4 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d855dbaa-b645-445e-8c5f-ee15dd0229e4")
 	)
 	(wire
 		(pts
@@ -16792,6 +16986,16 @@
 			(type default)
 		)
 		(uuid "e4947dc3-a040-4830-9a15-eec9266d5e32")
+	)
+	(wire
+		(pts
+			(xy 29.21 59.69) (xy 25.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ab7b6c-42a0-4c2f-8666-50e31f96b55c")
 	)
 	(wire
 		(pts
@@ -17032,6 +17236,16 @@
 			(type default)
 		)
 		(uuid "f624c7cc-e2b7-44e2-b7bd-a5024e5c747f")
+	)
+	(wire
+		(pts
+			(xy 36.83 64.77) (xy 36.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7cf1eb4-06d5-4dde-98cb-6cf24d2a9c18")
 	)
 	(wire
 		(pts
@@ -17723,6 +17937,16 @@
 		)
 		(uuid "3408337e-4287-468a-9f8b-a137cf0adf24")
 	)
+	(label "PACK_POS_FUSED"
+		(at 600.71 138.43 90)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "368ca5c7-0b07-4947-95c2-6c1fa343aeff")
+	)
 	(label "TEMP3_ADC"
 		(at 68.58 316.23 270)
 		(effects
@@ -17814,7 +18038,7 @@
 		(uuid "3f299172-767a-4d98-a4c1-8ffef325f1ef")
 	)
 	(label "PACK_POS"
-		(at 605.79 138.43 180)
+		(at 590.55 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23963,6 +24187,85 @@
 			(project "rtlm"
 				(path "/18642f86-b1da-4982-a59b-b3bbb269065a"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e0031c3-4dbf-4ee0-bbb1-0fcad114e2dc")
+		(property "Reference" "C80"
+			(at 29.972 64.008 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 29.972 65.786 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 36.83 63.8048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "VDD3P3 bulk decoupling after L2; 10uF 10V X7R +/-10%; verify DC-bias capacitance"
+			(at 33.02 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "29452697-702f-4175-a378-968fa711b29d")
+		)
+		(pin "1"
+			(uuid "f1a5a6e1-eb9a-44b4-8d9a-2be17b0c28d5")
+		)
+		(instances
+			(project "rtlm"
+				(path "/18642f86-b1da-4982-a59b-b3bbb269065a"
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -33186,6 +33489,107 @@
 			(project "rtlm"
 				(path "/18642f86-b1da-4982-a59b-b3bbb269065a"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 594.36 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "567fca04-e50d-479f-90a2-ce464ee9f137")
+		(property "Reference" "F1"
+			(at 594.36 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "160mA T 250VDC"
+			(at 594.36 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:UMT-H"
+			(at 594.36 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.schurter.com/fr/datasheet/typ_UMT-H.pdf"
+			(at 594.36 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SCHURTER 3403.0266.23; 1500A DC breaking capacity"
+			(at 593.852 134.366 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SCHURTER"
+			(at 594.36 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3403.0266.23"
+			(at 594.36 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9c5a514-719e-4fe7-832f-837a360524fa")
+		)
+		(pin "2"
+			(uuid "bf7f73c3-10d6-48cf-9d26-cb2f22584dab")
+		)
+		(instances
+			(project "rtlm"
+				(path "/18642f86-b1da-4982-a59b-b3bbb269065a"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -63236,92 +63640,4 @@
 		)
 	)
 	(embedded_fonts no)
-
-	(symbol
-		(lib_id "Device:C")
-		(at 33.02 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e0031c3-4dbf-4ee0-bbb1-0fcad114e2dc")
-		(property "Reference" "C80"
-			(at 29.972 64.008 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 29.972 65.786 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 36.83 63.8048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "VDD3P3 bulk decoupling after L2; 10uF 10V X7R +/-10%; verify DC-bias capacitance"
-			(at 33.02 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "29452697-702f-4175-a378-968fa711b29d")
-		)
-		(pin "1"
-			(uuid "f1a5a6e1-eb9a-44b4-8d9a-2be17b0c28d5")
-		)
-		(instances
-			(project "rtlm"
-				(path "/18642f86-b1da-4982-a59b-b3bbb269065a"
-					(reference "C80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire (pts (xy 29.21 59.69) (xy 25.4 59.69)) (stroke (width 0) (type default)) (uuid "e4ab7b6c-42a0-4c2f-8666-50e31f96b55c"))
-
-	(wire (pts (xy 25.4 59.69) (xy 25.4 64.77)) (stroke (width 0) (type default)) (uuid "d855dbaa-b645-445e-8c5f-ee15dd0229e4"))
-
-	(wire (pts (xy 25.4 64.77) (xy 29.21 64.77)) (stroke (width 0) (type default)) (uuid "1bf383e0-a784-4b64-871c-ff5731d979dc"))
-
-	(junction (at 36.83 64.77) (diameter 0) (color 0 0 0 0) (uuid "76fb76cd-86b5-4e33-be1a-852b85e90443"))
-
 )
