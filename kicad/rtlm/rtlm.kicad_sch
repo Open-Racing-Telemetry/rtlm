@@ -22433,7 +22433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "59k"
+		(property "Value" "42.2k"
 			(at 189.23 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24392,7 +24392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc14a.pdf"
 			(at 62.23 425.45 0)
 			(hide yes)
 			(show_name no)
@@ -24403,7 +24403,7 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" "SN74LVC14A hex Schmitt-trigger inverter; 1.65-3.6V supply; 5.5V-tolerant inputs"
 			(at 62.23 425.45 0)
 			(hide yes)
 			(show_name no)
@@ -36985,7 +36985,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Espressif Systems [ENGINEERING SAMPLES]SMD IC , Dual-Core MCU, Wi-Fi 2.4G & BLE 5.0 combo, 8 MB Octal SPI PSRAM"
+		(property "Description" "ESP32-S3FN8; 8 MB in-package Quad SPI flash; no in-package PSRAM"
 			(at 41.91 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -52120,7 +52120,7 @@
 				)
 			)
 		)
-		(property "Value" "133k"
+		(property "Value" "88.7k"
 			(at 475.488 234.442 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60931,7 +60931,7 @@
 				)
 			)
 		)
-		(property "Value" "133k"
+		(property "Value" "52.3k"
 			(at 203.962 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63640,4 +63640,88 @@
 		)
 	)
 	(embedded_fonts no)
+
+	(symbol
+		(lib_id "Device:C")
+		(at 515.62 241.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9bd1c73-9814-4bf0-85e9-a7efc48fbbe3")
+		(property "Reference" "C81"
+			(at 513.334 237.744 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 518.414 237.744 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 519.43 240.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 515.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAN VCC local bulk; 10uF 16V X7R 0805; select >=4.7uF effective at 5V over tolerance and temperature"
+			(at 515.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5054168-25c4-440f-a7e4-f10ec1a3af8e")
+		)
+		(pin "2"
+			(uuid "44ee04ce-939a-4fed-9694-69142e80630e")
+		)
+		(instances
+			(project "rtlm"
+				(path "/18642f86-b1da-4982-a59b-b3bbb269065a"
+					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "5V_SYS" (at 511.81 241.3 0) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "ad1a3d5c-7c59-40a1-8af9-9afd9985c902"))
+
+	(label "GND" (at 519.43 241.3 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "248d248c-35cf-4205-9019-603ac2b94967"))
+
 )

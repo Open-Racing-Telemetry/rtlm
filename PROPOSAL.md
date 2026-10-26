@@ -8,19 +8,22 @@ RTLM ("Racing Telemetry") is a proposed open-source system for collecting vehicl
 
 This document describes the intended system and design requirements. The onboard PCB is under development; the features and performance targets below are not claims of completed validation.
 
-<<<<<<< HEAD
 Please note that our intent to support these targets will in no way impose them upon the user.
 
 ## Power Budget and Operating Modes
 
-The initial external-power design targets are **1.25 A on +3.3 V**, **50 mA per sensor across eight 5 V outputs (400 mA combined)**, and **250 mA total for CAN expansion**. These are provisional selection allowances; sensor startup current, SD-card write peaks and simultaneous radio activity must be verified. Including the onboard CAN transceiver and conversion losses, the planning case requires approximately **1.81 A from the shared 5 V supply** at 4.5 V and 85% buck efficiency. Qualify the external power path for **2 A normal operation**, with separate startup and protection margins.
+The provisional design allocation is **1.30 A peak on +3.3 V**, **50 mA per powered sensor across eight 5V_PULSE outputs (400 mA combined)**, and **250 mA total for CAN expansion**. The 3.3 V allowance includes ESP/flash (500 mA), SD (400 mA), LoRa/TCXO (150 mA), LEDs/driver (185 mA), isolated measurement (43 mA), and other circuits (22 mA). These are selection allowances, not guaranteed maxima for unspecified cards, sensors or firmware. Wi-Fi/BLE remain disabled because the ESP RF antenna/matching path is absent.
 
-The current sensor/expansion switches are each limited to approximately 200 mA, and the external-input eFuse to approximately 1.5 A. Their settings must be revised to support these targets while respecting the power mux's 2.5 A continuous rating. Size source traces, plane necks, thermal connections and via banks for voltage drop and heating; the buck's 3 A rating and the POWER class's 0.50 mm width do not establish system capacity.
+At 4.5 V on 5V_SYS and an assumed 85% buck efficiency, the simultaneous planning case draws **1.85 A** including 70 mA for the onboard CAN transceiver and 5 mA overhead; at 5 V it draws **1.73 A**. R11 is now **42.2 kΩ, 1%**, giving approximately 2.08 A nominal input current limit (about 1.90–2.27 A with tabulated device limits and resistor tolerance). R34 is **52.3 kΩ, 1%** (sensor limit 448–562 mA); R81 is **88.7 kΩ, 1%** (CAN expansion limit 262–342 mA). The 1.85 A case fits the estimated minimum thresholds, but input startup margin is only about 54 mA: inrush and simultaneous load steps still need qualification. The mux is rated 2.5 A continuous, so the buck's 3 A nameplate is not system capacity. Do not promise 2 A continuous input operation across all current-limit tolerance corners.
 
-**USB power is intended for programming and service only.** Sensor and CAN-expansion supplies must default off; radio transmission, SD writes and LED loads must remain disabled in USB-only service mode. USB still powers the shared 3.3 V circuitry, so verify whole-board startup, enumeration and flashing current rather than budgeting only the ESP. First programming must work without application firmware.
+Qualify an external regulated source around **5.1 V ±1% at J2**, capable of at least 2 A, with transient control. This is a candidate source specification, pending measurement of the reverse-polarity FET, eFuse, mux, connector/cable and PCB drops. Maintain **at least 4.5 V at IC7 VCC**, whose CAN transceiver is on unswitched 5V_SYS. A generic 4.75 V source at J2 does not establish that margin. Source traces, 0.30 mm thermal spokes, 0.60/0.30 mm via banks and actual filled-plane paths were reviewed with copper-loss calculations; confirm copper/plating and test temperature rise before release. The 0.50 mm POWER default is not a thermal signoff.
 
-The battery circuit has a **60 A fuse upstream of the branch**. Provide branch protection coordinated with the branch wiring, maximum battery voltage and fault current; the main fuse does not establish protection for the smaller telemetry or sense wiring.
-=======
+**USB is intended for programming/service, but standalone USB cold-start is not yet qualified.** Sensor and CAN-expansion enables have hardware pull-downs and must remain off; radio transmission, SD writes and LEDs must remain disabled. USB also powers the isolated amplifier, LED-driver logic and other 3.3 V loads. A provisional service scenario is about 239 mA at a 4.5 V buck input, exceeding the conventional 100 mA USB pre-enumeration budget. A 500 mA source provides only about 580 mA at 3.3 V at that voltage/efficiency. Measure ROM/download startup and enumeration without application firmware; use external power while programming until qualification, or add documented hardware load gating/source-current detection. The two 5.1 kΩ CC resistors alone do not establish permission to draw 1.5 A or 3 A.
+
+The battery-sense input is **96 V absolute maximum**. F1 is SCHURTER 3403.0266.23, 160 mA time-lag, 250 VDC; verify available fault current against its 1.5 kA DC breaking rating and total clearing energy against the conductors. The 60 A upstream fuse does not automatically protect the sense harness. F1 cannot protect faults upstream of its location. The divider draws only about 95.4 µA at 96 V; each 499 kΩ resistor dissipates 4.54 mW with 47.6 V across it. The AMC3330 input is 0.782 V and differential output about 1.565 V; configure ADS1115 differential AIN0–AIN1 with at least ±2.048 V full scale. Insulation, resistor MPN/voltage ratings and source fault conditions still require release review.
+
+
+
 ## System Architecture
 
 The system has two primary physical units and a host application:
@@ -96,4 +99,3 @@ Layout guidelines:
 - Use 0.20 mm as the ordinary signal-width default and 0.60/0.30 mm diameter/drill for ordinary through-vias. The current 0.15 mm minimum is for constrained routing. Power geometry requires a current/drop calculation.
 - Calculate USB differential and SD single-ended geometry for the confirmed stackup. Apply constraints on both sides of series resistors, and derive any length/skew limits from interface timing requirements. RF matching interconnects must follow the selected reference design.
 - Route and review sensitive circuits before general autorouting. Refill planes after changes and inspect clearances, disconnected islands, thermal connections, and narrow supply paths.
->>>>>>> 6e19d0194eb153512d4b76e9e9f75c4d13054653
