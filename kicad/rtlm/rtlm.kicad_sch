@@ -13486,6 +13486,172 @@
 			)
 			(embedded_fonts no)
 		)
+	
+(symbol "Device:FerriteBead"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "FB"
+			(at -3.81 0.635 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 3.81 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "L ferrite bead inductor filter"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "FerriteBead_0_1"
+			(polyline
+				(pts
+					(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 1.2954)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -1.2192)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FerriteBead_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	)
 	(text "RESET"
 		(exclude_from_sim no)
@@ -15316,16 +15482,6 @@
 			(type default)
 		)
 		(uuid "58533ec4-6220-46b0-9121-307ec14fcced")
-	)
-	(wire
-		(pts
-			(xy 294.64 137.16) (xy 317.5 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58942b95-0804-4937-a75b-306dfd2036c3")
 	)
 	(wire
 		(pts
@@ -18718,7 +18874,7 @@
 		(uuid "7111cbdf-9718-47ef-88a7-ff69d6584ce4")
 	)
 	(label "LORA_3V0"
-		(at 307.34 137.16 270)
+		(at 317.5 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20487,6 +20643,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H1R8BB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "f19b48ce-cb19-420a-8694-f50474d9d876")
 		)
@@ -21359,6 +21517,8 @@
 				)
 			)
 		)
+		(property "MPN" "GRM155R71C473KA01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "7736be71-c6ff-4e77-95b8-f1b2bd4937ed")
 		)
@@ -24019,6 +24179,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H3R3BB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "5f87e967-e8cc-4809-84e9-aa16ff9d6342")
 		)
@@ -26551,6 +26713,8 @@
 				)
 			)
 		)
+		(property "MPN" "LQW15AN4N7C00D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "7e12af3b-3449-4d42-afb1-df4cfb5e99a8")
 		)
@@ -28361,6 +28525,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H1R8BB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "0baba479-7837-4e52-a03f-c75ac8948c33")
 		)
@@ -29578,6 +29744,8 @@
 				)
 			)
 		)
+		(property "MPN" "LQW15AN15NH00D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "dfcde305-1528-4969-bcb6-e2ce106a6228")
 		)
@@ -34376,6 +34544,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H100JB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "a375103b-ee1a-4647-8bb2-d5bc8133fe38")
 		)
@@ -38365,6 +38535,8 @@
 				)
 			)
 		)
+		(property "MPN" "LQW15AN9N1H00D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "34a39b5e-0491-45bf-b2a0-45544ff74a17")
 		)
@@ -40586,7 +40758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 353.06 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -40619,6 +40791,8 @@
 				)
 			)
 		)
+		(property "MPN" "MLZ2012M150WT000" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "TDK" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "5594f066-57cc-46af-8501-0a8b6a4e3582")
 		)
@@ -42767,6 +42941,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H3R3BB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "6ffc11aa-89ef-4ef4-a77c-b68d8a3892cf")
 		)
@@ -43619,6 +43795,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H2R4BB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "d8be1c28-e240-4e97-b3c3-a055b698cf31")
 		)
@@ -47094,6 +47272,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H470JB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "46683eb8-0020-49e4-9624-0cfb980475db")
 		)
@@ -47562,6 +47742,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H5R6CB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "a76f7ce5-ca94-47cb-b53f-8b3e1db4f61c")
 		)
@@ -47719,6 +47901,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H390JB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "1c26269a-e676-4ebb-8c08-ad59e13f21fa")
 		)
@@ -50538,6 +50722,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H3R0BB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "8747700f-467a-4fa2-9650-e1fa760f9ed9")
 		)
@@ -51598,6 +51784,8 @@
 				)
 			)
 		)
+		(property "MPN" "GJM1555C1H390JB01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "ae7ed58e-f33f-464c-9ccf-48dd9678497c")
 		)
@@ -60334,6 +60522,8 @@
 				)
 			)
 		)
+		(property "MPN" "LQW15AN2N5C00D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "6842b155-fd84-49d5-bf77-c74513a7c0bf")
 		)
@@ -60653,6 +60843,8 @@
 				)
 			)
 		)
+		(property "MPN" "0402HP-47NXJRW" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Coilcraft" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "7473ac8a-3f3f-4b3d-be08-0e36076c9166")
 		)
@@ -63357,7 +63549,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 298.45 134.6199 0)
+			(at 298.45 133.985 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63723,5 +63915,96 @@
 	(label "5V_SYS" (at 511.81 241.3 0) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "ad1a3d5c-7c59-40a1-8af9-9afd9985c902"))
 
 	(label "GND" (at 519.43 241.3 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "248d248c-35cf-4205-9019-603ac2b94967"))
+
+
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 279.4 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8c15e25-0acf-4f6e-9393-da4ad93d85e2")
+		(property "Reference" "FB1"
+			(at 279.4 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600R@100MHz"
+			(at 279.4 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 279.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdata/8796738650142/ENFA0003.pdf"
+			(at 279.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TCXO supply ferrite; Murata BLM18AG601SN1D; 600 ohm at 100MHz; 500mA; DCR <=0.38 ohm"
+			(at 279.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM18AG601SN1D" (at 279.4 161.29 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(pin "2"
+			(uuid "a99a36fe-0903-4950-bfd0-87326273df1e")
+		)
+		(pin "1"
+			(uuid "08642ec4-eb3b-4b1d-a339-8093020eef2f")
+		)
+		(instances
+			(project "rtlm"
+				(path "/18642f86-b1da-4982-a59b-b3bbb269065a"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "TCXO_3V0" (at 294.64 137.16 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "19d3d0cf-df47-4ada-bb47-7f13587a6775"))
+
+	(label "LORA_3V0" (at 275.59 161.29 0) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "0b07dcb1-d787-4043-aeff-b55dfc0236f5"))
+
+	(label "TCXO_3V0" (at 283.21 161.29 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "db1e2eb9-9ca9-4260-91fa-3ca252f66927"))
 
 )
