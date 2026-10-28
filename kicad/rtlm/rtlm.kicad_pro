@@ -671,6 +671,10 @@
       {
         "netclass": "SD",
         "pattern": "Net-(IC1-GPIO38)"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+3V3_MCU"
       }
     ]
   },
