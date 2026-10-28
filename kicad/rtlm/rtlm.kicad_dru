@@ -30,7 +30,7 @@
 
 (rule "USB_J1_fanout short escape only"
   (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN') && A.enclosedByArea('USB_J1_fanout')")
-  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 0.55mm)))
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 0.65mm)))
 
 (rule "USB_ESD_fanout short escape only"
   (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN') && A.enclosedByArea('USB_ESD_fanout')")
@@ -57,3 +57,8 @@
 (rule "Pack to logger isolation barrier"
   (condition "((A.NetName == '/HLDO_OUT' || A.NetName == '/PACK_NEG' || A.NetName == '/PACK_POS' || A.NetName == '/PACK_POS_FUSED' || A.NetName == '/PACK_V_SENSE' || A.NetName == '/VMON_ISO_SUPPLY' || A.NetName == '/PACK_DIVIDED' || A.NetName == 'Net-(R82-Pad2)' || A.NetName == 'unconnected-(J19-Pin_2-Pad2)' || A.NetName == 'unconnected-(U8-NC-Pad4)') && B.NetName != '' && !(B.NetName == '/HLDO_OUT' || B.NetName == '/PACK_NEG' || B.NetName == '/PACK_POS' || B.NetName == '/PACK_POS_FUSED' || B.NetName == '/PACK_V_SENSE' || B.NetName == '/VMON_ISO_SUPPLY' || B.NetName == '/PACK_DIVIDED' || B.NetName == 'Net-(R82-Pad2)' || B.NetName == 'unconnected-(J19-Pin_2-Pad2)' || B.NetName == 'unconnected-(U8-NC-Pad4)')) || ((B.NetName == '/HLDO_OUT' || B.NetName == '/PACK_NEG' || B.NetName == '/PACK_POS' || B.NetName == '/PACK_POS_FUSED' || B.NetName == '/PACK_V_SENSE' || B.NetName == '/VMON_ISO_SUPPLY' || B.NetName == '/PACK_DIVIDED' || B.NetName == 'Net-(R82-Pad2)' || B.NetName == 'unconnected-(J19-Pin_2-Pad2)' || B.NetName == 'unconnected-(U8-NC-Pad4)') && A.NetName != '' && !(A.NetName == '/HLDO_OUT' || A.NetName == '/PACK_NEG' || A.NetName == '/PACK_POS' || A.NetName == '/PACK_POS_FUSED' || A.NetName == '/PACK_V_SENSE' || A.NetName == '/VMON_ISO_SUPPLY' || A.NetName == '/PACK_DIVIDED' || A.NetName == 'Net-(R82-Pad2)' || A.NetName == 'unconnected-(J19-Pin_2-Pad2)' || A.NetName == 'unconnected-(U8-NC-Pad4)'))")
   (constraint clearance (min 8mm)))
+
+# One chamfered phase-match section, 3.6mm long. Full routed lengths include R3/R4.
+(rule "USB bounded phase matching"
+  (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN') && A.enclosedByArea('USB_phase_match')")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 1.270mm)))

@@ -15226,6 +15226,289 @@
 		)
 		(embedded_fonts no)
 	)
+
+(symbol "74xGxx:74LVC2G17"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -1.27 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G17"
+			(at 2.54 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Buffer, Schmitt Triggered, Low-Voltage CMOS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Dual Buffer Schmitt LVC CMOS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "SG-* SOT*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "74LVC2G17_1_1"
+			(polyline
+				(pts
+					(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -15.24 0 0)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 0 180)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LVC2G17_2_1"
+			(polyline
+				(pts
+					(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -15.24 0 0)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 0 180)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LVC2G17_3_0"
+			(rectangle
+				(start -5.08 -5.08)
+				(end 5.08 5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "74LVC2G17_3_1"
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
 	(text "RESET"
 		(exclude_from_sim no)
@@ -66281,7 +66564,7 @@
 (label "+3.3V" (at 554.99 328.93 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "d23ca12f-34b1-49c9-b61d-641e67ff8ea1"))
 (symbol (lib_id "Power_Supervisor:TPS3808DBV") (at 662.94 331.47 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "17b18eb5-835c-482e-b84d-5aa0d4c958ff")(property "Reference" "U12" (at 662.94 323.85 0) (effects (font (size 1.0 1.0))))(property "Value" "TPS3808G01DBVR" (at 662.94 339.09 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 662.94 339.09 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3808.pdf" (at 662.94 339.09 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Manufacturer" "Texas Instruments" (at 662.94 339.09 0) (hide yes) (effects (font (size 1.0 1.0))))(property "MPN" "TPS3808G01DBVR" (at 662.94 339.09 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Selection Notes" "0.405V supervisor senses U2.ST through R96=100k / R97=1M. ST low when USB selected. U2 status output high level is set by existing R7/R8/R9 feedback; added loading explicitly included." (at 662.94 339.09 0) (hide yes) (effects (font (size 1.0 1.0))))(pin "1" (uuid "96499a26-f962-4701-8496-9960a2ff644a"))(pin "2" (uuid "72d8ee2f-978c-4c21-b22e-8875a4288543"))(pin "3" (uuid "ae46ad18-4d0f-482a-a331-33a37b46a6c2"))(pin "4" (uuid "d9beb3f9-b8e6-4126-bb7a-f6d002ead53f"))(pin "5" (uuid "48933c45-1d6e-47dc-b19d-f58fd3325fb2"))(pin "6" (uuid "01919f89-99d6-4596-bea1-b8975fca0fee"))(instances (project "rtlm" (path "/18642f86-b1da-4982-a59b-b3bbb269065a" (reference "U12") (unit 1)))))
 (wire (pts (xy 673.1 331.47) (xy 678.18 331.47)) (stroke (width 0) (type default)) (uuid "f17cda1b-bfd2-4b76-9492-b80de28c089c"))
-(label "EXT_VALID" (at 678.18 331.47 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "3b0abd1a-4039-4065-bcee-d3862b12ade2"))
+(label "EXT_VALID_OD" (at 678.18 331.47 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "3b0abd1a-4039-4065-bcee-d3862b12ade2"))
 (wire (pts (xy 662.94 339.09) (xy 662.94 344.17)) (stroke (width 0) (type default)) (uuid "405f7752-cb62-4ab3-b13f-1ede7a3adc0e"))
 (label "GND" (at 662.94 344.17 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "6198350f-8d1e-47f0-b95a-85cbf4df6ee3"))
 (wire (pts (xy 652.78 331.47) (xy 647.7 331.47)) (stroke (width 0) (type default)) (uuid "ecbc64ce-5502-4bc6-b900-4133f83e5f13"))
@@ -66292,16 +66575,16 @@
 (label "EXT_SENSE" (at 647.7 328.93 0) (effects (font (size 1.0 1.0)) (justify right bottom)) (uuid "b34e1f13-44a1-43dc-9260-a2a30514820d"))
 (wire (pts (xy 662.94 323.85) (xy 662.94 318.77)) (stroke (width 0) (type default)) (uuid "b81f5708-4ca7-4d38-959a-813495f787ba"))
 (label "+3V3_MCU" (at 662.94 318.77 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "224b3f3a-0234-47d3-b017-384a760f9544"))
-(symbol (lib_id "74xGxx:74LVC1G17") (at 561.34 405.13 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "97fbbe00-b274-45c0-ad5b-ec3950d0dfa6")(property "Reference" "U13" (at 561.34 397.51 0) (effects (font (size 1.0 1.0))))(property "Value" "SN74LVC1G17DBVR" (at 561.34 412.75 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 561.34 412.75 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf" (at 561.34 412.75 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Manufacturer" "Texas Instruments" (at 561.34 412.75 0) (hide yes) (effects (font (size 1.0 1.0))))(property "MPN" "SN74LVC1G17DBVR" (at 561.34 412.75 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Selection Notes" "Schmitt buffer makes RC transition logic-safe. Delayed flag enables peripherals; XOR holds MCU in reset throughout transitions." (at 561.34 412.75 0) (hide yes) (effects (font (size 1.0 1.0))))(pin "1" (uuid "5ce5f26c-d4cd-4588-9a09-67a6f20dac5a"))(pin "2" (uuid "6c02c37f-832a-497a-9994-23151944358d"))(pin "3" (uuid "42497756-1704-4842-82db-36ab3d7a0eab"))(pin "4" (uuid "8e936f13-7233-4002-a7d6-c02b519cc840"))(pin "5" (uuid "e614454f-ad06-4c96-8285-8df3f3c29931"))(instances (project "rtlm" (path "/18642f86-b1da-4982-a59b-b3bbb269065a" (reference "U13") (unit 1)))))
-(no_connect (at 553.72 400.05) (uuid "f2294b1d-8528-4da0-87e4-5b89e932c26b"))
-(wire (pts (xy 548.64 405.13) (xy 543.56 405.13)) (stroke (width 0) (type default)) (uuid "62fb9fdc-7ce5-45e3-810c-08c75feff502"))
-(label "SERVICE_DELAY" (at 543.56 405.13 0) (effects (font (size 1.0 1.0)) (justify right bottom)) (uuid "fdcb3b88-e6ce-43eb-a649-ae34f55a983d"))
-(wire (pts (xy 556.26 415.29) (xy 556.26 420.37)) (stroke (width 0) (type default)) (uuid "7cdcb915-e0c5-4efb-a1be-598431b201fa"))
-(label "GND" (at 556.26 420.37 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "d03844b8-615f-4350-b811-1495e2c770d2"))
-(wire (pts (xy 571.5 405.13) (xy 576.58 405.13)) (stroke (width 0) (type default)) (uuid "9858946f-fcb6-4356-b6c4-f3dd97091700"))
-(label "PERIPH_ENABLE" (at 576.58 405.13 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "5e441eca-ffea-4bfa-9fa7-34e66ea3c255"))
-(wire (pts (xy 556.26 394.97) (xy 556.26 389.89)) (stroke (width 0) (type default)) (uuid "e44958c3-09b9-43f2-9750-cc1567a5d315"))
-(label "+3V3_MCU" (at 556.26 389.89 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "0e21f3eb-4822-4955-88de-5fc34de59155"))
+
+
+
+
+
+
+
+
+
+
 (symbol (lib_id "74xGxx:74LVC2G86") (at 675.64 401.32 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "ad9e6efe-f7e5-42d6-b012-f72e8bce777a")(property "Reference" "U14" (at 675.64 393.7 0) (effects (font (size 1.0 1.0))))(property "Value" "SN74LVC2G86DCTR" (at 675.64 408.94 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm" (at 675.64 408.94 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc2g86.pdf" (at 675.64 408.94 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Manufacturer" "Texas Instruments" (at 675.64 408.94 0) (hide yes) (effects (font (size 1.0 1.0))))(property "MPN" "SN74LVC2G86DCTR" (at 675.64 408.94 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Selection Notes" "Gate1 reset pulse = EXT_VALID XOR delayed EXT_VALID. Gate2 service = NOT EXT_VALID. Reset/boot use independent open-collector transistors." (at 675.64 408.94 0) (hide yes) (effects (font (size 1.0 1.0))))(pin "1" (uuid "c3969b04-1c86-4ea8-bad2-cf005be2dfde"))(pin "2" (uuid "8495ad2a-49b7-4388-b441-e86c4093daec"))(pin "7" (uuid "6cdeecb6-8017-437c-8eb2-1cbb34a94883"))(instances (project "rtlm" (path "/18642f86-b1da-4982-a59b-b3bbb269065a" (reference "U14") (unit 1)))))
 (wire (pts (xy 660.4 398.78) (xy 655.32 398.78)) (stroke (width 0) (type default)) (uuid "8bdfc60b-de2b-4b18-8589-3c70577a3e95"))
 (label "EXT_VALID" (at 655.32 398.78 0) (effects (font (size 1.0 1.0)) (justify right bottom)) (uuid "a177fc2c-336b-4124-bd0d-b7d199943d98"))
@@ -66347,7 +66630,7 @@
 (wire (pts (xy 695.96 311.15) (xy 695.96 306.07)) (stroke (width 0) (type default)) (uuid "334d852c-bc87-4692-9582-28a187519aa2"))
 (label "+3V3_MCU" (at 695.96 306.07 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "453a4b4a-c28e-4125-bf84-d3bd6d4b1178"))
 (wire (pts (xy 695.96 318.77) (xy 695.96 323.85)) (stroke (width 0) (type default)) (uuid "bd364f6b-204f-48a3-9c21-3efeb5a71cd4"))
-(label "EXT_VALID" (at 695.96 323.85 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "f23a5daa-5e9b-4bc5-811e-91b225da9d27"))
+(label "EXT_VALID_OD" (at 695.96 323.85 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "f23a5daa-5e9b-4bc5-811e-91b225da9d27"))
 (symbol (lib_id "Device:R") (at 500.38 403.86 90) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "57987457-0896-41fc-ab1f-af0e9f4fa808")(property "Reference" "R99" (at 500.38 400.86 90) (effects (font (size 1.0 1.0))))(property "Value" "47k" (at 500.38 406.86 90) (effects (font (size 1.0 1.0))))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 500.38 411.48 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL" (at 500.38 411.48 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Manufacturer" "Yageo" (at 500.38 411.48 0) (hide yes) (effects (font (size 1.0 1.0))))(property "MPN" "RC0603FR-0747KL" (at 500.38 411.48 0) (hide yes) (effects (font (size 1.0 1.0))))(property "Selection Notes" "" (at 500.38 411.48 0) (hide yes) (effects (font (size 1.0 1.0))))(pin "1" (uuid "4dd967c9-c391-4d84-a6d0-7594beeb9e47"))(pin "2" (uuid "f81dbb66-6e36-4f4b-983d-aff2107fbf44"))(instances (project "rtlm" (path "/18642f86-b1da-4982-a59b-b3bbb269065a" (reference "R99") (unit 1)))))
 (wire (pts (xy 496.57 403.86) (xy 491.49 403.86)) (stroke (width 0) (type default)) (uuid "b8ed10da-3b27-42f5-98a8-70114b6f8c67"))
 (label "EXT_VALID" (at 491.49 403.86 0) (effects (font (size 1.0 1.0)) (justify right bottom)) (uuid "8228653f-24ee-4ccd-b79e-02e545c14dfa"))
@@ -66431,4 +66714,20 @@
 (text "Automatic USB programming service mode" (at 477.52 287.02 0) (effects (font (size 2.0 2.0)) (justify left top)) (uuid "60d928fd-0c06-46dd-9243-48594d19ebfe"))
 (text "USB only: peripherals OFF; GPIO0 forced LOW; ESP boots ROM download.\nMux confirms external5V selected: peripherals ramp ON; ESP resets and boots application.\nEither power-mode transition resets ESP before peripheral power changes." (at 599.44 523.4 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "40c9c3d9-2f95-4ec8-95f8-e75a2c9b22be"))
 (text "TPS22917 CT -> VIN. Reset pulse = raw flag XOR Schmitt-delayed flag.\nQ2/Q3 are open collector; manual BOOT and RESET remain usable.\nDo not disable ROM USB download with security eFuses if USB service is required." (at 599.44 549.4 0) (effects (font (size 1.0 1.0)) (justify left top)) (uuid "3873ca34-f99c-454f-a1da-e57168c5f878"))
+
+(symbol (lib_id "74xGxx:74LVC2G17") (at 561.34 368.3 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "97fbbe00-b274-45c0-ad5b-ec3950d0dfa6")(property "Reference" "U13" (at 561.34 360.68 0) (effects (font (size 1 1))))(property "Value" "SN74LVC2G17DBVR" (at 561.34 375.92 0) (effects (font (size 1 1))))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 561.34 375.92 0) (hide yes) (effects (font (size 1 1))))(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf" (at 561.34 375.92 0) (hide yes) (effects (font (size 1 1))))(property "Manufacturer" "Texas Instruments" (at 561.34 375.92 0) (hide yes) (effects (font (size 1 1))))(property "MPN" "SN74LVC2G17DBVR" (at 561.34 375.92 0) (hide yes) (effects (font (size 1 1))))(property "Selection Notes" "Dual Schmitt buffer: A cleans TPS3808 open-drain raw flag before both XOR inputs; B cleans delayed RC flag. Neither slow open-drain nor RC edges directly drive ordinary LVC XOR inputs." (at 561.34 375.92 0) (hide yes) (effects (font (size 1 1))))(pin "1" (uuid "4a54fd41-a347-4827-998b-5ecb48abb153"))(pin "6" (uuid "03fa616f-1248-4c0e-9b07-221e5e4155b0"))(instances (project "rtlm" (path "/18642f86-b1da-4982-a59b-b3bbb269065a" (reference "U13") (unit 1))))(property "LCSC Part Number" "C10429" (at 0 0 0) (hide yes) (effects (font (size 1 1)))))
+(wire (pts (xy 546.1 368.3) (xy 541.02 368.3)) (stroke (width 0) (type default)) (uuid "41d222e4-324d-455b-ac3f-1392e722bb7a"))
+(label "EXT_VALID_OD" (at 541.02 368.3 0) (effects (font (size 1 1)) (justify right bottom)) (uuid "941ca63d-9e70-4f97-be93-0d9f7217bfc3"))
+(wire (pts (xy 574.04 368.3) (xy 579.12 368.3)) (stroke (width 0) (type default)) (uuid "5d0c28b7-57c0-462a-b2bf-b523629a00f2"))
+(label "EXT_VALID" (at 579.12 368.3 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "0ff5ffb8-c8c6-482c-b83a-391dca5577ca"))
+(symbol (lib_id "74xGxx:74LVC2G17") (at 561.34 405.13 0) (unit 2) (in_bom yes) (on_board yes) (dnp no) (uuid "8817b06f-8b0b-43c5-8fe2-1d8f84213e17")(property "Reference" "U13" (at 561.34 397.51 0) (effects (font (size 1 1))))(property "Value" "SN74LVC2G17DBVR" (at 561.34 412.75 0) (effects (font (size 1 1))))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 561.34 412.75 0) (hide yes) (effects (font (size 1 1))))(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf" (at 561.34 412.75 0) (hide yes) (effects (font (size 1 1))))(property "Manufacturer" "Texas Instruments" (at 561.34 412.75 0) (hide yes) (effects (font (size 1 1))))(property "MPN" "SN74LVC2G17DBVR" (at 561.34 412.75 0) (hide yes) (effects (font (size 1 1))))(property "Selection Notes" "Dual Schmitt buffer: A cleans TPS3808 open-drain raw flag before both XOR inputs; B cleans delayed RC flag. Neither slow open-drain nor RC edges directly drive ordinary LVC XOR inputs." (at 561.34 412.75 0) (hide yes) (effects (font (size 1 1))))(pin "3" (uuid "820075ce-861d-4668-914a-ab46b88d65eb"))(pin "4" (uuid "22f8965f-2ed7-4223-af70-8b4666b01619"))(instances (project "rtlm" (path "/18642f86-b1da-4982-a59b-b3bbb269065a" (reference "U13") (unit 2))))(property "LCSC Part Number" "C10429" (at 0 0 0) (hide yes) (effects (font (size 1 1)))))
+(wire (pts (xy 546.1 405.13) (xy 541.02 405.13)) (stroke (width 0) (type default)) (uuid "ce93ef62-4c9e-4c97-b3d4-286ef172457b"))
+(label "SERVICE_DELAY" (at 541.02 405.13 0) (effects (font (size 1 1)) (justify right bottom)) (uuid "5c8f0b20-f53b-4882-993e-f800afa41879"))
+(wire (pts (xy 574.04 405.13) (xy 579.12 405.13)) (stroke (width 0) (type default)) (uuid "f53ce8ea-bd97-4f5e-9885-82f736a7188c"))
+(label "PERIPH_ENABLE" (at 579.12 405.13 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "43e21d12-2ac7-4b23-8718-c23a78b366b5"))
+(symbol (lib_id "74xGxx:74LVC2G17") (at 561.34 469.9 0) (unit 3) (in_bom yes) (on_board yes) (dnp no) (uuid "c4ea53a2-695d-4da2-9e18-f599dd275d00")(property "Reference" "U13" (at 581.66 468.63 0) (effects (font (size 1 1))))(property "Value" "SN74LVC2G17DBVR" (at 581.66 471.17 0) (effects (font (size 1 1))))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 561.34 477.52 0) (hide yes) (effects (font (size 1 1))))(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf" (at 561.34 477.52 0) (hide yes) (effects (font (size 1 1))))(property "Manufacturer" "Texas Instruments" (at 561.34 477.52 0) (hide yes) (effects (font (size 1 1))))(property "MPN" "SN74LVC2G17DBVR" (at 561.34 477.52 0) (hide yes) (effects (font (size 1 1))))(property "Selection Notes" "Dual Schmitt buffer: A cleans TPS3808 open-drain raw flag before both XOR inputs; B cleans delayed RC flag. Neither slow open-drain nor RC edges directly drive ordinary LVC XOR inputs." (at 561.34 477.52 0) (hide yes) (effects (font (size 1 1))))(pin "2" (uuid "17fd28c9-5b69-4a7a-9dcb-428079612abe"))(pin "5" (uuid "f24d4ec9-7594-4c29-a4e3-6063fe1c2b9f"))(instances (project "rtlm" (path "/18642f86-b1da-4982-a59b-b3bbb269065a" (reference "U13") (unit 3))))(property "LCSC Part Number" "C10429" (at 0 0 0) (hide yes) (effects (font (size 1 1)))))
+(wire (pts (xy 561.34 480.06) (xy 561.34 485.14)) (stroke (width 0) (type default)) (uuid "93e3f3c8-a855-45ac-a74e-a3d64f55bd39"))
+(label "GND" (at 561.34 485.14 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "2fecd533-f6ff-400c-bd67-0856e15a1dc7"))
+(wire (pts (xy 561.34 459.74) (xy 561.34 454.66)) (stroke (width 0) (type default)) (uuid "30e7f7b8-326f-45a2-bfde-6a1cf2a6b32f"))
+(label "+3V3_MCU" (at 561.34 454.66 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "1a90daea-3cea-4333-b70f-3f6195933c70"))
 )
