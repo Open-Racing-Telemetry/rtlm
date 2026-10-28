@@ -20704,7 +20704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 74.93 476.25 0)
 			(hide yes)
 			(show_name no)
@@ -20725,6 +20725,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "d43fba46-4634-45f5-abce-fec8f8c37ddc")
 		)
@@ -20782,7 +20785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0402KRX7R9BB104"
 			(at 334.01 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -20804,6 +20807,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0402KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "9e884ded-36ff-49d0-80b8-bf7c2931922f")
 		)
@@ -20943,7 +20949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 204.47 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -20965,6 +20971,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "9d009b8d-3aa6-43d3-b097-3b8959b48d76")
 		)
@@ -21022,7 +21031,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
 			(at 212.09 431.8 0)
 			(hide yes)
 			(show_name no)
@@ -21044,6 +21053,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "a6eb6378-0ca8-40e7-8aed-697758b60d62")
 		)
@@ -21814,7 +21826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM31CR71A226KE15%22%5D"
 			(at 121.92 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -21825,7 +21837,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF 10V X7R 10% 1206; DC bias/tolerance/temperature/aging assessed in manufacturing review."
 			(at 121.92 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -21836,6 +21848,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM31CR71A226KE15L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "0b06ae00-5673-4eb9-bbc5-6f66b6972d67")
 		)
@@ -22054,7 +22068,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500300"
 			(at 632.46 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -22076,6 +22090,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "436500300" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 1x3 right-angle pack sense; center contact NC." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "5bc14920-06e4-486d-a93e-5aef99dde568")
 		)
@@ -22139,7 +22156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747RL"
 			(at 40.64 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -22161,6 +22178,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0747RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "12e78a41-022e-4908-acb2-7979cc297d01")
 		)
@@ -22296,7 +22316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 31.75 367.03 0)
 			(hide yes)
 			(show_name no)
@@ -22317,6 +22337,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060310K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "2f44ddb3-24ba-4649-8e87-6ed5bdfa5bfc")
 		)
@@ -22374,7 +22397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-075K1L"
 			(at 48.26 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -22396,6 +22419,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-075K1L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "f71c4593-6a0a-4005-8183-44f3da2f50d6")
 		)
@@ -22477,6 +22503,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Nexperia" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "PESD5V0S1UL,315" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "5V ESD diode SOD882." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "ee0ef08d-2e88-476e-a92d-72c926aeec9a")
 		)
@@ -22615,7 +22644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0742K2L"
 			(at 186.69 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -22636,6 +22665,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0742K2L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "cccab1ae-bc97-4435-ac5a-d48c3cdc72f9")
 		)
@@ -22696,7 +22728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747RL"
 			(at 307.34 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -22718,6 +22750,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0747RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "16b1ea8d-613e-4a1e-b76d-6edaf1d0581b")
 		)
@@ -22856,7 +22891,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 29.21 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -22878,6 +22913,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "900a4ff7-9220-465d-915a-abdf05174ea9")
 		)
@@ -22935,7 +22973,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 156.21 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -22957,6 +22995,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "2111fd56-475f-401b-8b0d-fa467b90b446")
 		)
@@ -23015,7 +23056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 120.65 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -23036,6 +23077,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060312K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "a539803c-c5b0-4278-8711-5fe24a308524")
 		)
@@ -23251,7 +23295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 138.43 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -23262,7 +23306,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 138.43 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -23284,6 +23328,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "60a43f13-56f4-4779-b323-956020e1c355")
 		)
@@ -23343,7 +23389,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 95.25 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23365,6 +23411,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "655c64d9-7494-413f-95e8-c5589e72c26e")
 		)
@@ -23424,7 +23473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM1885C1H160JA01%23"
 			(at 96.52 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -23435,7 +23484,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16pF 50V C0G 5%; CL=8pF plus parasitics; oscillator tuning starting value."
 			(at 96.52 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -23446,6 +23495,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM1885C1H160JA01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "1698a0f5-e267-4229-be24-caba12427def")
 		)
@@ -23504,7 +23555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
 			(at 694.69 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -23526,6 +23577,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "1045f545-c3f9-49df-957d-d8ecc22e1b21")
 		)
@@ -23584,7 +23638,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 54.61 367.03 0)
 			(hide yes)
 			(show_name no)
@@ -23606,6 +23660,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "2341647b-832e-4a54-b605-1d290e6a6979")
 		)
@@ -23899,7 +23956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 36.83 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -23910,7 +23967,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 36.83 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -23932,6 +23989,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "75b114e6-b56b-40d3-8254-263f4060892a")
 		)
@@ -24067,7 +24126,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 201.93 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -24078,7 +24137,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 201.93 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -24100,6 +24159,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "b35d71c5-40e9-4b02-9df6-5beae2c4e5b9")
 		)
@@ -24317,7 +24378,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 38.1 421.64 0)
 			(hide yes)
 			(show_name no)
@@ -24339,6 +24400,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "34e0dc33-4db9-407e-b359-0694f6c2d858")
 		)
@@ -24375,7 +24439,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 29.972 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24396,7 +24460,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BR61E226ME44%22%5D"
 			(at 33.02 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -24407,7 +24471,7 @@
 				)
 			)
 		)
-		(property "Description" "VDD3P3 bulk decoupling after L2; 10uF 10V X7R +/-10%; verify DC-bias capacitance"
+		(property "Description" "22uF 25V X5R 20% 0805; <=85C component temperature. DC-biased bulk; see manufacturing calculation assumptions."
 			(at 33.02 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -24418,6 +24482,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM21BR61E226ME44L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "29452697-702f-4175-a378-968fa711b29d")
 		)
@@ -24576,6 +24642,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "SN74LVC14ADR" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "LVC hex Schmitt inverter, SOIC14; 1.65-3.6V supply, 5.5V-tolerant inputs." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "76f05e8c-4235-4b8a-9cc1-d0950a237f44")
 		)
@@ -24750,7 +24819,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf"
 			(at 217.932 419.1 0)
 			(hide yes)
 			(show_name no)
@@ -24772,6 +24841,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Nexperia" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "BAT54S,215" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Dual series Schottky clamp, SOT23." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "70b48a67-8d76-46c0-ad6e-498ca47b6a05")
 		)
@@ -25480,7 +25552,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/54459dcc-b821-4a9d-b91e-0416ea86a9b2/0402hp.pdf"
 			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -25491,7 +25563,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "2nH 5%; DCR <=0.038Ohm; 2.1A at 15C rise; analog 3V3 filter."
 			(at 31.75 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -25502,6 +25574,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Coilcraft" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "0402HP-2N0XJRW" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "690a1be7-8266-47eb-918d-68a28d64d7d0")
 		)
@@ -25716,7 +25790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC1206KKX7R9BB105"
 			(at 580.39 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -25737,6 +25811,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC1206KKX7R9BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "b4e02265-e20f-4d0c-a5ee-746b080f8464")
 		)
@@ -25952,7 +26029,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 496.57 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -25973,6 +26050,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CRCW1206120RFKEAHP" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "120Ohm 1% 1206 high-power termination; 0.75W rating requires specified thermal environment. Fit jumper only at a physical bus end." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "78e234f4-50c5-4af7-b5d9-eab1fa9cf512")
 		)
@@ -26110,7 +26190,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 313.69 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -26131,6 +26211,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "16c1873d-81bc-440e-b59d-b511a1115780")
 		)
@@ -26267,7 +26350,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.farnell.com/datasheets/1995789.pdf"
 			(at 102.87 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -26278,7 +26361,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "FA-128 40MHz; CL 10pF; +/-10ppm initial; +/-20ppm temperature; ESR <=60Ohm; drive <=100uW; -40..85C. Confirm procurement ordering code."
 			(at 102.87 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -26311,6 +26394,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Epson" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "Q22FA1280010118" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "1830d40d-852f-4c21-ac86-47fa596bf019")
 		)
@@ -26452,7 +26537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 62.23 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -26474,6 +26559,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "c5c525aa-ac8b-460b-8014-f7301648c084")
 		)
@@ -26612,7 +26700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 165.1 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -26634,6 +26722,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "2aa8102f-9c16-467c-8db1-c9258db14b1a")
 		)
@@ -26772,7 +26863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071K8L"
 			(at 31.75 490.22 0)
 			(hide yes)
 			(show_name no)
@@ -26793,6 +26884,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071K8L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "1c1a0310-4f81-4dff-a4a0-4c3618253873")
 		)
@@ -27055,7 +27149,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0402KRX5R6BB474"
 			(at 350.52 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -27077,6 +27171,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0402KRX5R6BB474" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "429cd089-130e-4d94-88ed-ff6438fc113d")
 		)
@@ -27216,7 +27313,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747RL"
 			(at 40.64 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -27238,6 +27335,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0747RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "ab06eae1-263d-42eb-8bbe-2a1b180ee586")
 		)
@@ -27296,7 +27396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 180.34 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -27317,6 +27417,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060312K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "d7eb2af3-46e2-4221-a6df-66d1236ca799")
 		)
@@ -27376,7 +27479,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf"
 			(at 50.292 412.75 0)
 			(hide yes)
 			(show_name no)
@@ -27398,6 +27501,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Nexperia" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "BAT54S,215" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Dual series Schottky clamp, SOT23." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "ff3edde0-ade5-4365-bf71-88c609073294")
 		)
@@ -27616,7 +27722,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 260.35 443.23 0)
 			(hide yes)
 			(show_name no)
@@ -27638,6 +27744,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "7388e2c4-bb56-48ba-8a02-a3f2b60bcd71")
 		)
@@ -27945,7 +28054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0402KRX7R9BB104"
 			(at 281.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -27967,6 +28076,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0402KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "af8cf16b-0303-42b2-8853-00dc85b82032")
 		)
@@ -28105,7 +28217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07220RL"
 			(at 299.72 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -28127,6 +28239,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-07220RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "c32c57df-d64e-4250-bcf2-5b280d7a710e")
 		)
@@ -28344,7 +28459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 99.06 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -28366,6 +28481,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "07763265-e96f-492e-9cd9-33ebfb389215")
 		)
@@ -28741,7 +28859,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 312.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -28762,6 +28880,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "390ddd2d-bcb1-42bf-847e-67b3e337a35c")
 		)
@@ -28819,7 +28940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL"
 			(at 97.79 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -28841,6 +28962,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0733RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "6a2347ca-ea1f-4212-961c-d616cb27c775")
 		)
@@ -28898,7 +29022,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 118.11 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -28920,6 +29044,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "4d515c9c-c399-4c0f-b692-7bdbdcc62497")
 		)
@@ -29057,7 +29184,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 345.44 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -29079,6 +29206,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "f792c2cf-92ca-4766-b417-fa15e83c617d")
 		)
@@ -29136,7 +29266,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BZT52C2V4-BZT52C51.pdf"
 			(at 241.3 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -29158,6 +29288,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Diodes Incorporated" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "BZT52C5V6-7-F" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "5.6V SOD123 gate protection zener." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "565bbe3b-20e8-40da-88fb-544fe9e1498f")
 		)
@@ -29293,7 +29426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 64.77 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -29315,6 +29448,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "868b8fac-e752-40fb-bd7c-6f74730153c0")
 		)
@@ -29450,7 +29586,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 30.48 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -29461,7 +29597,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 30.48 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -29483,6 +29619,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "5af76df6-e1a7-48b6-8b2b-23998a7400d2")
 		)
@@ -29644,6 +29782,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Micro Crystal" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RV-3028-C7 32.768kHz 1ppm TA QC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Factory-calibrated RTC; confirm procurement packing code; no primary-cell charging." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "0afb9ce5-093d-4632-87b4-9552846fb5cf")
 		)
@@ -29884,7 +30025,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 267.97 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -29906,6 +30047,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "db9c00ce-f9f5-49ab-880e-d2a820476a53")
 		)
@@ -30121,7 +30265,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 224.79 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -30143,6 +30287,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0402JR-070RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "72a258bb-5e8f-4b98-810b-ec3ca0cafb5c")
 		)
@@ -30279,7 +30426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 133.35 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -30300,6 +30447,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "727ff7b1-caf3-4f80-ac33-8be4799c31d3")
 		)
@@ -30357,7 +30507,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-pts636-series-datasheet?assetguid=8a16fd39-1f87-4545-ab06-9e057a0fe304"
 			(at 134.62 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -30379,6 +30529,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "C&K" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "PTS636SM25SMTRLFS" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "PTS636 2.5mm actuator; enclosure actuator alignment remains mechanical check." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "dfa82aef-9cdd-46b0-b606-aa2f35fe2e27")
 		)
@@ -30517,7 +30670,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 39.37 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -30539,6 +30692,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "63593be8-18ea-457c-9287-c275cc0ca009")
 		)
@@ -30675,7 +30831,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-pts636-series-datasheet?assetguid=8a16fd39-1f87-4545-ab06-9e057a0fe304"
 			(at 115.57 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -30697,6 +30853,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "C&K" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "PTS636SM25SMTRLFS" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "PTS636 2.5mm actuator; enclosure actuator alignment remains mechanical check." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "be94e8fa-fa12-4efa-b6ad-1a46e54fffb8")
 		)
@@ -30914,7 +31073,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07220RL"
 			(at 304.8 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -30936,6 +31095,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-07220RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "daafdce8-9743-4a6a-bd75-da88c951c6a8")
 		)
@@ -31477,7 +31639,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps62130.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62130a.pdf"
 			(at 95.25 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -31499,6 +31661,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TPS62130ARGTR" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Adjustable 3A buck; system budget is 1.30A, not 3A." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "1ecaa979-be5d-419c-a847-faacd361e08e")
 		)
@@ -31679,7 +31844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-075K1L"
 			(at 48.26 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -31701,6 +31866,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-075K1L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "91407253-1dd2-42ea-aba7-206552152091")
 		)
@@ -31839,7 +32007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603JRNPO9BN102"
 			(at 50.8 429.26 0)
 			(hide yes)
 			(show_name no)
@@ -31861,6 +32029,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603JRNPO9BN102" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "08dadb7b-e843-48df-880b-1ef1f5aaf99b")
 		)
@@ -32087,7 +32258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747RL"
 			(at 279.4 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -32109,6 +32280,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0747RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "e13bc779-5b27-4376-bc48-a4d5eff92f17")
 		)
@@ -32224,7 +32398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µf"
+		(property "Value" "22uF"
 			(at 109.22 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32246,7 +32420,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BR61E226ME44%22%5D"
 			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -32257,7 +32431,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF 25V X5R 20% 0805; <=85C component temperature. DC-biased bulk; see manufacturing calculation assumptions."
 			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -32268,6 +32442,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM21BR61E226ME44L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "4b11f55e-1364-48df-905a-478b54771e74")
 		)
@@ -32598,7 +32774,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2035U.pdf"
 			(at 237.49 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -32620,6 +32796,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Diodes Incorporated" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "DMP2035U-7" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "P-channel SOT23 reverse-polarity MOSFET; verify hot loss in assembled enclosure." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "63a04944-e399-4aea-9b27-78caf653335a")
 		)
@@ -32681,7 +32860,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 86.36 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -32692,7 +32871,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 86.36 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -32714,6 +32893,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "11eb14d0-34b6-47b2-8272-d2b950f0be6c")
 		)
@@ -32852,7 +33033,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf"
+		(property "Datasheet" "https://www.microchip.com/en-us/product/MCP3208"
 			(at 384.81 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -32874,6 +33055,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Microchip" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "MCP3208-BI/SL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "12-bit 8-channel ADC, SOIC16; start <=1MHz SPI." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "4e9f5d9a-051a-4efa-b454-90d9561847fe")
 		)
@@ -32975,7 +33159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/54459dcc-b821-4a9d-b91e-0416ea86a9b2/0402hp.pdf"
 			(at 96.52 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -32986,7 +33170,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "24nH 5%; ESP XTAL_P series starting value; tune oscillator on hardware."
 			(at 96.52 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -32997,6 +33181,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Coilcraft" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "0402HP-24NXJRW" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "02545662-1d0c-4c84-9d3a-fe668fc94162")
 		)
@@ -33133,7 +33319,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 627.38 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -33144,7 +33330,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1%"
+		(property "Description" "8.2k 0.1% 25ppm/K; 0603; lead-free e3."
 			(at 623.062 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33154,6 +33340,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW06038K20BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "2cf70f31-182b-4eda-9051-d6cc2e486fdb")
 		)
@@ -33457,7 +33645,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 146.05 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -33468,7 +33656,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 146.05 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -33490,6 +33678,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "d944cf18-4a22-4f9b-b8ec-eefdb85645d3")
 		)
@@ -33886,7 +34076,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0734K8L"
 			(at 217.17 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -33907,6 +34097,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0734K8L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "98a8967f-a998-4230-bfb5-dcd62043b23c")
 		)
@@ -34122,7 +34315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 661.67 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -34144,6 +34337,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "ea5310e3-8b62-4476-a65b-ad9f6baa1792")
 		)
@@ -34204,7 +34400,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB103"
 			(at 139.7 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -34226,6 +34422,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB103" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "8b94d69c-0b5b-4be7-b2ef-49009e09f35f")
 		)
@@ -34681,7 +34880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
 			(at 29.21 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -34703,6 +34902,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "664ea63e-da7a-434d-92a7-3fb67a076620")
 		)
@@ -34765,7 +34967,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ref3033.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref3025.pdf"
 			(at 431.8 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -34788,6 +34990,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "REF3025AIDBZR" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "2.5V reference, SOT23." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "f4ef3447-2b98-4aa6-b6bd-c0ac267c1118")
 		)
@@ -35203,7 +35408,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf"
 			(at 281.432 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -35225,6 +35430,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Nexperia" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "BAT54S,215" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Dual series Schottky clamp, SOT23." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "e2754a02-1f64-4cd4-8468-2a4cdf7c6b01")
 		)
@@ -35442,7 +35650,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 144.78 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -35464,6 +35672,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "7a7f8ee0-1bae-4fb1-b323-0a5a369a0e7b")
 		)
@@ -35600,7 +35811,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450600"
 			(at 530.86 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -35622,6 +35833,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450600" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x3 right-angle CAN expansion." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "ac6ca2e4-ca9f-47be-886f-913f09bb2c35")
 		)
@@ -35694,7 +35908,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL"
 			(at 166.37 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -35716,6 +35930,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-07100KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "adc8b006-da04-4805-95ba-792805e62719")
 		)
@@ -35775,7 +35992,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 82.55 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -35797,6 +36014,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "144865b0-0f05-4f71-a23b-bf28ea506178")
 		)
@@ -35854,7 +36074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 43.18 367.03 0)
 			(hide yes)
 			(show_name no)
@@ -35876,6 +36096,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "c8ad5c3c-95a1-4398-8a51-ba98922f866b")
 		)
@@ -36248,7 +36471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 144.78 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -36269,6 +36492,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060310K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "4fecb72c-c27f-41b0-8393-e1de31a7b8c4")
 		)
@@ -36329,7 +36555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747RL"
 			(at 307.34 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -36351,6 +36577,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0747RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "1e877219-55c0-4eab-95d4-e3978953053c")
 		)
@@ -36488,7 +36717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 176.53 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -36510,6 +36739,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "9a59c514-e934-496e-9984-676299db716d")
 		)
@@ -36655,7 +36887,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 439.42 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -36677,6 +36909,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "16724290-0283-47de-8bd0-be4c10f3512d")
 		)
@@ -36890,7 +37125,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 582.93 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -36911,6 +37146,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "8367f54a-f9de-4d2a-9f92-0bd178e49a55")
 		)
@@ -36969,7 +37207,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 204.47 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -36980,7 +37218,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 204.47 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -37002,6 +37240,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "c694b4cd-ac10-48a7-8dcb-e467b5b96883")
 		)
@@ -37062,7 +37302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747RL"
 			(at 68.58 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -37084,6 +37324,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0747RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "e5d1a3bc-ed62-49ae-8b9e-64c096bc23c3")
 		)
@@ -37131,7 +37374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN40P700X700X90-57N-D"
+		(property "Footprint" "RTLM_Local:ESP32_S3_QFN56_EP_Windowed"
 			(at 88.9 141.91 0)
 			(hide yes)
 			(show_name no)
@@ -37472,7 +37715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 459.74 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -37494,6 +37737,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "0c5d4c70-9062-44f5-ad94-5a9837faa84e")
 		)
@@ -37630,7 +37876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BZ71E106KE15%22%5D"
 			(at 115.57 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -37652,6 +37898,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM21BZ71E106KE15L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "10uF 25V X7R 10%; normal bypass/storage, verify transient requirements." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "f185b84e-e4c0-4dc1-99f4-81d49c239855")
 		)
@@ -37955,7 +38204,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 345.44 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -37977,6 +38226,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "d9c13c31-1e0c-41d9-9566-39b0dc88b2cf")
 		)
@@ -38192,7 +38444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 90.17 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -38214,6 +38466,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "a3a727f0-97e4-4317-98da-9a8b92495a8e")
 		)
@@ -38273,7 +38528,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 255.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -38294,6 +38549,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "36c22cf5-a5b6-41e9-95c0-febfcae44ca0")
 		)
@@ -38352,7 +38610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 368.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -38374,6 +38632,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "758f6e9f-667d-4fe9-9f3f-eb4bb6ecc8a6")
 		)
@@ -38433,7 +38694,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 201.93 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -38454,6 +38715,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060310K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "30f1b8c3-bab7-4161-9d02-a00532a0367e")
 		)
@@ -38595,7 +38859,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf"
 			(at 68.58 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -38617,6 +38881,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TPD2EUSB30DRTR" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "2-channel USB ESD protection, DRT3." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "ed2f423d-4e04-4ddc-bee5-88fd243fac1f")
 		)
@@ -38678,7 +38945,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 217.17 406.4 0)
 			(hide yes)
 			(show_name no)
@@ -38689,7 +38956,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 217.17 406.4 0)
 			(hide yes)
 			(show_name no)
@@ -38711,6 +38978,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "781f4d08-131c-4c83-a354-2dc2ea4c12c0")
 		)
@@ -38925,7 +39194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07470RL"
 			(at 665.48 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -38946,6 +39215,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-07470RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "e916b689-6fb7-4dfa-b4df-b6576611aebb")
 		)
@@ -39005,7 +39277,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 345.44 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -39027,6 +39299,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "f6f8e32d-fef2-4fa3-a103-643abd1c7027")
 		)
@@ -39401,7 +39676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747RL"
 			(at 279.4 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -39423,6 +39698,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0747RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "269c0bcf-b83b-4be7-8cd9-d6da70f9e8c6")
 		)
@@ -39560,7 +39838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603JRNPO9BN102"
 			(at 156.21 430.53 0)
 			(hide yes)
 			(show_name no)
@@ -39582,6 +39860,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603JRNPO9BN102" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "bc49d6fc-6a3a-4c22-a497-dcb82b9feffe")
 		)
@@ -39641,7 +39922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 137.16 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -39663,6 +39944,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "7e254f25-4dc7-4ee2-a475-6c019439e0ca")
 		)
@@ -39964,7 +40248,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 459.74 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -39986,6 +40270,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "3f268864-1139-440e-a697-6963a42ab9d4")
 		)
@@ -40281,7 +40568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07499RL"
 			(at 137.16 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -40303,6 +40590,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-07499RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "7d90ad34-a82a-48fe-811b-df99c3683fa6")
 		)
@@ -40360,7 +40650,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 109.22 419.1 0)
 			(hide yes)
 			(show_name no)
@@ -40381,6 +40671,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "24a9c0aa-4932-4d5c-b206-874bb5f5264f")
 		)
@@ -40439,7 +40732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 321.31 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -40450,7 +40743,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 321.31 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -40472,6 +40765,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "7cf50522-ab92-424f-9e71-84ee1b93ec9b")
 		)
@@ -40687,7 +40982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 69.85 127 0)
 			(hide yes)
 			(show_name no)
@@ -40709,6 +41004,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "3154ee76-4cc7-41cd-b97a-93445e1915fb")
 		)
@@ -41010,7 +41308,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500200"
 			(at 207.01 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -41032,6 +41330,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "436500200" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 1x2 right-angle 5V input." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "16f86db8-2009-4710-a77b-9afd618a4abd")
 		)
@@ -41091,7 +41392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603JRNPO9BN102"
 			(at 281.94 433.07 0)
 			(hide yes)
 			(show_name no)
@@ -41113,6 +41414,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603JRNPO9BN102" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "1abb5d91-6433-4c7b-a9d2-b24c3dbf57e3")
 		)
@@ -41171,7 +41475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 124.46 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -41193,6 +41497,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "68d2a082-2721-4256-bacb-31d203fdb1c1")
 		)
@@ -41257,7 +41564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/6adcb47d-8b55-416c-976e-1e22e0d2848c/xal4000.pdf"
 			(at 115.57 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -41268,7 +41575,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "2.2uH +/-20%; DCR <=38.7mOhm; Isat 5.6A at 30% L drop; Irms 4A at 20C rise. Verify hot bias/thermal on hardware."
 			(at 115.57 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -41279,6 +41586,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Coilcraft" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "XAL4020-222MEC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "b181873d-4368-4299-921e-f51067171a4a")
 		)
@@ -41415,7 +41724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 209.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -41436,6 +41745,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060310K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "593ca716-d6be-426d-88ef-203c55c6ca08")
 		)
@@ -41495,7 +41807,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 67.31 476.25 0)
 			(hide yes)
 			(show_name no)
@@ -41516,6 +41828,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "70d070d2-9ebf-4985-9b37-e28ca7779646")
 		)
@@ -41573,7 +41888,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 703.58 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -41594,6 +41909,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "2e6ad049-d132-4815-8b96-55e66e52e30c")
 		)
@@ -41989,6 +42307,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Nexperia" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "PESD5V0S1UL,315" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "5V ESD diode SOD882." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "dc27249f-a679-4cf5-98cb-5af8f86af2ac")
 		)
@@ -42207,7 +42528,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-072K2L"
 			(at 434.34 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -42229,6 +42550,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-072K2L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "e5e16265-d341-481c-a54f-4d002b2cafd4")
 		)
@@ -42288,7 +42612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 36.83 127 0)
 			(hide yes)
 			(show_name no)
@@ -42310,6 +42634,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "7c3b835b-f5ec-468b-ab2c-c24c12ca97dc")
 		)
@@ -42367,7 +42694,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0722RL"
 			(at 86.36 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -42389,6 +42716,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0722RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "c0631ff9-ac7b-494c-8676-e0a08f407ec2")
 		)
@@ -42446,7 +42776,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 143.51 422.91 0)
 			(hide yes)
 			(show_name no)
@@ -42468,6 +42798,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "a7340398-e6f0-4d84-b4d1-fb117c0a45a8")
 		)
@@ -42684,7 +43017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0724KL"
 			(at 107.95 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -42705,6 +43038,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0724KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "8c9ba8e4-77b8-4284-b42d-e5cafd7bd7ee")
 		)
@@ -43490,7 +43826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 579.12 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -43511,6 +43847,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "a20d995c-beb7-40c5-bc0b-5a43b0d051fa")
 		)
@@ -43639,7 +43978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+		(property "Footprint" "RTLM_Local:AMC3330_DWE0016A_HV_8p1mm"
 			(at 675.64 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -43672,6 +44011,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "AMC3330DWER" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "AMC3330 isolated +/-1V input amplifier, DWE16; TI HV land pattern." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "9"
 			(uuid "7d7ae53c-bd0e-4c0e-8153-8141a5667866")
 		)
@@ -44097,7 +44439,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 30.48 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -44119,6 +44461,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "353bf7d4-4241-4bac-8d52-8210e739533a")
 		)
@@ -44178,7 +44523,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603JRNPO9BN102"
 			(at 218.44 435.61 0)
 			(hide yes)
 			(show_name no)
@@ -44200,6 +44545,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603JRNPO9BN102" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "015065cf-ad47-4e01-bd08-ff923b9c06d0")
 		)
@@ -44417,7 +44765,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://semtech.file.force.com/sfc/dist/version/download/?oid=00DE0000000JelG&ids=0682R00000IjPWSQA3&d=%2Fa%2F2R000000Un7F%2FyT.fKdAr9ZAo3cJLc4F2cBdUsMftpT2vsOICP7NmvMo"
+		(property "Datasheet" "https://www.semtech.com/products/wireless-rf/lora-connect/sx1262"
 			(at 334.01 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -44439,6 +44787,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Semtech" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "SX1262IMLTRT" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "SX1262 QFN24; reference design 902-928MHz, conducted qualification required." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "15"
 			(uuid "327d0381-56b1-4098-97dc-779637e0ea21")
 		)
@@ -44566,7 +44917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1"
+		(property "Datasheet" "https://www.hirose.com/en/product/series/DM3"
 			(at 419.1 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -44588,6 +44939,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Hirose" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "DM3AT-SF-PEJM5(40)" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Push-push microSD socket; qualify a card within 400mA peak allowance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "4"
 			(uuid "75333059-3d65-4140-882e-11efbbb244a3")
 		)
@@ -45066,7 +45420,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/pdfs/p08.pdf"
 			(at 702.056 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -45121,6 +45475,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Keystone" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "1060" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "CR2032 holder; primary cell supplied separately; RTC charging must be disabled." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "fd924e95-6562-46c6-bd73-0dc0b6af8fa1")
 		)
@@ -45260,7 +45617,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1115.pdf"
 			(at 706.12 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -45282,6 +45639,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "ADS1115IDGSR" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "16-bit differential ADC, VSSOP10; +/-2.048V or wider PGA for 96V sensing." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "6"
 			(uuid "c4fba109-a962-473e-9ebd-dbb5b8f79266")
 		)
@@ -45365,7 +45725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -45387,6 +45747,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "2c253ab7-e46e-4823-9444-92567f07900f")
 		)
@@ -45524,7 +45887,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 240.03 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -45545,6 +45908,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060312K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "6a431e30-ca1f-423a-a725-771cca34dc0a")
 		)
@@ -45718,7 +46084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC1206JRNPO9BN102"
 			(at 588.01 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -45739,6 +46105,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC1206JRNPO9BN102" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "f6e53aa3-6805-4589-8d4c-2ca35574f325")
 		)
@@ -46059,7 +46428,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 36.83 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -46070,7 +46439,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 36.83 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -46092,6 +46461,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "a398cd6b-adef-4999-bd03-83962251864a")
 		)
@@ -46149,7 +46520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
 			(at 149.86 426.72 0)
 			(hide yes)
 			(show_name no)
@@ -46171,6 +46542,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "460a09ab-058b-4dc0-a917-1910ae753bbb")
 		)
@@ -46231,7 +46605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 186.69 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -46252,6 +46626,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060310K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "5d4568c0-2bda-4b68-934a-91880b6c3682")
 		)
@@ -46542,7 +46919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
 			(at 643.89 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -46563,6 +46940,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "476fac19-fceb-490a-be1f-89ff24a35e26")
 		)
@@ -46620,7 +47000,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07470RL"
 			(at 665.48 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -46641,6 +47021,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-07470RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "9b4756bd-522e-4479-9497-05023cb9dd71")
 		)
@@ -46776,7 +47159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0402JRNPO9BN102"
 			(at 295.91 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -46798,6 +47181,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0402JRNPO9BN102" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "8a048a3a-6bac-409c-82ee-c0482b98adf5")
 		)
@@ -47170,7 +47556,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
 			(at 29.21 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -47192,6 +47578,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "de00707c-cd7d-4acf-a9e3-964885ebd084")
 		)
@@ -47334,7 +47723,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 246.38 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -47355,6 +47744,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060310K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "8513a09c-58e4-403b-9c8b-c0a50e6fe5bb")
 		)
@@ -47436,6 +47828,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Nexperia" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "PESD5V0S1UL,315" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "5V ESD diode SOD882." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "89cfbc83-e823-4890-84e7-941213ec83a0")
 		)
@@ -47961,7 +48356,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 297.18 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -47983,6 +48378,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "9b839893-60ed-4dad-8388-5c507ec245a7")
 		)
@@ -48126,7 +48524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL"
 			(at 165.1 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -48148,6 +48546,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-07100KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "9c7969b4-e7d2-40a7-982e-6b1b91ccdcb0")
 		)
@@ -48284,7 +48685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 269.24 425.45 0)
 			(hide yes)
 			(show_name no)
@@ -48306,6 +48707,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "e8ec22e0-71c9-4de9-aed3-f30b64b60e18")
 		)
@@ -48786,7 +49190,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 391.16 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -48807,6 +49211,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "10f9374d-e834-4123-b415-a37f556ad004")
 		)
@@ -49180,7 +49587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 209.55 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -49202,6 +49609,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "e716b89e-396d-4563-a6b4-ca186bee84f5")
 		)
@@ -49652,7 +50062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 39.37 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -49663,7 +50073,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 39.37 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -49685,6 +50095,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "7988e1d7-68e2-4923-9c6d-914447c8a80a")
 		)
@@ -49900,7 +50312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 651.51 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -49922,6 +50334,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "334785ed-b603-4ebe-9051-d4be51b759e0")
 		)
@@ -49979,7 +50394,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0722RL"
 			(at 86.36 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -50001,6 +50416,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0722RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "3e84067b-ec12-401d-9e58-f7099f190aa2")
 		)
@@ -50137,7 +50555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 459.74 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -50159,6 +50577,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "2a58913f-3c7f-4f18-a3f4-d4b0e04d996e")
 		)
@@ -50219,7 +50640,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BZ71E106KE15%22%5D"
 			(at 407.67 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -50241,6 +50662,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM21BZ71E106KE15L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "10uF 25V X7R 10%; normal bypass/storage, verify transient requirements." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "c935b271-2958-4610-a7d3-a6a79e01cc91")
 		)
@@ -50301,7 +50725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.samtec.com/products/tsw-103-07-g-s"
 			(at 137.16 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -50323,6 +50747,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samtec" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TSW-103-07-G-S" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "2.54mm 1x3 debug header; check mating height against enclosure." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "10352f8b-1556-4f40-98b2-e11432fea33e")
 		)
@@ -50463,7 +50890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 300.99 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -50484,6 +50911,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060312K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "a180a180-064b-49ec-8251-32c8666478e9")
 		)
@@ -50803,6 +51233,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TPS2116DRLR" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "2.5A power mux, DRL8." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "1db30952-9b8e-4d41-9a97-9c4d35bcef63")
 		)
@@ -50956,7 +51389,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 203.2 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -50977,6 +51410,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060310K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "1da3634e-148e-489a-b914-6443073a934b")
 		)
@@ -51450,6 +51886,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Nexperia" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "PESD5V0S1UL,315" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "5V ESD diode SOD882." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "cdf87507-b845-4f4d-a9cb-4cff39aa2d34")
 		)
@@ -51508,7 +51947,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 29.21 439.42 0)
 			(hide yes)
 			(show_name no)
@@ -51530,6 +51969,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "d649b633-d28a-4f43-8c62-9bdf8565cb51")
 		)
@@ -51594,7 +52036,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 110.49 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -51616,6 +52058,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "302e5f1d-7c9a-4227-a504-e253c39ec72c")
 		)
@@ -51674,7 +52119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 134.62 440.69 0)
 			(hide yes)
 			(show_name no)
@@ -51696,6 +52141,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "321496ec-e2b8-42c6-85c9-f78079e658c1")
 		)
@@ -51923,7 +52371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 261.62 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -51934,7 +52382,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 261.62 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -51956,6 +52404,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "190a4ca1-4c69-4116-bc2e-09cb85edc95b")
 		)
@@ -52014,7 +52464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 167.64 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -52036,6 +52486,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "d2b91281-f978-4cfb-9047-c196f53400a9")
 		)
@@ -52171,7 +52624,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB332"
 			(at 76.2 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -52193,6 +52646,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB332" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "45e1a2f3-0c73-45f2-b7e3-59600180846b")
 		)
@@ -52329,7 +52785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0788K7L"
 			(at 472.44 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -52350,6 +52806,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0788K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "fb4e5850-c0bc-4fb2-88cc-b7ca2d091025")
 		)
@@ -52487,7 +52946,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 226.06 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -52509,6 +52968,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "9d1e549d-1362-4497-b18f-07071dd5a78f")
 		)
@@ -52569,7 +53031,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0730KL"
 			(at 124.46 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -52591,6 +53053,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0730KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "cdb9c350-7a03-429a-8d49-7aa9de133c19")
 		)
@@ -52649,7 +53114,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 236.22 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -52671,6 +53136,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "dce10672-d33f-4ee5-a61e-69ba7bf59a38")
 		)
@@ -52853,7 +53321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 270.51 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -52874,6 +53342,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "8b3c7d05-3caa-463b-b3b8-4ef204fd7427")
 		)
@@ -53089,7 +53560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 26.67 381 0)
 			(hide yes)
 			(show_name no)
@@ -53111,6 +53582,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "af29a209-32ab-4933-9587-6354825439bc")
 		)
@@ -53164,7 +53638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "RTLM_Local:USB_C_GCT_USB4105_JLC_NPTH_Clearance"
 			(at 33.02 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -53175,7 +53649,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
 			(at 33.02 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -53197,6 +53671,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GCT" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "USB4105-GF-A" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "USB4105 top-mount USB2 Type-C; verify selected staking length against board/case." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "B5"
 			(uuid "f649745e-c5fe-4822-8768-e08db0f40d1c")
 		)
@@ -53301,7 +53778,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 345.44 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -53323,6 +53800,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "57fa58e6-4d3b-43ce-9b56-06c6e8f6debe")
 		)
@@ -53859,7 +54339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-072K2L"
 			(at 297.18 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -53881,6 +54361,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-072K2L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "09c9b987-2299-4c15-8bf5-604abc4cf485")
 		)
@@ -54094,7 +54577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 205.74 427.99 0)
 			(hide yes)
 			(show_name no)
@@ -54116,6 +54599,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "1940b246-ed38-4746-8dd8-7b3978abb856")
 		)
@@ -54175,7 +54661,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -54197,6 +54683,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "cd489226-7aec-45a8-a04d-e714d8b717d6")
 		)
@@ -54254,7 +54743,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R0BB103"
 			(at 633.73 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -54275,6 +54764,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R0BB103" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "10nF 100V X7R 10% divider filter; voltage headroom for open lower-divider fault. Amplifier input fault behavior still needs qualification." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "947c25f9-bbb8-4c1b-9c1f-bba1268ecfd2")
 		)
@@ -54333,7 +54825,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 252.73 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -54354,6 +54846,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "2bff4af4-446e-4a80-8260-9b71fb6fc237")
 		)
@@ -54411,7 +54906,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 226.06 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -54432,6 +54927,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "dcf1ba44-de6d-435f-959c-2019e8f81bc4")
 		)
@@ -54570,7 +55068,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB103"
 			(at 259.08 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -54592,6 +55090,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB103" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "3ee49e52-8647-43ab-8134-17b2aec57487")
 		)
@@ -54968,7 +55469,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en"
+		(property "Datasheet" "https://download.epsondevice.com/td/pdf/app/TG2520SMN_en.pdf"
 			(at 289.56 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -54990,6 +55491,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Epson" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TG2520SMN 32.0000M-MCGNNM3" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "32MHz 3.0V TCXO; operating GPIO/TCXO setup required." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "8df2b255-2441-41fd-b3c7-e259f4a66bc7")
 		)
@@ -55213,7 +55717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB103"
 			(at 320.04 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -55235,6 +55739,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB103" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "0ae90745-50d8-40bf-97a4-f1cd578853c4")
 		)
@@ -55292,7 +55799,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 168.91 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -55314,6 +55821,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "207d93ef-fa1c-465f-851f-fa763b8248f7")
 		)
@@ -55373,7 +55883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 400.05 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -55395,6 +55905,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "0d7aa53b-57e2-44df-9c5f-b38689b4f23c")
 		)
@@ -55532,7 +56045,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL"
 			(at 237.49 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -55554,6 +56067,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-07100KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "5cdd9c73-ca75-4545-aaaf-3a5245d6841d")
 		)
@@ -55612,7 +56128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 280.67 405.13 0)
 			(hide yes)
 			(show_name no)
@@ -55623,7 +56139,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 280.67 405.13 0)
 			(hide yes)
 			(show_name no)
@@ -55645,6 +56161,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "9c2ccec9-e31f-49aa-9f39-7b71ece3996f")
 		)
@@ -55780,7 +56298,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 214.63 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -55802,6 +56320,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "d4f59da5-421a-4e02-aecb-2345665f88d9")
 		)
@@ -55862,7 +56383,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB103"
 			(at 199.39 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -55884,6 +56405,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB103" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "4a9f5aef-bf32-4fb3-8a1f-5139f43b1891")
 		)
@@ -55944,7 +56468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 101.6 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -55966,6 +56490,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "5ed081db-13ca-47b4-a59c-8720021ca776")
 		)
@@ -56182,7 +56709,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BZ71E106KE15%22%5D"
 			(at 203.2 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -56204,6 +56731,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM21BZ71E106KE15L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "10uF 25V X7R 10%; normal bypass/storage, verify transient requirements." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "bd2360b9-7834-4dfc-aabe-ea4c73842c7c")
 		)
@@ -56261,7 +56791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 609.6 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -56272,7 +56802,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1% 200V"
+		(property "Description" "499k 0.1% 25ppm/K; 1206; 200V; lead-free e3."
 			(at 609.092 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56282,6 +56812,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW1206499KBEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "9cd8f6b0-a7f0-4e6b-bb95-b32725dfec47")
 		)
@@ -56339,7 +56871,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
 			(at 275.59 429.26 0)
 			(hide yes)
 			(show_name no)
@@ -56361,6 +56893,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "fe8e8e9c-f4d9-413c-a3e7-36cc04cdb7bd")
 		)
@@ -56497,7 +57032,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 739.14 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -56519,6 +57054,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "d8808ace-df9a-4698-8634-293c1b40ce61")
 		)
@@ -56732,7 +57270,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 99.06 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -56754,6 +57292,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "2327d304-68ff-4fe7-b671-9d25618ed006")
 		)
@@ -56891,7 +57432,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 29.21 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -56902,7 +57443,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 29.21 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -56924,6 +57465,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "2cc51eff-b642-4615-bdad-7bba9bf9a7bd")
 		)
@@ -57060,7 +57603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC1206KRX7R9BB104"
 			(at 580.39 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -57081,6 +57624,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC1206KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "db47ee10-7c11-4ef7-8ef4-ac2fa780f554")
 		)
@@ -57218,7 +57764,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0331-0471-0-10&documenttype=2DDrawing&lang=en&documentid=0000255805"
 			(at 316.23 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -57240,6 +57786,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Hirose" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "U.FL-R-SMT-1(10)" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "U.FL 50Ohm board receptacle; cable/antenna specified separately." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "4edb6ee0-084f-4243-badd-99677b8e2e91")
 		)
@@ -57377,7 +57926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 140.97 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -57388,7 +57937,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 140.97 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -57410,6 +57959,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "1e7515a1-5fc0-40b6-9066-c311e63839f7")
 		)
@@ -57546,7 +58097,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/apt1608sgc.pdf"
 			(at 36.83 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -57557,7 +58108,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 0603; Vf <=2.5V at 20mA, 25C; 25mA max; -40..85C. Check cold headroom and visible brightness."
 			(at 36.83 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -57579,6 +58130,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "APT1608SGC" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "60a956c9-aaf3-414c-aa4e-d6a34c6bfda3")
 		)
@@ -57716,7 +58269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 139.7 379.73 0)
 			(hide yes)
 			(show_name no)
@@ -57738,6 +58291,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "b031cf45-3637-49e4-94b3-c68d105fdc10")
 		)
@@ -58399,7 +58955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 29.21 304.8 0)
 			(hide yes)
 			(show_name no)
@@ -58421,6 +58977,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "97f90e57-b1e6-4313-aa0c-379c5b5efe08")
 		)
@@ -58638,7 +59197,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 433.07 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -58660,6 +59219,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R8BB105" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "657f6882-ddcc-4473-aa71-4321cf5cc105")
 		)
@@ -58719,7 +59281,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
 			(at 345.44 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -58741,6 +59303,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0710KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "cd31d490-7b41-4825-919b-5c53a172d296")
 		)
@@ -58916,7 +59481,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM1885C1H160JA01%23"
 			(at 109.22 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -58927,7 +59492,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16pF 50V C0G 5%; CL=8pF plus parasitics; oscillator tuning starting value."
 			(at 109.22 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -58938,6 +59503,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM1885C1H160JA01D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "17d71215-fd5f-4469-af36-5bf522c41e36")
 		)
@@ -58996,7 +59563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 198.12 379.73 0)
 			(hide yes)
 			(show_name no)
@@ -59018,6 +59585,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "8fb61189-bfec-4fa1-838c-4d1c39f61b77")
 		)
@@ -59240,7 +59810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BZ71E106KE15%22%5D"
 			(at 471.17 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -59262,6 +59832,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM21BZ71E106KE15L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "10uF 25V X7R 10%; normal bypass/storage, verify transient requirements." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "f0cccefc-3527-47fe-a556-0ffbfead4e37")
 		)
@@ -59319,7 +59892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB103"
 			(at 676.91 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -59340,6 +59913,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB103" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "22ebc951-ea55-408a-b10a-4066dc5743a6")
 		)
@@ -59634,7 +60210,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 127 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -59655,6 +60231,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060310K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "ff51352e-2670-4c89-b9ba-b26718f95da3")
 		)
@@ -59713,7 +60292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 195.58 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -59734,6 +60313,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060320K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "1f8ccee7-e2ba-48bc-951b-2212a717b01c")
 		)
@@ -59794,7 +60376,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747RL"
 			(at 68.58 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -59816,6 +60398,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0747RL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "08c6ba92-e934-483c-b471-596969f5483e")
 		)
@@ -59873,7 +60458,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 87.63 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -59894,6 +60479,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060310K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "87004013-2e8d-4119-8e3e-6b48e35eca69")
 		)
@@ -60030,7 +60618,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
 			(at 31.75 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -60052,6 +60640,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "6414eb10-821b-4c6a-9be8-2921b1feacb7")
 		)
@@ -60187,7 +60778,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R7BB474"
 			(at 430.53 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -60208,6 +60799,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R7BB474" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "399f435f-7135-430c-b7e2-d9b877ea25a8")
 		)
@@ -60660,7 +61254,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM188R71C105KA12%22%5D"
 			(at 33.02 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -60671,7 +61265,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1uF 16V X7R 10% local analog bypass; C80 provides bulk."
 			(at 33.02 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -60682,6 +61276,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM188R71C105KA12D" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "12ba6af6-861f-4551-bc2d-31588a48b130")
 		)
@@ -61059,7 +61655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 196.85 445.77 0)
 			(hide yes)
 			(show_name no)
@@ -61081,6 +61677,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "f5ec2eeb-a314-4b73-a1dd-2f0270c1f762")
 		)
@@ -61144,7 +61743,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0752K3L"
 			(at 203.2 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -61165,6 +61764,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0752K3L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "2f3449b3-67c5-4a71-8e2b-500b7cd5a2dc")
 		)
@@ -61548,7 +62150,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB103"
 			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -61570,6 +62172,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB103" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "de08de3a-76c5-4181-91c6-0e2b8273daee")
 		)
@@ -61627,7 +62232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R9BB104"
 			(at 684.53 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -61649,6 +62254,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "b0efafdb-a1df-4650-ad35-ef95365cdada")
 		)
@@ -61866,7 +62474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 203.2 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -61887,6 +62495,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060344K2BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "2a4c21de-9743-483f-bfca-cefca0421b5b")
 		)
@@ -61944,7 +62555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603JRNPO9BN102"
 			(at 586.74 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -61965,6 +62576,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0603JRNPO9BN102" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "8c5f99be-ae2a-4726-967c-be8488fb3eb1")
 		)
@@ -62022,7 +62636,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0775KL"
 			(at 114.3 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -62043,6 +62657,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-0775KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "0903d2fa-da95-429a-9597-aa6fcd6425da")
 		)
@@ -62416,7 +63033,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.samtec.com/products/tsw-102-07-g-s"
 			(at 501.65 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -62438,6 +63055,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samtec" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TSW-102-07-G-S" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "2.54mm 1x2 header; separate jumper shunt; enable 120Ohm only at bus end." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "8bd93eb9-dd09-45fd-adf0-555f8402c0db")
 		)
@@ -62573,7 +63193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC1206JRNPO9BN102"
 			(at 588.01 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -62594,6 +63214,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC1206JRNPO9BN102" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "ba27e1b1-5ada-4424-8584-557a57dbe274")
 		)
@@ -62651,7 +63274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
 			(at 44.45 425.45 0)
 			(hide yes)
 			(show_name no)
@@ -62673,6 +63296,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "e0cb07c6-e7a4-4be3-8f72-96242238a75c")
 		)
@@ -62732,7 +63358,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf"
 			(at 155.702 414.02 0)
 			(hide yes)
 			(show_name no)
@@ -62754,6 +63380,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Nexperia" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "BAT54S,215" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Dual series Schottky clamp, SOT23." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "3"
 			(uuid "cfac1b55-ebba-4db4-aa8e-e8c6a9f26071")
 		)
@@ -62814,7 +63443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 739.14 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -62836,6 +63465,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "c7a4bae0-d3a9-42d3-b8a2-8af846e397db")
 		)
@@ -63012,7 +63644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 307.34 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -63033,6 +63665,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW060310K0BEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "0.1% 25ppm/K precision resistor; preserve specified divider tolerance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "a29d9d89-f9c4-45c8-bd5e-53b2a826b7a3")
 		)
@@ -63090,7 +63725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 619.76 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -63101,7 +63736,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1% 200V"
+		(property "Description" "499k 0.1% 25ppm/K; 1206; 200V; lead-free e3."
 			(at 619.76 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63111,6 +63746,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TNPW1206499KBEEA" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "5de3a1f7-70e3-4ec6-9f3f-bd00fe865c0d")
 		)
@@ -63169,7 +63806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
 			(at 193.04 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -63190,6 +63827,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-074K7L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "dbb23437-6a2b-4ada-be1e-4939a7d97195")
 		)
@@ -63404,7 +64044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430450400"
 			(at 82.55 379.73 0)
 			(hide yes)
 			(show_name no)
@@ -63426,6 +64066,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "430450400" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Micro-Fit 3.0 2x2 right-angle; connector pinout table defines function." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "e032e71d-2ca3-4715-8e9b-6582c95fec11")
 		)
@@ -63570,7 +64213,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0402KRX7R9BB104"
 			(at 294.64 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -63592,6 +64235,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "CC0402KRX7R9BB104" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "Specified MLCC value/package; manufacturer datasheet and DC bias govern effective capacitance." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "0d57d157-aaa0-4043-b0bb-0c5898dd021f")
 		)
@@ -63649,7 +64295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
 			(at 29.21 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -63671,6 +64317,9 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "RC0603FR-071KL" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "2"
 			(uuid "24af5aea-a5ff-49be-b2fd-d038f6f37f96")
 		)
@@ -63854,7 +64503,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 518.414 237.744 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63875,7 +64524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BR61E226ME44%22%5D"
 			(at 515.62 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -63886,7 +64535,7 @@
 				)
 			)
 		)
-		(property "Description" "CAN VCC local bulk; 10uF 16V X7R 0805; select >=4.7uF effective at 5V over tolerance and temperature"
+		(property "Description" "22uF 25V X5R 20% 0805; <=85C component temperature. DC-biased bulk; see manufacturing calculation assumptions."
 			(at 515.62 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -63897,6 +64546,8 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "GRM21BR61E226ME44L" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "d5054168-25c4-440f-a7e4-f10ec1a3af8e")
 		)

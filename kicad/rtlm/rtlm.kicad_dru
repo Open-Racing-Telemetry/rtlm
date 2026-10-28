@@ -22,4 +22,38 @@
 # Pair-gap checks apply to both recognized USB pairs.
 (rule "USB 90 ohm differential gap"
   (condition "A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN'")
-  (constraint diff_pair_gap (min 0.200mm) (opt 0.200mm) (max 0.200mm)))
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 0.205mm)))
+
+# +/-5um numeric placement tolerance on the .200mm nominal gap.
+# Short pad fanouts and the short layer crossover are not uniform-impedance lines.
+# Windows enclose whole short segments, so the long pair stays constrained.
+
+(rule "USB_J1_fanout short escape only"
+  (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN') && A.enclosedByArea('USB_J1_fanout')")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 0.55mm)))
+
+(rule "USB_ESD_fanout short escape only"
+  (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN') && A.enclosedByArea('USB_ESD_fanout')")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 1.05mm)))
+
+(rule "USB_crossover short escape only"
+  (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN') && A.enclosedByArea('USB_crossover')")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 1.45mm)))
+
+(rule "USB_series_fanout short escape only"
+  (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN') && A.enclosedByArea('USB_series_fanout')")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 1.45mm)))
+
+# 96 V maximum input: explicit PCB engineering clearance targets.
+# These do not certify creepage, transients, harness faults or case insulation.
+(rule "Pack positive high-voltage copper"
+  (condition "A.NetName == '/PACK_POS' || A.NetName == '/PACK_POS_FUSED' || B.NetName == '/PACK_POS' || B.NetName == '/PACK_POS_FUSED'")
+  (constraint clearance (min 1.0mm)))
+(rule "Divider midpoint voltage clearance"
+  (condition "A.NetName == 'Net-(R82-Pad2)' || B.NetName == 'Net-(R82-Pad2)'")
+  (constraint clearance (min 0.6mm)))
+
+# Maintain the AMC3330 8mm isolation barrier for all pack-domain copper.
+(rule "Pack to logger isolation barrier"
+  (condition "((A.NetName == '/HLDO_OUT' || A.NetName == '/PACK_NEG' || A.NetName == '/PACK_POS' || A.NetName == '/PACK_POS_FUSED' || A.NetName == '/PACK_V_SENSE' || A.NetName == '/VMON_ISO_SUPPLY' || A.NetName == 'Net-(C74-Pad1)' || A.NetName == 'Net-(R82-Pad2)' || A.NetName == 'unconnected-(J19-Pin_2-Pad2)' || A.NetName == 'unconnected-(U8-NC-Pad4)') && B.NetName != '' && !(B.NetName == '/HLDO_OUT' || B.NetName == '/PACK_NEG' || B.NetName == '/PACK_POS' || B.NetName == '/PACK_POS_FUSED' || B.NetName == '/PACK_V_SENSE' || B.NetName == '/VMON_ISO_SUPPLY' || B.NetName == 'Net-(C74-Pad1)' || B.NetName == 'Net-(R82-Pad2)' || B.NetName == 'unconnected-(J19-Pin_2-Pad2)' || B.NetName == 'unconnected-(U8-NC-Pad4)')) || ((B.NetName == '/HLDO_OUT' || B.NetName == '/PACK_NEG' || B.NetName == '/PACK_POS' || B.NetName == '/PACK_POS_FUSED' || B.NetName == '/PACK_V_SENSE' || B.NetName == '/VMON_ISO_SUPPLY' || B.NetName == 'Net-(C74-Pad1)' || B.NetName == 'Net-(R82-Pad2)' || B.NetName == 'unconnected-(J19-Pin_2-Pad2)' || B.NetName == 'unconnected-(U8-NC-Pad4)') && A.NetName != '' && !(A.NetName == '/HLDO_OUT' || A.NetName == '/PACK_NEG' || A.NetName == '/PACK_POS' || A.NetName == '/PACK_POS_FUSED' || A.NetName == '/PACK_V_SENSE' || A.NetName == '/VMON_ISO_SUPPLY' || A.NetName == 'Net-(C74-Pad1)' || A.NetName == 'Net-(R82-Pad2)' || A.NetName == 'unconnected-(J19-Pin_2-Pad2)' || A.NetName == 'unconnected-(U8-NC-Pad4)'))")
+  (constraint clearance (min 8mm)))
