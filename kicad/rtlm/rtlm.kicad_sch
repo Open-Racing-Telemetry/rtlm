@@ -55485,7 +55485,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "TYPE-C-31-M-12"
 			(at 29.21 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55495,7 +55495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTLM_Local:USB_C_GCT_USB4105_JLC_NPTH_Clearance"
+		(property "Footprint" "RTLM_Local:USB_C_HRO_TYPE_C_31_M_12_OEM_20201208"
 			(at 33.02 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -55506,7 +55506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C165948.pdf"
 			(at 33.02 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -55528,9 +55528,9 @@
 				)
 			)
 		)
-		(property "Manufacturer" "GCT" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
-		(property "MPN" "USB4105-GF-A" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
-		(property "Selection Notes" "USB4105 top-mount USB2 Type-C; verify selected staking length against board/case." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Manufacturer" "Korean Hroparts Elec" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "MPN" "TYPE-C-31-M-12" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Selection Notes" "HRO current2020-12-08 recommended land pattern, full lands and0.60mm locating holes. USB4105 is NOT a compatible substitute. JLC local0.20mm NPTH-to-land rule. See fabrication notes." (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(pin "B5"
 			(uuid "f649745e-c5fe-4822-8768-e08db0f40d1c")
 		)
@@ -55590,7 +55590,7 @@
 				)
 			)
 		)
-	)
+	(property "LCSC Part Number" "C165948" (at 0 0 0) (hide yes) (effects(font(size 1 1)))))
 	(symbol
 		(lib_id "Device:R")
 		(at 345.44 24.13 90)

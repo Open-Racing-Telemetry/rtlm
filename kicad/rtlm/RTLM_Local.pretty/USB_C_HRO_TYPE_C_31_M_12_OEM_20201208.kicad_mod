@@ -1,0 +1,348 @@
+(footprint "USB_C_HRO_TYPE_C_31_M_12_OEM_20201208"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "HRO TYPE-C-31-M-12 manufacturer 2020-12-08 drawing via LCSC C165948. Full rectangular OEM lands; 0.60mm locating holes; JLC documented local0.20mm NPTH-to-land rule. Board edge y=+3.185mm.")
+	(tags "usb usb-c 2.0 pd")
+	(property "Reference" "J1"
+		(at 0 -5.645 0)
+		(layer "F.SilkS")
+		(uuid "779ded93-48bf-4b03-b397-3ea01e3124ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TYPE-C-31-M-12"
+		(at 0 5.1 0)
+		(layer "F.Fab")
+		(uuid "619e3bac-09f1-4a25-a625-aba1797058cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C165948.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1f6ae56-829d-4d37-bc83-93be33c2fd7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96cabc17-110b-4e94-b538-6151c7e4cac3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Korean Hroparts Elec"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "93ec89e6-86b7-4643-9541-cff12f2464ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "TYPE-C-31-M-12"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "91735a12-2807-431e-a654-e979d5c51b2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part Number" "C165948"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d339721a-5160-4d5b-a186-c12a1349fff1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Selection Notes" "Use HRO TYPE-C-31-M-12/C165948 with current2020-12-08 OEM land pattern; old GCT USB4105 does not fit this board. Connector3.16mm high, -30..80C;5V USB programming. JLC local NPTH-to-land minimum0.20mm."
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6c677f61-1261-42f3-9cc5-2802b9a6a098")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.7 -1.9)
+		(end -4.7 0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d167e6b-302c-4925-8069-1215624f593a")
+	)
+	
+	
+	(fp_line
+		(start 4.7 -1.9)
+		(end 4.7 0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e4a55c0-f351-49df-ad34-c2ded92b3405")
+	)
+	
+	(fp_line
+		(start -4.5 3.185)
+		(end 4.5 3.185)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8ca79c5e-2300-45b7-87a3-1574f23df4d4")
+	)
+	(fp_line
+		(start -5.32 -5.27)
+		(end -5.32 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "739e16d5-65a5-4dc9-9b3c-ddfdd311e179")
+	)
+	(fp_line
+		(start -5.32 -5.27)
+		(end 5.32 -5.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "55c50f78-9206-426a-822e-6a4985f98b2e")
+	)
+	(fp_line
+		(start -5.32 4.15)
+		(end 5.32 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d408899-90f7-4ded-913b-9fad3d984fe5")
+	)
+	(fp_line
+		(start 5.32 -5.27)
+		(end 5.32 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01b4ea02-9aa3-4216-a533-3a2ffb20726b")
+	)
+	
+	
+	
+	
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c76b7252-8d9d-4f7b-9616-e47affdbbfac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.89 -2.605)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "35c76f55-4155-415c-aea3-46b883f799d6")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.89 -2.605)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "534bb132-36c2-4c4a-a9aa-28b073b84949")
+	)
+	(pad "A1" smd rect
+		(at -3.2 -3.675)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "37951ce8-9796-4a8d-ade5-f4837dc3adec")
+	)
+	(pad "A4" smd rect
+		(at -2.4 -3.675)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f01f776-95db-4dc1-8677-556ec0deff53")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -3.675)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ac383bf-efd6-462c-9244-dc556d0af405")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -3.675)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f4769156-f7dd-42ca-8764-61c73e19ab6c")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -3.675)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60757bbc-7261-4079-a225-4226c3f532b7")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -3.675)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f6991b6-5dd4-4776-9654-e861f33dc59a")
+	)
+	(pad "A9" smd rect
+		(at 2.4 -3.675)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f85d85b1-f2b2-4ecd-99bd-c094573b4bc0")
+	)
+	(pad "A12" smd rect
+		(at 3.2 -3.675)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "850cb018-93cd-44f6-beef-5abd6574c08f")
+	)
+	(pad "B1" smd rect
+		(at 3.2 -3.675)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2fad746f-1ad4-4038-8625-1e61c8564fac")
+	)
+	(pad "B4" smd rect
+		(at 2.4 -3.675)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6b45886f-59e8-4776-a066-1953d37ae679")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -3.675)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe31471a-3e32-4ef8-8b16-9245f7cad547")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -3.675)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e0edf881-0461-4c30-ab57-f0c4664780bf")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -3.675)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "92c85c01-58b5-4910-b0ff-c3a74ef66d6a")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -3.675)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "58640bc1-91b3-4a55-a4da-31d0e8e18f43")
+	)
+	(pad "B9" smd rect
+		(at -2.4 -3.675)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "386c1e52-0ecc-4bca-b4ac-aba2ec74a508")
+	)
+	(pad "B12" smd rect
+		(at -3.2 -3.675)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0391fce3-714b-4b66-88c2-bf5ece37ff2f")
+	)
+	(pad "SH" thru_hole oval
+		(at -4.325 -3.105)
+		(size 0.9 2)
+		(drill oval 0.6 1.7)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f7a463e-1e3f-4711-9467-0bfd19486611")
+	)
+	(pad "SH" thru_hole oval
+		(at -4.325 1.075)
+		(size 0.9 1.7)
+		(drill oval 0.6 1.4)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "04aef3a8-db42-483f-a50a-a03fb9025932")
+	)
+	(pad "SH" thru_hole oval
+		(at 4.325 -3.105)
+		(size 0.9 2)
+		(drill oval 0.6 1.7)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a907bba3-b765-479c-a687-5512b506857a")
+	)
+	(pad "SH" thru_hole oval
+		(at 4.325 1.075)
+		(size 0.9 1.7)
+		(drill oval 0.6 1.4)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "faff79c7-1951-4be1-912a-73bb7a6584fa")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+(fp_line(start -4.47 -3.675)(end 4.47 -3.675)(stroke(width 0.1)(type solid))(layer "F.Fab")(uuid "2cf5c1e0-ef08-4219-bb29-93caf4b8b173"))(fp_line(start 4.47 -3.675)(end 4.47 3.675)(stroke(width 0.1)(type solid))(layer "F.Fab")(uuid "abfc1a9c-c296-4f2b-a2f5-70c23a480efc"))(fp_line(start 4.47 3.675)(end -4.47 3.675)(stroke(width 0.1)(type solid))(layer "F.Fab")(uuid "596d0ebe-6550-483a-bc23-ce40c0b07f5b"))(fp_line(start -4.47 3.675)(end -4.47 -3.675)(stroke(width 0.1)(type solid))(layer "F.Fab")(uuid "4b004c00-0e33-45b0-a8e4-ae242de0c22e")))

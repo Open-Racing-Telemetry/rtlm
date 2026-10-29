@@ -62,3 +62,12 @@
 (rule "USB bounded phase matching"
   (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN') && A.enclosedByArea('USB_phase_match')")
   (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 1.270mm)))
+
+# HRO TYPE-C-31-M-12 OEM drawing 2020-12-08: full rectangular lands,
+# .60mm locating drills, actual .20010mm minimum to GND lands.
+# JLC NPTH design guide specifies .20-.30mm copper clearance:
+# https://jlcpcb.com/blog/npth-design-guide
+# This changes only J1 locating-hole to J1-land checks; global .25mm remains.
+(rule "J1 HRO OEM NPTH to solder land - JLC 0.20mm"
+ (condition "A.memberOfFootprint('J1') && B.memberOfFootprint('J1')")
+ (constraint hole_clearance (min 0.20mm)))
