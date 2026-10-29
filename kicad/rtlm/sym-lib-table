@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RTLM_Local")(type "KiCad")(uri "${KIPRJMOD}/RTLM_Local.kicad_sym")(options "")(descr "RTLM manufacturer-verified symbols"))
+)

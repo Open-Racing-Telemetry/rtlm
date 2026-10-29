@@ -272,6 +272,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a36cf5e6-5cb9-45b1-b448-e438370b3013")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5e1e17dc-72a8-4e3d-ad8c-755fb8029d5a")
 		(sheetname "/")
@@ -459,6 +471,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4352c813-76b9-40ed-9727-9d66ffd2fce8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20c12af1-78a4-402d-b240-648a4b9ca7e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -660,6 +684,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "de5245e2-d71d-4354-a196-c3d9410a2e6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c71d6c97-2a95-4ad7-bf47-b88cadd35e7f")
 		(sheetname "/")
@@ -839,6 +875,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "94365f1e-a000-4485-bb8f-687094b9fa28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C85402"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "66bd103c-a579-402b-99d3-a8a7c5518ca9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,6 +1236,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C273741"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "905e1d1a-024d-4c25-a31d-d72578173c44")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0ee057ef-c05f-4762-846c-8a46becc46b0")
 		(sheetname "/")
@@ -1376,6 +1436,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cb4ee61e-d19c-4ddc-aa1d-79be7966b45a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "75789f1f-eb96-4166-a255-d4abac17818c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,6 +1701,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C107696"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2070400a-e8c4-48b0-873a-91c7171e232d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/348ce536-63de-4438-8c14-5de7f32c1d69")
 		(sheetname "/")
@@ -1816,6 +1900,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "311b8f67-a63f-40f4-9924-7a5c0c1bffe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "950a8d50-ab0a-4be0-8b1d-f27159c4963b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,6 +2164,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C284078"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "850d18bf-2ee1-4b49-a86a-4cf3bfaef7f1")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2489,6 +2597,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C100042"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f7b3bbbd-d653-4f6b-98c1-77e4a431f433")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ef33fce6-eb81-4ebf-aa4e-2d039c9834dd")
 		(sheetname "/")
@@ -2677,6 +2797,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f378a5dd-a43f-469d-8198-85e731bb293f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f4369776-22ee-4440-b583-fbd6a78e0236")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,6 +3063,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C100042"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4cabe960-bd67-45e8-a5f4-7eddfe153f85")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/b5cc48aa-cee8-4ed7-b6d2-d63d62b168e7")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -3108,6 +3252,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ba1cce08-615c-469f-be19-e72bc56579bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C60485"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dca7950d-7ca4-4b8b-92d7-a898f5b5cc59")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,6 +3453,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C383402"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "21808ad5-d0f1-444f-bbd6-15c05f37bb2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7c5131e3-7770-457c-89b0-59b93da2a73c")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -3462,6 +3630,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b241bbfc-e27c-4454-9f0e-6229f3466d52")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C76902"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "30531ede-1514-4b91-9620-05d34aa8f79b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,6 +3844,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1c0f3288-9d70-437f-9357-d7675ec5d764")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6a9ae046-398b-4f2d-8aae-7e807553932f")
 		(sheetname "/")
@@ -3858,6 +4050,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C22548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3734c0de-303b-490e-89ae-56dfd515dba2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ff6b38ee-362b-452c-ae17-bca3d99f49be")
 		(sheetname "/")
@@ -4034,6 +4238,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fe4ab228-8b1f-4160-9f0f-0653d7c07e12")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C161322"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea532a43-a44d-4f01-9801-aef34b40b4f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,6 +4495,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C3001947"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "064e5d45-146b-4020-8aed-bf4383d3676a")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4606,6 +4834,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C237493"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bceae8a9-4629-43d3-abb7-f85d5cb068f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a951ed1a-9ff9-4de1-8573-fdff45b6922c")
 		(sheetname "/")
@@ -4801,6 +5041,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d50cd8cb-89d4-4dec-b30b-8e740643a555")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/7fd7deb5-a7e1-45d9-a954-5c520d110c57")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -4977,6 +5229,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bd8af44d-19c0-4e4f-ab75-b237e65cf00b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C163418"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6a24c65a-bd01-4cff-8e8b-d8f23cf4765e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,6 +5427,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ed98c8b1-daf5-4514-b596-07290dad8be7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C97502"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2ed980f0-420a-4b70-86a4-8aa1be92450b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,6 +5726,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f6fc32cc-d40d-4f6c-8859-44251eba9db1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C597971"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6f3746ab-3f82-40ce-a31e-6fcd76df06e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,6 +6604,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "71da5337-a74b-4639-b0c2-41aec57da488")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1b61e725-ad15-49a7-85ef-7e4b7f20d7c5")
 		(sheetname "/")
@@ -6561,6 +6861,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5312e15c-6060-44b8-b7c7-30ae358b37cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2f1cf718-d2bf-48d9-935a-decd2fb8aabe")
 		(sheetname "/")
@@ -6756,6 +7068,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7c7c4609-25c8-4d67-affb-412a1e87f56f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/941edede-4e5f-416e-b69a-5029e7383162")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -6940,6 +7264,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14675"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "424dff9a-d181-497a-929e-750221230b14")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/0cd77772-a98a-4e9b-a4b8-52ab3e9ce12a")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -7104,6 +7440,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e3a9d46b-ec00-423d-867d-4f08bc30c25f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "edda396f-30ba-4950-af6b-88593e7a0b0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,6 +7653,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d70d1d77-0e1f-4ee3-8013-0d8158a651dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/60141a40-c956-4792-bba2-111308391a7d")
 		(sheetname "/")
@@ -7492,6 +7852,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "256a58a2-6ea2-442a-b249-1960eb15f2d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C844890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4f2c54ac-8d5b-46f4-8c85-6f1673ed88db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,6 +8065,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106246"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3a99d685-ad0d-435a-8dca-89a8a4dfdf2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/92982ccd-e5b0-46ac-baa0-347a5c4c46e2")
 		(sheetname "/")
@@ -7887,6 +8271,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "022a7995-b005-48b1-a453-8495ff6c7bf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3222c97-41b2-41dc-a1f5-75dc4d4f9238")
 		(sheetname "/")
@@ -8056,6 +8452,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C3159235"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "43fa18aa-2a33-480b-bcb5-5cc6ab73a076")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8281,6 +8689,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5f055223-2c3a-4c1b-b5e4-b4b0ac236f93")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6a6d3402-eb43-47ed-ad9b-d59aa68dbdc9")
 		(sheetname "/")
@@ -8468,6 +8888,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "32fbf77e-1916-4ded-b0e5-d5defad448d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cac7c523-ad09-49cb-9b8c-42be1c792771")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,6 +9101,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8cf71586-f6fa-4563-8d6c-9127c360790f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7690f85d-09a1-4543-916a-6f0af65f4183")
 		(sheetname "/")
@@ -8856,6 +9300,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6622effb-b32b-4092-8fda-6dfd703d0411")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e5e11f2-bd09-436d-a09e-da642102ea07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,6 +9513,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "49cb5f93-2681-4475-831f-bd00f6a0fee7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8faa3c54-7f84-48b6-900f-2125d3a2b083")
 		(sheetname "/")
@@ -9244,6 +9712,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "af992828-cba0-4727-82d9-1a53d06efcd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c1736ed4-01fd-4594-bc10-56f7486cebd2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,6 +9919,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "072cb757-295f-44e4-8468-7216e3b04aeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "95916d68-2606-4000-b828-42697f94d7fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,6 +10183,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "18c5e49f-15cd-483a-a851-4d63e022045c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/371fcf33-9abb-45d6-bcb0-6be328c79a06")
 		(sheetname "/")
@@ -9928,6 +10432,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C3001947"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd301dbd-8d6e-4a97-9d96-af10861ee52a")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10256,6 +10772,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C105579"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "823ec2ab-ae45-4055-bf15-cbe3cb32e200")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/57987457-0896-41fc-ab1f-af0e9f4fa808")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -10432,6 +10960,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "02f579d5-a416-4e15-adc0-2f03a8a3cb59")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d4886163-c842-42af-ba87-c6b968dda07d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,6 +11174,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "50f716cd-04f1-49fd-aa09-eef98876798d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/352fe948-7177-4b45-b98c-a3718ea1ad49")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -10805,6 +11357,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C2073405"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "530f427d-7108-46dc-9783-744d331e9f8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fb533866-5440-4f15-ac18-1e40561bb402")
 		(sheetname "/")
@@ -10929,7 +11493,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM188R71C105KA12%22%5D"
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/CC0603KRX7R8BB105"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10963,7 +11527,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -10975,11 +11539,35 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "CC0603KRX7R8BB105"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "26104809-2366-4999-843f-df762394aa5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5463af28-5c57-421b-8ebf-1a34f9346595")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Selection Notes" "1uF +/-10%, X7R, 25V, 0603; replaces obsolete Murata 1uF 16V X7R. Existing analog bulk capacitor retained."
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e7d33bf5-632d-4fbd-9f6e-464993909108")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11174,6 +11762,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7df9087e-d411-40ec-8cb7-a7e9679e7ea5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C503478"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e8cc46c1-6f3c-4f15-8fe2-8edd0cf626f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11560,6 +12160,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7279cdd8-3da4-4c18-9192-2417bf698e4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0aff4d17-cb2f-469f-b489-a44d2ebaaab5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11973,6 +12585,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C844890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ef7ee74e-07f0-4715-b971-65fda9137c39")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e0e44ad5-5e7b-4687-8b48-c7d1a07048c3")
 		(sheetname "/")
@@ -12160,6 +12784,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f6e22893-3785-43b2-b340-1c57fc78ac1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "62c6cab9-d52f-4293-830d-fc555ed4b2f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12355,6 +12991,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1c21c3d7-8ffd-4fbe-8f2b-e3bce639a9d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C114623"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4da07749-f6d5-4185-a492-4073bcb2c3d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12558,6 +13206,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0ef9a6cf-d134-447c-b6bc-db75487e293b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/769103cc-8e60-4447-b18d-001f5aa0e58c")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -12734,6 +13394,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0e842cd1-9b69-485b-a19d-822423c43fca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C7402729"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6ad5d960-4468-4d1c-a96b-061a792203ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13058,6 +13730,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C131194"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6a282625-316c-4f6b-aee8-5bb8184d9ba3")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13589,6 +14273,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14675"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "701adde6-aa03-46aa-90df-edd3e96e4bb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5f4f1994-58c0-40b0-a7bc-3abd448b0647")
 		(sheetname "/")
@@ -13807,6 +14503,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ceea3b6b-e043-4e74-8c8b-22b0375efaf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "74f95bdb-cee5-4774-ad62-115486fcfb97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14510,6 +15218,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C85402"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ede963a-870c-49f6-afea-84f558b70654")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SOD?882")
 		(path "/b079c793-319b-4c74-b7c5-b6f093b9848a")
 		(sheetname "/")
@@ -14899,6 +15619,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C3001947"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e555c57c-6389-43c1-af74-9d5903bb1ab4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a327c9ed-ca39-4c96-9644-97527a733ce9")
 		(sheetname "/")
 		(sheetfile "rtlm.kicad_sch")
@@ -15222,6 +15954,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C114623"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a080e4bf-1304-4777-b1d3-85dd6005264f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0b8c7a41-c0ba-4792-9783-ed88d8950f22")
 		(sheetname "/")
@@ -15347,7 +16091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15381,7 +16125,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "KOA Speer"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -15393,7 +16137,7 @@
 				)
 			)
 		)
-		(property "MPN" "TNPW060316K4BEEA"
+		(property "MPN" "RN73R1JTTD1642B25"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -15405,11 +16149,23 @@
 				)
 			)
 		)
-		(property "Selection Notes" "Independent parallel lower divider leg, not series redundancy. Normal8.2k total; one open leaves16.4k."
+		(property "Selection Notes" "16.4k 0.1% 25ppm/K, 0603, 0.1W/75V. Same divider value; normal <40uW, one-leg-open <150uW. Preserve both parallel lower legs."
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c3886021-f6e5-4648-8b9e-0c2bba57b07f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2cf02c00-bcb7-43b8-86aa-204d38774a87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15594,6 +16350,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7cda9e12-867e-4a66-b83b-e8ec8f20f50f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f17627a2-bba0-4b7d-a964-a1ad872cdf1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16007,6 +16775,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ba985a19-41bd-4b6b-abae-0626138c5051")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/15d4a71e-2ecb-4ae2-9fad-f6192622d980")
 		(sheetname "/")
@@ -16202,6 +16982,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C105578"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e0501ff8-5205-467c-9eaf-eb9b74e44e63")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/12150dca-b9c5-4fa1-8e78-5f6dec6ee97f")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -16379,6 +17171,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b2b9603a-ae47-486e-98f2-6cfdfab371b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C106255"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "51013d5b-675e-46c1-9cbf-e47e7bcc815e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16581,6 +17385,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "affc134d-8354-43dd-b6e0-f3c49c8a7770")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/69b127ee-97c1-4528-9387-2efba2c918b9")
 		(sheetname "/")
@@ -16769,6 +17585,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "df2781e3-e1aa-4e76-9b32-90222010b6cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C131394"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a13d7e60-a5e4-4842-85ca-12a2721ac298")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16971,6 +17799,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e875f00b-b38d-4174-b160-189ab3e47656")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f053b348-5865-47cc-afea-9b038ea9116e")
 		(sheetname "/")
@@ -17158,6 +17998,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a8b67cb6-2d91-4e5d-a2ef-96f55c02fb04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7a207367-3f16-4b00-adeb-c8dd912ed3e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17353,6 +18205,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b3a981e2-91fb-4a76-9b5b-3c9f131f76aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "59979440-7bc4-40d0-a38c-86ec14deed36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17607,6 +18471,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14675"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fc2e6130-4e6d-4e15-80a5-c00f9d9ffa92")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/9d3fe9ca-0108-4b61-a426-d49bf4c13c59")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -17783,6 +18659,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d047d3c5-0186-4f36-bd34-7ee27187a075")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eeb9e523-fba7-4f72-8318-1c9ce7d26291")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17977,6 +18865,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d86dc83c-85cd-4d13-ad3b-5de0f979a4d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2999368"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7e965e80-8581-417c-b372-d84c585e7b6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18484,6 +19384,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106246"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4afdf641-1a7d-4a0e-a154-c30f6ea79cea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/746a05b2-42ed-48b1-984b-35f74ec68354")
 		(sheetname "/")
@@ -18678,6 +19590,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106851"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2fd6ea86-dc1d-4326-acda-915ee28431d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e3252769-4e23-4036-8689-0c13d75dfb87")
 		(sheetname "/")
@@ -18861,6 +19785,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C77012"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "51cf9453-8df6-45c3-8432-b52b2b3519ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/06a448ef-68b9-46cb-b7ad-552e18ae19df")
 		(sheetname "/")
@@ -19037,6 +19973,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d99e9f02-c010-435b-b0f9-242940a8559d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C91604"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "75c7662d-cef8-4580-8c54-8f56f5615c42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19231,6 +20179,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a2ff70a2-7e6d-42dd-ab58-6e913158b4fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C100042"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "949d6d6e-46f6-40c3-bbc0-60cd581ed07f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19433,6 +20393,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7483113a-0aa0-4190-af2e-3a95f8e47874")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/36ac4277-2662-46d5-a188-26780c02ad77")
 		(sheetname "/")
@@ -19609,6 +20581,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3299f21c-def5-4462-94be-c46f92e6c7d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a885bc0b-1568-413e-a195-4f30ca1975ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19795,6 +20779,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "731cda68-6731-49a3-9f1d-b619fbda822f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C397930"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "432cfaed-d25d-4c02-9540-b45880eaf82f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20105,6 +21101,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C3151182"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ffbc7699-afb4-45f7-9a54-e83486ac009e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/7fa0379f-32fb-481c-85ee-b02a4c376290")
 		(sheetname "/")
@@ -20357,6 +21365,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C22548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "495d08bc-39a0-4b7d-853e-6024cd82a7f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a0a7f475-1179-403d-9959-3b6a32c7cfb1")
 		(sheetname "/")
@@ -20552,6 +21572,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "af8fd023-4a52-4973-ba7b-b25603447179")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a937a237-1fb6-416e-846d-1f464abc175e")
 		(sheetname "/")
@@ -20733,6 +21765,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8a50ecf3-7129-451e-ae36-16a8759d8d63")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2799946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "643f6588-6346-4779-b4db-e0d4b35d5b5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21095,6 +22139,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C22548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c1a9f33d-0edc-4f90-acf0-666b51e8c772")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9e4c08ec-a9e3-47c9-9ef8-b360e08a36ba")
 		(sheetname "/")
@@ -21282,6 +22338,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ac7df500-0259-438f-8d48-c0d8a6fd3651")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "43efc110-55e2-4e83-aa04-56792192aaac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21523,6 +22591,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2058000"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f4c2ad25-8f5a-4ad2-a5fb-7ba6b4783746")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -21927,6 +23007,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C107059"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0ea2064b-cf73-409a-ad18-9cb8b8894eb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c004fae0-2d90-41e6-b567-21494da2f844")
 		(sheetname "/")
@@ -22114,6 +23206,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2d3745a1-c6ff-410e-a8a3-5ffcadf9d241")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "645d9ae7-64f3-4880-b799-751bb1d5a086")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22516,6 +23620,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f917ec90-4ccf-4751-a35f-53831045a33d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b39bff08-4cf2-4650-b85a-58fc910b1159")
 		(sheetname "/")
@@ -22710,6 +23826,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5863ad01-1f16-4274-b630-471395fd8c1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/821a6f56-dd93-4b8b-bfb3-96ccc78a224f")
 		(sheetname "/")
@@ -22897,6 +24025,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "acf9d9a5-ca03-4c3f-8910-683065e822ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C3019759"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "84c48a66-4955-45e5-bd81-5cbc0cbae2dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23162,6 +24302,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C91621"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "33cd3e9b-8c6f-453d-9c34-d486c9236c25")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/3cb4408c-5bae-431a-8834-be794d3a8dc8")
 		(sheetname "/")
@@ -23331,6 +24483,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b83616b0-9a05-46d9-9fd4-3d3f212312b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C844890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4346ee6d-6801-45fe-803f-eb42faf98c40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23525,6 +24689,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "551dce78-9c1e-4b09-9f42-26914cc5526e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6979f5ef-23c6-4f88-92c4-629fdb7a64d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24132,6 +25308,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C100042"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "88f7b517-be9c-48f9-b76c-105ed45b81ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c6955c0c-4153-4649-98a3-e0d4679128a6")
 		(sheetname "/")
@@ -24326,6 +25514,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C114623"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4a9cc41-6b2c-4e87-a9ba-7d44caae8efa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/49e5c60d-56c6-452f-b1c0-b6fe1c7443dc")
 		(sheetname "/")
@@ -24502,6 +25702,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "70da40bb-8f3e-40e6-8773-5e76e4953006")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C76902"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "29ba706f-eead-4f29-a58b-2bb2ad295f96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24698,6 +25910,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8f2a9712-97ba-442a-b34d-2e9c8631438f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8f7179eb-f095-4545-88d7-6f5d9b35dda0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24938,6 +26162,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C86816"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "236106b2-987f-4c64-b924-fb2550c8a53d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4b48c418-cc6d-468d-9c14-bc4094bb03da")
 		(sheetname "/")
@@ -25125,6 +26361,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a6b7dd42-8aa2-4c86-93e1-88ac6a02732f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C137760"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c191e2d3-4280-4e0a-840a-4f3e0ec92a57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25327,6 +26575,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6de2e152-c1a1-4a2b-b47d-41ad5aa9e0cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/03041326-d755-4029-88d8-465542db5b92")
 		(sheetname "/")
@@ -25515,6 +26775,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0c8a4f19-348b-42c8-92a2-ce68138abd2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C107083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ef0e94cd-20a5-443e-a3ab-4dc1a887fa2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25748,6 +27020,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C3001947"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3cbe7a54-279a-4baa-9890-f3c4aefae5db")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -26077,6 +27361,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1100197d-e1ed-4cd6-b0ae-f9e7094875d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9bf53b16-015a-4dd3-a2e4-c4d0b5c27e5a")
 		(sheetname "/")
@@ -26323,6 +27619,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9f80cbcb-6f8f-49d5-aafb-daf83c4cd0e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/da0af098-8e4a-4cec-89fb-6e66c458826f")
 		(sheetname "/")
@@ -26517,6 +27825,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C844890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "18a7e428-9704-4ef5-ba49-0dab1ef07589")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0d21a7e0-bf1a-4a14-8295-335210e9ab29")
 		(sheetname "/")
@@ -26692,6 +28012,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0e1ee88a-866f-4607-a39e-2d7de6c75406")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f060a059-6d63-44a5-8b01-f7c37029aa72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26876,6 +28208,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106246"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ec822622-b947-4156-9e9b-63ff035d9a23")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/34d603f3-3fe2-45dd-9ab1-9ef13c549922")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -27052,6 +28396,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "59ac22d8-f06d-4b22-aa56-3d9d77fbaf65")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c7eba2ed-3d96-400b-a065-7d3cb1c2f04a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27246,6 +28602,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f4eefa08-46f5-462f-8a56-d11960e5472d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C47546"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1e83cd45-96d4-4cbd-934b-39c1adf7317a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27671,6 +29039,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8b04fc50-02a9-4a85-9801-5cac5e82f9b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2b4c82a1-2e03-40f6-88ef-abf18cececef")
 		(sheetname "/")
@@ -27971,6 +29351,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C114669"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6b88f7cd-1dcf-491e-ad64-8851f5d9d1a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fd93288-45ab-4d18-899b-8d901be2d97b")
 		(sheetname "/")
@@ -28165,6 +29557,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C100001"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "afbd1c1d-c213-4edb-ad1c-ab7e508ef5d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b758e5bc-6804-42fe-84e6-d5ae3141bd9d")
 		(sheetname "/")
@@ -28346,6 +29750,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f742eaf3-359c-4fc2-9972-a17a61b4c367")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2799946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1216bbb2-8b76-4f76-9ba0-89347937e9ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28708,6 +30124,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "628985ea-8d05-40f9-8001-3c93635b86f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b470ecce-e22a-48dd-ba0b-808f319eed6f")
 		(sheetname "/")
@@ -28953,6 +30381,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C107696"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "05e051c7-1bca-4aec-b9c5-953d31449886")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/437b8df4-cb68-449c-9111-85c24cc2cfd0")
 		(sheetname "/")
@@ -29147,6 +30587,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f0da8806-a09c-4ee8-bb44-f71fa03948a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/754b51b6-8a45-4714-8035-bd2d6ba1e010")
 		(sheetname "/")
@@ -29334,6 +30786,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e353b039-32f1-4329-8a21-13a47687c34d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C47546"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "962638d8-ff14-4dbc-bb8a-4d01d63a3157")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29752,6 +31216,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "02d0e727-d4c3-4afb-8446-5c7fef34529c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C47546"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d1710125-259b-4594-8455-a6e5efee1cb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30178,6 +31654,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C113881"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a6698d58-75a0-4c22-96a8-cbbacf7ead3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f8169061-8420-4a29-872d-9fd93075b4a4")
 		(sheetname "/")
@@ -30372,6 +31860,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C114623"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "58f1251d-56f7-4de2-9fd0-fc129b0c2f94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2ef399e9-e993-4945-b07b-9c3c8ce85aa5")
 		(sheetname "/")
@@ -30551,6 +32051,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6fc2cd3e-774a-4809-8437-a9399806c28e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C85402"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c0a8e1f5-fb9f-4e26-8404-288dbdbda591")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30894,6 +32406,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "652d65d3-594a-4bc8-8e87-f8debe266c4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2681320"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b9fd54e2-6b27-4324-b24d-4b1c323a1205")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31279,6 +32803,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4718605b-2f33-4d3f-991c-d938ee4d3dfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/c0005cb6-fb59-46f1-9e9d-3739c5264146")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -31455,6 +32991,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "efa79da0-08e2-4fbe-be8b-8069bb8372a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C237493"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4813136c-e0cc-429b-a125-27f279da8b32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31707,6 +33255,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2653873"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "988e3a4c-660e-436c-b9f7-50860a249272")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -32375,6 +33935,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C108661"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b6a2bf98-f0a5-4777-9f41-f98cbea851a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/36d9667e-3df0-4d87-9c65-6ecbb8839022")
 		(sheetname "/")
@@ -32550,6 +34122,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "53d72efe-2653-4b3a-810e-c8fded8b476b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2073405"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4383a780-dad6-4cb2-a5d8-e2087756e244")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32744,6 +34328,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4caeec21-920c-4a17-8d7a-b1b23b12fe35")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C127367"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0318b0a9-0edc-4c28-b39c-98746b48468d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33148,11 +34744,35 @@
 				)
 			)
 		)
-		(property "MPN" "Q22FA1280010118"
+		(property "MPN" "FA-128 40.0000MF20X-K0"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "85b94898-f271-48b9-ad97-4f111f98c27d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eecc6d3d-3b0a-4c05-be4e-a911b0e236fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Selection Notes" "Orderable Epson FA-128 40MHz, CL10pF, +/-10ppm initial, +/-20ppm temperature, -40..85C, ESR60 ohm. C19/C20 remain16pF."
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b531a35-639b-47aa-b7d3-06422bab8dc4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33444,6 +35064,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C105580"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2578e12-c27c-464d-9dcb-5615522cc647")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0e3ff372-5f82-405f-a22f-e80a70a7b08a")
 		(sheetname "/")
@@ -33632,6 +35264,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d8dfff2c-f65b-46c2-9ea9-6b9919a011a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a7cd2ffb-b515-472b-b71b-4676c0bbf7a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34046,6 +35690,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "95e7e8e3-aad2-4676-b8fc-11e659a2f729")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1dd8c7d9-706e-4f17-8cb2-005a41e99f61")
 		(sheetname "/")
@@ -34221,6 +35877,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ee57894e-404f-45b5-b050-c8d63415403d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8945f783-4c7b-454b-8746-93d033c4c480")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34528,6 +36196,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C22548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "65659fa1-4eb1-4f72-9c61-ecd6282bd9ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/17ea25b4-831c-4ed2-b6ec-91284da6930a")
 		(sheetname "/")
@@ -34715,6 +36395,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "52b45d66-727d-4279-b8e5-ae66df27da1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2979740"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "439399de-6b8d-412e-9f2d-2a0ff40e6e6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35223,6 +36915,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C94514"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e72504a4-bbbe-4f97-b1cb-5de9e28ebbe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/6f93135c-96d7-44cc-a1fb-d99811419ad3")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -35627,6 +37331,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C19653"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea876a38-f021-4444-bf7d-1428bbe127e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/17b18eb5-835c-482e-b84d-5aa0d4c958ff")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -36004,6 +37720,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4a8e8f7a-0a9b-4004-84f3-ff763920c777")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/821a7d6c-5120-4351-bc49-0a5366ac0087")
 		(sheetname "/")
@@ -36192,6 +37920,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eea2066c-7183-451b-9043-72bf7e31ba4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8747ddbb-02ef-4a0d-ba21-1406ab1e9c61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36605,6 +38345,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "13e5acbe-3e6c-47c9-9478-f4006a3add0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3d77315e-041e-4b18-bf0a-f78472c88431")
 		(sheetname "/")
@@ -36792,6 +38544,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b04f7e1a-3b5e-411b-b97a-1178ed5e0cd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "53057f6d-c432-49a4-9b8d-da21a8594ab3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36987,6 +38751,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b1927766-754d-4a5b-bdf3-30fcda42afc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C94514"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f3d20900-b91d-40dd-be7a-8b1d88c4d32e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37399,6 +39175,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bfc4dba1-b152-4084-aef4-e3d7b3199be8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/2f7cb27a-2de5-4e38-826e-06ca4082a538")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -37575,6 +39363,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "150cd777-7e0f-462c-b669-1fbe70c92222")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a2f759f9-6bf8-4184-88fa-d9fd7ee66ecd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37776,6 +39576,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C82601"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fff80f63-cab9-468e-a034-b1e46fcc926a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d35f9b1b-8a0c-42db-835d-a868c1f8d5cb")
 		(sheetname "/")
@@ -37970,6 +39782,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e4f11324-30f7-42f9-8ba7-9940092802a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3abd23f7-3908-48d0-9c1a-88a0d4914ab7")
 		(sheetname "/")
@@ -38157,6 +39981,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "42e394b7-3a18-4f10-ad58-c015c9eea7f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C107701"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6a9bdd6d-e966-4998-bc41-1df58303b5a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38464,6 +40300,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C100042"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a8ac1c64-5767-4f18-9839-a6168223cb62")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c44649d1-5f27-4fbe-866a-fdfca652559f")
 		(sheetname "/")
@@ -38659,6 +40507,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9d5f4b6e-495e-483b-b4ac-fe06ad4b27ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c00e5227-6d97-4227-83da-28f7f6edb173")
 		(sheetname "/")
@@ -38834,6 +40694,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "175f99f5-7f94-485c-86e7-7452386fa991")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C88895"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4ab8d2c1-2584-4793-abf1-a32c9ab10345")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39018,6 +40890,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b463cb5b-77c4-47c0-ad8e-bd4337387468")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C85874"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3a430ff4-d540-4985-a660-ebe6a8e1fe2d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39219,6 +41103,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106246"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fa545aa8-a336-489b-b07d-40084b828fd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f0623b95-a932-4ee8-a922-a7b76919af1c")
 		(sheetname "/")
@@ -39402,6 +41298,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e070cfdc-23e2-4220-a6a2-07439725aab6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/e83eca53-8155-44c8-b73b-aa18836f76e9")
 		(sheetname "/")
@@ -39572,6 +41480,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cf5b71b6-f812-45ab-851c-a12bfa014528")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7f633888-0ba5-46c0-8461-2a901a9c2e43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39819,6 +41739,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1e301884-a20b-4922-b13d-1d70e9ecf4ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4909e9b9-269a-4f1b-a29a-40cdca99e159")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40148,7 +42080,7 @@
 				)
 			)
 		)
-		(property "Value" "REF3025AIDBZR"
+		(property "Value" "REF3025AIDBZT"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "fee1beb9-bb9f-476f-af6f-d5aa6be6fd54")
@@ -40205,7 +42137,7 @@
 				)
 			)
 		)
-		(property "MPN" "REF3025AIDBZR"
+		(property "MPN" "REF3025AIDBZT"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -40217,11 +42149,23 @@
 				)
 			)
 		)
-		(property "Selection Notes" "2.5V reference, SOT23."
+		(property "Selection Notes" "Same REF3025A DBZ SOT-23 device; small-reel T instead of R. 2.5V reference unchanged."
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cf42b9a1-acf7-48ef-b78e-db78515b1c96")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C96625"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9cf02d18-e592-4d89-8132-76fb4617b129")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40647,6 +42591,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C22548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4c042030-d37e-4e29-a4ab-868e9cd33c5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f852557e-2978-4c44-820f-585b87c59388")
 		(sheetname "/")
@@ -40834,6 +42790,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "77f3e2b3-6cca-47c7-8a3f-5fb31df73ec6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b6eae286-dd51-4277-b12d-408754229852")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41029,6 +42997,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5b973dca-5bb9-40c9-920f-b3285b54d316")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9db61b2c-369e-4d67-b47c-7ad287655091")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41442,6 +43422,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C114623"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a2a40b0d-73a3-4577-a98e-d977e37592a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/61ccebe0-9a59-4838-8c8b-4d3b4b54ec38")
 		(sheetname "/")
@@ -41629,6 +43621,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "278d7fa9-bc2b-46b4-90a9-1ff5406db8e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "42f12725-0403-4754-8786-138e6b237158")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42043,6 +44047,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2aa566f1-4585-44db-b223-4f93cc3b388d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a21e17c9-4a36-4ee5-9dfc-cbdf84ba06fb")
 		(sheetname "/")
@@ -42449,6 +44465,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e4bc1784-7f9b-4ec7-b9ef-38339c42de33")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd40dd03-447f-4d46-89a1-a3e9841c8e6a")
 		(sheetname "/")
@@ -42636,6 +44664,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "080fcbff-3e3d-447b-b0bf-fa5f7f500f81")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C114623"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "62b01e88-1ad3-43e8-ad68-79eda3ba1a4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42837,6 +44877,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C107185"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "848a140a-3cfd-4fa7-9b37-27f6258831f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/24ae7e1b-ae79-486f-8ff3-0c8eade06722")
 		(sheetname "/")
@@ -43024,6 +45076,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6b28e482-7d41-4e7d-a6a6-eca6da857c8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1dca02ee-8637-415f-96f3-85858db8416c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43268,6 +45332,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C3001947"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1d172ea5-b824-4433-b0c8-df8bc6d897ff")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -43561,7 +45637,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Peregrine Semiconductor"
+		(property "Manufacturer_Name" "pSemi"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43574,7 +45650,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PE4259"
+		(property "Manufacturer_Part_Number" "PE4259-63"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43635,6 +45711,54 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PE4259-63"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "39e60d27-5e63-4568-b354-d7c0fdaa59cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "pSemi"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0e5e4d5c-9e2b-458a-a9ad-dcfad156da4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C470892"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5bb4de17-3176-4894-9f12-b6f6b880b6c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Selection Notes" "Exact PE4259-63 SC-70-6 ordering code; use3.0V supply and existing divided RF control."
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd1be187-60b9-44a2-819c-6bc4b2580f40")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -44018,6 +46142,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C55266"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9a32a094-1dbd-4592-8d1e-95e4a73fe147")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -44419,6 +46555,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "666800f3-4792-46c1-adb7-d44683f9f07d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a46b8359-bd71-4962-94db-89f7592925b7")
 		(sheetname "/")
@@ -44601,6 +46749,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C167480"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "43f2cada-e424-425f-b963-32ec05d86e33")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/2e2d5a33-ad3e-4f5c-ade2-42e14eb16cd3")
 		(sheetname "/")
@@ -44758,6 +46918,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a47fc3e0-5762-4f13-894d-b7e6971c25df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C703121"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a25af56c-d363-428d-89cb-387e145e3262")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44934,6 +47106,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "50112731-68bd-44b4-913d-58176021f9cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3b0016c0-0431-457f-8f5d-4f8bcaf8aed6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45347,6 +47531,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C107701"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "62ea4b38-2e6c-4ddd-bce3-22cb6e383800")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a88bb02f-a287-46fa-991e-1902421ba9dd")
 		(sheetname "/")
@@ -45534,6 +47730,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e3680030-84fd-4a4c-9a3d-2521e59395f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5c5212e2-b05e-404c-8100-08d73aadf162")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45735,6 +47943,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C844890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cc77b665-e105-4fc4-b164-cc5c19f6b0bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9ce310c5-bc37-4660-ac88-a6bfb3d9c0b8")
 		(sheetname "/")
@@ -45922,6 +48142,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1989a6c6-8369-4cc0-be53-f8c5e0c736b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C237493"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7b612a49-a158-4b96-b40e-380c94ab1d0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46124,6 +48356,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C22548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d32aabd6-95f2-4bed-b95b-b5a9686d4d28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/03fb37ab-81dc-46e7-ad7b-69aff535c283")
 		(sheetname "/")
@@ -46318,6 +48562,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dab6f412-bb72-451a-8c09-ecfa51338294")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3501d201-fcdc-410a-87e5-fdf12c8be784")
 		(sheetname "/")
@@ -46505,6 +48761,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "53dbe6bf-fe6e-4160-9522-7896cff61655")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C133541"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd0a07c6-e30e-4908-994a-ef9b81586aaf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47003,6 +49271,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4d8331f7-1299-4678-bc5f-40c5c3436804")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/cea34c90-aff0-4022-9638-9a0d45c85d11")
 		(sheetname "/")
@@ -47248,6 +49528,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5324edb8-362b-48bf-b83f-57080032e5c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a817becf-623c-4117-ab1e-118ad49c3179")
 		(sheetname "/")
@@ -47435,6 +49727,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3b059c15-5e2a-4945-9834-fbd6e1163d80")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd8e8e2e-ea52-4eaf-b7b0-5c201d2849f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47636,6 +49940,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ad9fdd1-b202-42b6-9e3f-0f984d6cf3bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f96a755f-fae5-4472-9ae4-35641b635842")
 		(sheetname "/")
@@ -47811,6 +50127,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5cec7775-545a-46ac-a927-91222ed0bbdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C76906"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5fa2267d-b121-4d7f-bf68-b5903d513439")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48007,6 +50335,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ed1e5518-1c2e-42d2-acfb-20b7c1f675f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C105588"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e996f2ca-74a5-4fcd-8166-efe10d18ed32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48240,6 +50580,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C3001947"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "77737be9-4915-41fa-857f-4e9bc0826b73")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -48567,6 +50919,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8cabff68-5984-4bcf-ac97-617aa2ead033")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/17ed4ba0-db08-4ab4-99db-f8c906adc860")
 		(sheetname "/")
@@ -48754,6 +51118,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "81d8b264-864e-446f-aad8-c606b7996326")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d582792a-345f-4b79-8c93-897202d5f361")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48949,6 +51325,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d680835e-8950-4574-8e39-f4b3b94cfc6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4e21e7dd-ae72-463d-87ea-3727d32a94b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49202,6 +51590,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "07e7acfc-179e-4e7d-8676-d7774b4fac18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/8864b455-ffc3-439f-bdeb-3ef47b2dc615")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -49378,6 +51778,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "39c07000-23b7-4f9b-ba9a-a043a03e17ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C106246"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aa88056a-84a6-49a7-bcf9-0d111ca53404")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49579,6 +51991,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C137741"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a6d5cff0-c7e4-4124-9903-4fac9135c535")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/57db2da4-5287-4727-a2e3-9ba052bf260e")
 		(sheetname "/")
@@ -49767,6 +52191,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c5ba5782-81ec-4d99-8b48-520a968e6427")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "65ffc3c3-4bb2-47d1-afd3-cdb41da413f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50019,6 +52455,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fb0c03c9-178a-4cc2-87c2-3a74c6a99afa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b125f0c7-7b07-4c4c-a9c1-039d06a8cedc")
 		(sheetname "/")
@@ -50213,6 +52661,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "10b1916e-d228-4cb1-91ee-306231ceed43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b4816095-c0be-471a-997b-679b66f0df62")
 		(sheetname "/")
@@ -50392,6 +52852,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e7d99ca4-c26f-4a39-aa0b-76fb5f092f8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C88373"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6c17babe-b441-4fba-893e-872b35cefe11")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50823,6 +53295,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C85402"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a9a6cb29-0fad-47d9-9ce6-baae0125f5db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SOD?882")
 		(path "/835e6958-b5d7-4747-bae3-d9a5252e9487")
 		(sheetname "/")
@@ -51165,6 +53649,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f0789758-9abb-47aa-9885-7d945d22c430")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/30ef626e-dcfd-4cf7-99fa-a1ff2d8acf15")
 		(sheetname "/")
@@ -51490,7 +53986,7 @@
 				)
 			)
 		)
-		(property "Value" "ADS1115IDGS"
+		(property "Value" "ADS1115IDGST"
 			(at 0 2.45 90)
 			(layer "F.Fab")
 			(uuid "e4bf348a-0515-407b-8781-7944b4e2ac1f")
@@ -51547,7 +54043,7 @@
 				)
 			)
 		)
-		(property "MPN" "ADS1115IDGSR"
+		(property "MPN" "ADS1115IDGST"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -51559,11 +54055,23 @@
 				)
 			)
 		)
-		(property "Selection Notes" "16-bit differential ADC, VSSOP10; +/-2.048V or wider PGA for 96V sensing."
+		(property "Selection Notes" "Same ADS1115 DGS VSSOP-10 device; small-reel T instead of R. No pinout or electrical change."
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d354e2b3-a016-4353-b89e-4ee77bb2c419")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C468683"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "10ee4770-1932-49c7-ad56-f9c67aae0399")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52009,6 +54517,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C844890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "445f60ec-d43b-4b60-8b3a-f521a26d5083")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1d3a8a1-9ce2-4e65-be43-32361cda1d88")
 		(sheetname "/")
@@ -52204,6 +54724,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14675"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a94b3ded-7f64-4a59-a6eb-56b7990c817e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/710337be-0edb-4174-9fea-2cbc065d01ab")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -52380,6 +54912,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "54182a3b-c2f7-43f6-bdde-19e51d4954e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C844890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e44d9632-221f-4f8b-8426-3b5ef571dffa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52575,6 +55119,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bad52a51-2eb4-460e-a6e4-19c57c3de066")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3ba844b5-14f0-48d0-ab7c-1736e84e895f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52988,6 +55544,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C3335811"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f16ca6e6-7c95-4faa-8dcb-af44d64ce14a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a982d160-dda0-47f7-b4b3-0ee07bdc95de")
 		(sheetname "/")
@@ -53278,6 +55846,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "00428d8c-3c6b-432e-92fe-767f6ec12784")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d6e6beaa-2d70-436e-a41d-d2b7d9918727")
 		(sheetname "/")
@@ -53523,6 +56103,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C844890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5a1e1aa8-ae9d-4684-8f76-89a71f1ee320")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/820f3688-a611-4996-a2d2-3a52adfa2b21")
 		(sheetname "/")
@@ -53719,6 +56311,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "767db129-bddf-4925-9759-671a4934c015")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/de60ddcd-431c-4219-b7c1-3b4e28272256")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -53884,6 +56488,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c5ef4d66-1077-4fe0-9b99-2bbbd4ec8cc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C76906"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b2c8007d-7b5c-4c52-a6fd-a918f620527a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54079,6 +56695,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6b356c23-026e-4541-aed5-5f242bbb0c6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C110499"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "754ec7c2-3f50-4de1-be1c-d9b26d3f24db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54503,6 +57131,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C114623"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5fe04081-a9b1-47f9-a2ad-112fc731a3e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/66867256-5dda-444f-bee3-e683e802a0f4")
 		(sheetname "/")
@@ -54686,6 +57326,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eb4a95e8-4a54-4be4-8b89-b9dc16ee5777")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/24388c8f-eb4d-42c8-bb7d-c30a8f6154b3")
 		(sheetname "/")
@@ -54856,6 +57508,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1a1c0f00-99f1-4293-9006-83fdae281960")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cc239187-0ccc-4f74-b89e-3b6a5a6cd68a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55108,6 +57772,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C114636"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d5b381ff-c9f3-4a17-8389-990ec7b379fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f089539a-766c-4bef-9112-a2a297d73961")
 		(sheetname "/")
@@ -55295,6 +57971,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ad58b939-8b47-473d-94f7-3df02f9984a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C47546"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "64f1dcf1-d971-40ff-801a-fb4e10564a2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55721,6 +58409,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e85a170c-2835-4325-8060-458cdde468c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5f82155b-7290-4aea-9c8a-62370b128efd")
 		(sheetname "/")
@@ -55817,16 +58517,16 @@
 			)
 		)
 	)
-	(footprint "Oscillator:Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm"
+	(footprint "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "bedd3586-e120-417e-9ead-6f97a9881cbc")
 		(at 245 184.4 90)
-		(descr "Miniature Crystal Clock Oscillator TG2520 series, https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en")
-		(tags "Miniature Crystal Clock Oscillator TG2520 series SMD SMT")
+		(descr "Miniature Crystal Clock Oscillator ECS 2520MV series, https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf")
+		(tags "Miniature Crystal Clock Oscillator ECS 2520MV series SMD SMT HCMOS")
 		(property "Reference" "Y2"
 			(at -2.575 0 0)
 			(layer "F.SilkS")
-			(uuid "dd4eb8c5-2972-466e-bbfa-f92e11fe4067")
+			(uuid "5335f072-dd50-4375-8fa8-2044d76bffdb")
 			(effects
 				(font
 					(size 1 1)
@@ -55834,10 +58534,11 @@
 				)
 			)
 		)
-		(property "Value" "TG2520SMN 32.0000M-MCGNNM3"
+		(property "Value" "ECS-TXO-25CSMV-320-AN-TR"
 			(at 0 2.5 90)
 			(layer "F.Fab")
-			(uuid "22c815f1-f400-4090-a0d5-bb56da58fa09")
+			(hide yes)
+			(uuid "2d341b8a-2f28-41ee-a0ed-592bca77ccaa")
 			(effects
 				(font
 					(size 1 1)
@@ -55845,12 +58546,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://download.epsondevice.com/td/pdf/app/TG2520SMN_en.pdf"
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-25CSMV.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07d97e23-82c7-4531-bdf5-d76db6b0c11b")
+			(uuid "ea1557b1-dc0b-4de1-bc47-2709ebf2d7d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55863,7 +58564,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40ba52c6-8384-4394-9f4f-e4008dfd765f")
+			(uuid "6b905297-79ac-46df-bf8b-d5aa6a6ca618")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55871,11 +58572,11 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Epson"
+		(property "MPN" "ECS-TXO-25CSMV-320-AN-TR"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "16b237ce-cb70-4dad-adf4-90ea55dc3f75")
+			(uuid "0de38f85-a4e4-4c88-bfbd-88e50711163f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55883,11 +58584,11 @@
 				)
 			)
 		)
-		(property "MPN" "TG2520SMN 32.0000M-MCGNNM3"
+		(property "Manufacturer" "ECS Inc."
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d1f4bd72-89fe-41ff-9304-29246a0a05f4")
+			(uuid "562c1fb0-5eb6-4e36-adaf-ddd4c30288dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55895,11 +58596,11 @@
 				)
 			)
 		)
-		(property "Selection Notes" "32MHz 3.0V TCXO; operating GPIO/TCXO setup required."
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dbe7b4b4-e386-4308-ae49-90fa1e1856d8")
+			(uuid "f2bb2179-2718-4369-83a7-c6bc0028bafd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55907,27 +58608,40 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Oscillator*SMD*SeikoEpson*TG2520*2.5x2.0mm*")
+		(property "Selection Notes" "32MHz clipped sine, +/-0.5ppm stability, -40..85C,1.7..3.465V. Pins1/2 GND,3 OUT,4 VDD. DIO3 stays3.0V;5ms settling. 2.5mA max plus RF switch20uA <4mA DIO3. Do not fit1.8V-only Epson."
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ecca714f-a631-45e8-aec0-9c2a2c7057c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c327a95d-354f-4882-9be5-01f4fd40b75f")
-		(sheetname "/")
-		(sheetfile "rtlm.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "4" "2" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.38 -1.71)
-			(end -1.07 -1.71)
+			(start -0.38 -1.56)
+			(end -1.07 -1.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b9309ddc-f0f7-4054-862b-ca20a21f739e")
+			(uuid "b9646770-afb4-4309-b722-2d6db574bcf5")
+		)
+		(fp_line
+			(start -0.16 -1.36)
+			(end 0.17 -1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "02649ee7-7445-4d3d-adcc-6f5093de3379")
 		)
 		(fp_line
 			(start 1.11 0.32)
@@ -55937,7 +58651,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c239dc7a-72d1-4714-9766-9eedf0463404")
+			(uuid "6ed9fb67-d54d-4116-a1ab-7de69356b74e")
 		)
 		(fp_line
 			(start -1.11 0.32)
@@ -55947,47 +58661,68 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4778676b-b2b3-4376-b2a7-e3de994d482d")
+			(uuid "3a223e7e-7f99-40b2-9aaf-9468ee3bc120")
 		)
 		(fp_line
-			(start 1.45 -1.7)
-			(end 1.45 1.7)
+			(start -0.17 1.36)
+			(end 0.17 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4a36b2e0-a77c-4d0d-9edc-e4f09a541116")
+		)
+		(fp_arc
+			(start -0.38 -1.56)
+			(mid -0.246393 -1.485967)
+			(end -0.16 -1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7f180b72-c7bf-46ed-80bc-a4f62759b36d")
+		)
+		(fp_line
+			(start 1.38 -1.63)
+			(end 1.38 1.63)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "af63cf87-859b-45d4-9788-7736d78cb79c")
+			(uuid "1a268eeb-3bbb-4367-ada1-fcc56dfca17e")
 		)
 		(fp_line
-			(start -1.45 -1.7)
-			(end 1.45 -1.7)
+			(start -1.38 -1.63)
+			(end 1.38 -1.63)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f3b9bd45-a575-4ca6-9ce3-18f4bcf66a81")
+			(uuid "8381e966-3f41-46dc-8d17-69d78b0ad8db")
 		)
 		(fp_line
-			(start -1.45 -1.7)
-			(end -1.45 1.7)
+			(start -1.38 -1.63)
+			(end -1.38 1.63)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "80375b90-98b4-4c1d-a76d-090c7162b01f")
+			(uuid "ebf304c4-d25b-436f-a210-4c80bd468a43")
 		)
 		(fp_line
-			(start -1.45 1.7)
-			(end 1.45 1.7)
+			(start -1.38 1.63)
+			(end 1.38 1.63)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "90315050-c98a-458b-af73-df39cc09219d")
+			(uuid "f6791ac1-7220-45e5-929f-2e0b03d702b4")
 		)
 		(fp_line
 			(start 1 -1.25)
@@ -55997,7 +58732,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b6536a87-b5bd-4fd5-87e9-44b3331d174d")
+			(uuid "659a50cc-33b3-4b83-823f-0b94124c02dd")
 		)
 		(fp_line
 			(start -0.5 -1.25)
@@ -56007,7 +58742,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3355ded4-37f6-4101-8e86-8a53616578b1")
+			(uuid "5b1a6065-65ed-48aa-b8ee-39f214380a2b")
 		)
 		(fp_line
 			(start -1 -0.75)
@@ -56017,7 +58752,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a78ec025-ddbf-4d4c-9975-fc1e31f84f56")
+			(uuid "f9a2530c-d896-4fd8-8650-22511e935b31")
 		)
 		(fp_line
 			(start -1 -0.75)
@@ -56027,7 +58762,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e4fc1580-8bd5-4fc9-8d1b-c5be1691e61b")
+			(uuid "cffc6e8d-fe83-4d07-a0d6-d95beb68a12d")
 		)
 		(fp_line
 			(start -1 1.25)
@@ -56037,12 +58772,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "09dbf29c-588b-4b44-81e0-8c7b21d37da0")
+			(uuid "4cdb5d3f-e0ce-44ca-8fde-429541d70ca3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "d23ae701-b726-4e0e-84c7-683a15213dc9")
+			(uuid "febffb76-9e85-48c2-91ed-8f0d68e01c1e")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -56051,78 +58786,39 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7 -1.05 90)
-			(size 1 0.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "unconnected-(Y2-NC-Pad1)")
-			(pinfunction "NC_1")
-			(pintype "no_connect")
-			(uuid "d6d497e0-43da-4a8e-9c9b-4689650072e7")
-		)
-		(pad "2" smd roundrect
-			(at -0.7 1.05 90)
-			(size 1 0.8)
+			(at -0.725 -0.925 90)
+			(size 0.8 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "GND_2")
-			(pintype "power_in")
-			(uuid "c89fcc87-c913-404d-b312-eb773a92c64d")
+			(uuid "834bfe7c-d3ab-4a89-9a6f-23aa80e5ee8d")
+		)
+		(pad "2" smd roundrect
+			(at -0.725 0.925 90)
+			(size 0.8 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "21298801-83b4-4807-9c41-de484c73ce2f")
 		)
 		(pad "3" smd roundrect
-			(at 0.7 1.05 90)
-			(size 1 0.8)
+			(at 0.725 0.925 90)
+			(size 0.8 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(Y2-OUT)")
-			(pinfunction "OUT_3")
-			(pintype "output")
-			(uuid "1e705e33-b38c-40a4-b0aa-7ba85d39472b")
+			(uuid "299db395-fa6f-4f8c-8334-08d82e0125ef")
 		)
 		(pad "4" smd roundrect
-			(at 0.7 -1.05 90)
-			(size 1 0.8)
+			(at 0.725 -0.925 90)
+			(size 0.8 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/TCXO_3V0")
-			(pinfunction "Vcc_4")
-			(pintype "power_in")
-			(uuid "2809c1f9-1acd-4c9e-a5e0-429ef8cc2658")
-		)
-		(zone
-			(layers "F.Cu" "F.SilkS")
-			(uuid "7a491801-e5cc-495a-b640-1c7b5cbcfeae")
-			(hatch edge 0.508)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.254)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour not_allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.508)
-				(thermal_bridge_width 0.508)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 243.7 184.55) (xy 243.7 184.25) (xy 244.4 184.25) (xy 244.4 183.4) (xy 245.6 183.4) (xy 245.6 184.25)
-					(xy 246.25 184.25) (xy 246.25 184.55) (xy 245.6 184.55) (xy 245.6 185.4) (xy 244.4 185.4) (xy 244.4 184.55)
-				)
-			)
+			(uuid "4b72c0a5-7462-448b-aefa-08712295f82d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -56226,6 +58922,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0315e433-b2c7-44f2-bca9-ce0633711700")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "098f76b2-7741-41a4-ab12-782037b1f684")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56480,6 +59188,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14675"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bcef119a-1ccd-46c1-bddb-41474751210b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/011c8d97-c32d-4b33-be22-a800d54c55ed")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -56706,6 +59426,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C3001947"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "db10b1e1-4d6e-4728-8a10-395aea94c846")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -57033,6 +59765,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C105580"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ae1e44a6-c425-4d89-ac89-2ee88e722906")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/47e67066-dc31-47fc-a163-20f38f0e6758")
 		(sheetname "/")
@@ -57220,6 +59964,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3977af4c-cb03-41f5-b0cb-703dc39e71ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "895ccd83-c5c7-47a9-ad91-911831f0cd77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57421,6 +60177,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "46057ed6-8406-4e47-aa63-bca0f3aed804")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9a3ee073-af92-490c-89e2-840d493e1118")
 		(sheetname "/")
@@ -57608,6 +60376,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4040526e-51f7-4929-a653-6e14a203342e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C192562"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "11cafc75-4dc9-4171-a9a2-d5c085b6e7c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57979,6 +60759,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C22548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ce5b8183-bcdd-4a42-98b1-1e5c0f40af9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c878272d-e9cc-4ab8-9d1d-85843ffceaab")
 		(sheetname "/")
@@ -58167,6 +60959,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c1a94fb1-3f40-40a3-a857-aa834f216ec9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5bdabac8-5e5e-441c-9dee-a11b6ff444f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58368,6 +61172,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C5578739"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3ba88a42-d764-4cda-920c-7e952ff1a266")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2763a785-f84f-4f0b-b040-c1f8c0423b6e")
 		(sheetname "/")
@@ -58562,6 +61378,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C237493"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "de359025-633b-4c0f-9ac6-4f9eeba78e28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/df6554ef-1f73-4fbe-af4b-f8598c6433de")
 		(sheetname "/")
@@ -58686,7 +61514,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -58720,7 +61548,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "KOA Speer"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -58732,11 +61560,35 @@
 				)
 			)
 		)
-		(property "MPN" "TNPW060316K4BEEA"
+		(property "MPN" "RN73R1JTTD1642B25"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4be80f9c-ce10-4c9c-a8c2-c9199e170324")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1106aa50-9734-43bd-831b-f2b351a7b6bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Selection Notes" "16.4k 0.1% 25ppm/K, 0603, 0.1W/75V. Same divider value; normal <40uW, one-leg-open <150uW. Preserve both parallel lower legs."
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a8089875-81bd-4772-85aa-ad846d40b9a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58932,6 +61784,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e36e9416-4f20-43a0-be9d-e3f535ca49ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5875754"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a56da417-6454-4d43-abee-2db67002e929")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59171,6 +62035,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "970007a9-97ab-4074-b726-093d92ad65e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C3235557"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f9a51b27-37f0-4102-bd82-46e0cd9f1b79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59516,6 +62392,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "43a225d8-5562-4948-8664-89817a9e11ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C122413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "23ca498a-2c59-4ba0-a4a7-169863b9eda7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59929,6 +62817,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a22123fc-de27-44fb-91fa-bb8de1c0428e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ef7d0809-c1d2-45a3-9518-35c988077313")
 		(sheetname "/")
@@ -60174,6 +63074,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C55266"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bf7a5b48-d92c-4c9b-933d-4560e76d6955")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -60575,6 +63487,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d6f7c0b3-388e-430d-90de-d15216483563")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c65e029e-e9d7-4075-96a4-21865db427f2")
 		(sheetname "/")
@@ -60763,6 +63687,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "76f55154-519a-443b-b3a1-43b30b39f44d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C22548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "be67dd61-1e9e-4a59-b763-ee53cc28f78e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60964,6 +63900,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "356255a8-2c84-40f3-b56a-1295720789f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bf90a83d-55ac-48e6-b34a-bcebce101525")
 		(sheetname "/")
@@ -61151,6 +64099,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d4bee08c-6c60-4aca-91ca-ae4fcb4569d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C100042"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2b26b352-46c9-4f78-8a35-94b1958925f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61346,6 +64306,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5f2b1918-6f03-4607-b4b4-a4e8013a51fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C337502"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6f621d69-5908-4962-b19c-60a7dc13f2e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62032,6 +65004,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2913196"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b5e4c0f3-8a5d-4a93-86c9-2b92682576d3")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -62840,6 +65824,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0437272a-e34b-4e0e-8be5-358e1cb58496")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/910c3ec0-d3f9-41d2-b85a-573eb5cae090")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -63004,6 +66000,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1ef9c5f7-ecd2-499b-87bf-3e2cd7541d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C88891"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8fbb3563-3411-45a7-8083-b4fb852a2e6b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63205,6 +66213,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C185354"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f76dfafe-3332-429a-935a-5b8ddc84c63f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2e37f33f-5915-455a-9789-4827287d4cad")
 		(sheetname "/")
@@ -63387,6 +66407,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a068d57a-ea1e-40e5-8164-eb1034a70f08")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/6aac4a0f-999b-49cf-89d2-ca542c87ad20")
 		(sheetname "/")
@@ -63544,6 +66576,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7fc2cba5-3423-46d5-9193-494cb4076a2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C86816"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "488bfc69-f001-4537-95cb-501a722ba5f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63745,6 +66789,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106858"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f8b800a0-08ac-4c7f-b417-774f30e4f333")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6325990c-927b-4032-bf15-d77de75e0749")
 		(sheetname "/")
@@ -63932,6 +66988,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "762046e8-4e05-42e0-8f89-0d8afa464570")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "58c40897-e495-416a-9553-b30ae4e6afc4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64133,6 +67201,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C114662"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "63f6bdc3-e2f5-4184-aac6-decfa4e4f14d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/859aa4da-5cb9-420b-b3c9-81207ba8ed74")
 		(sheetname "/")
@@ -64316,6 +67396,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C19330"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d05af4f4-92bf-4ef5-8a98-28529f2b324b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/18642f86-b1da-4982-a59b-b3bbb269065a/f8c15e25-0acf-4f6e-9393-da4ad93d85e2")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -64492,6 +67584,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "189460f4-9d52-4bd4-bd3a-c98c2b0b5bea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C844890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "31e79cf4-cb43-43f5-a705-e6e1234d2726")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64686,6 +67790,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "77ce63f3-4844-4ae8-8acc-73345e52e090")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C114623"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b71131ba-6c74-4b93-9265-f3c1e55234e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64938,6 +68054,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C124014"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9180dbba-0f8d-4912-bd49-bd8715eb82ff")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -65359,6 +68487,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C137714"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d4a7aa3e-c04d-4d26-bf49-8cbdcc2a04f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/793db592-f76d-4c30-b234-0e43f67b3fa8")
 		(sheetname "/")
@@ -65546,6 +68686,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7e2f15c9-373d-4c98-8da2-8121434bd70a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "345b4635-941a-430e-853f-b6ec1f9ed8bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65747,6 +68899,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "31169434-86cf-4364-8132-83d931348792")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1388fa14-e199-4c66-8443-1298039bbf22")
 		(sheetname "/")
@@ -65934,6 +69098,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "23ad38f5-5827-47aa-9788-f96ea783ee7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C22548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "955d3cb3-b333-430d-b110-adc6af4fc171")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66135,6 +69311,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C22548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3084e18b-6d22-43b2-8f29-5d8f3dc76615")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5a88a8ce-6cb0-4050-9c72-44437aa8d891")
 		(sheetname "/")
@@ -66329,6 +69517,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C844890"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "147bf231-6295-4b91-8c41-d1a16b606c1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fb046a52-5f8a-476a-b942-770879d39a00")
 		(sheetname "/")
@@ -66516,6 +69716,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "491f8192-2c42-42e6-99e9-44674ba860d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C131394"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "88e5f870-a9bb-454b-a200-2bf3ceb27197")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66719,6 +69931,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14675"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b80ef362-83fc-4d14-a56c-211b1403f29a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a2d266cc-7d15-4a4c-880d-ed72e14aae64")
 		(sheetname "/")
@@ -66906,6 +70130,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "605d0e38-c1bc-49c7-a441-59e190b5878c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C106222"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dbb9c624-f34f-4f53-94d8-5fcb90673334")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67107,6 +70343,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d431157e-d997-4511-b2ca-77058e8a5adb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/59390afa-36cc-42d7-80c2-1ef486d93c5c")
 		(sheetname "/")
@@ -67294,6 +70542,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9fc56882-d8d3-458b-8eb9-dee82c4afec5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d329816e-d9bd-4b36-8a55-08e6330e99c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67495,6 +70755,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C106246"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "76ff2bb9-21b5-43b5-8347-c48f4e6fa731")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7ecbb46a-df85-4909-ae4d-627cd1db094c")
 		(sheetname "/")
@@ -67689,6 +70961,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2ed7e34b-8918-4475-a570-7b96ee33195f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/cd413b1a-0975-4a08-8077-7b076872e06f")
 		(sheetname "/")
@@ -67813,7 +71097,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0752K3L"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23198"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -67847,7 +71131,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Royal Ohm"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -67859,7 +71143,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0752K3L"
+		(property "MPN" "0603WAF5232T5E"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -67871,11 +71155,23 @@
 				)
 			)
 		)
-		(property "Selection Notes" "1% standard thick film; 0Ohm jumper where value is zero."
+		(property "Selection Notes" "52.3k +/-1%,0603,0.1W,100ppm/K,75V; same value and ratings as original Yageo. Stocked sourcing alternative."
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "78e72445-ae98-410f-af73-537b3e0cd520")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C23198"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "12061218-8615-4617-ac02-9ccef7dfe14e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68077,6 +71373,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "184fb394-4a62-43f7-ae13-caa54cc9effd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7b8b3553-c239-474e-a2b4-5e4085a88942")
 		(sheetname "/")
@@ -68271,6 +71579,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e169b46b-e4c6-401b-b80f-29dcd89951fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ca3484e4-5626-4d6f-9d04-37d388a20318")
 		(sheetname "/")
@@ -68458,6 +71778,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f70a1afc-6351-4f46-8882-ad2de8deb059")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C191341"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2a5e36cf-0e4a-4784-b6f6-c8140340b041")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69188,6 +72520,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C98220"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "51b68c7a-f264-4daa-904c-cbfe27264a8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7006dca2-7b1a-48cb-b243-6de5fdabdc4f")
 		(sheetname "/")
@@ -69368,6 +72712,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d55dea9e-adf9-41da-a555-34f680b8ec49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C130023"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "588b5746-9de6-4237-9513-f06b3dfbc977")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69678,6 +73034,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f77388ab-71ca-4624-938a-12b24ca9e87a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/28044193-6f06-4f3a-9ea5-8894deacdaff")
 		(sheetname "/")
@@ -69865,6 +73233,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "da90c4df-da9a-4ebe-b05a-cef956eb3b11")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dbbd0756-f003-49f7-891b-ad89167a8da1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70066,6 +73446,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C113881"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3aa5b519-8e81-4b3e-85d3-f032faec85fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9b7dae76-8114-4c30-b9c8-b0e77d8d1730")
 		(sheetname "/")
@@ -70253,6 +73645,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9930a9ab-60b0-4294-b079-da9cd7e0b7a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2c3b930b-58ed-4ca0-9534-9f7c7157fa5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70448,6 +73852,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5819c38c-91f2-41f5-8441-3f9ad35f654a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C131394"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "037e0f68-a1af-492c-93dd-1c2f540044ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70692,6 +74108,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C3001947"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5b5561c2-50e3-4d71-af5a-365c112111e5")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -71019,6 +74447,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C114662"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "88029bda-173a-4a32-8d3a-723bbfafdcdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bd2fbbbc-3a99-45ed-9fc4-26c862d51901")
 		(sheetname "/")
@@ -71207,6 +74647,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d11d90b2-7ba9-4d3b-8b38-0fcb8358972c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C114669"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87861f24-6c25-493e-9d56-b3ad5fc8ea3c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71507,6 +74959,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "656928ee-0964-4146-80d4-c3909e7a4f2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C14675"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aa8eb86c-cc20-4ff0-beb9-ea869e319a99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72086,6 +75550,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b3497435-e916-4103-8051-5cb10ce5fc9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/17802fef-2aec-4705-a92f-eb6b7b761114")
 		(sheetname "/")
@@ -72262,6 +75738,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "adb1426e-c75e-458f-8172-3e7d69689422")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C86816"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "51158de1-4467-4014-912b-c867003af020")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72492,6 +75980,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2058000"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "169177ed-48c0-4d5e-b69c-d219ac3c924a")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -72896,6 +76396,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0d267d52-1295-46b2-87ce-ad891019fb01")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/406d62fe-b7f6-48d6-afa8-687c10a55172")
 		(sheetname "/")
@@ -73090,6 +76602,18 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C100042"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d357cd5f-f10d-4131-a9d8-7c470d781fd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c04a2c19-bc99-4c44-9f26-873d671cea38")
 		(sheetname "/")
@@ -73277,6 +76801,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f3270ba9-deff-4520-990f-85c3f1a26a30")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C99782"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ec8816d5-8ffc-4320-840d-4f6bac8f534e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75034,6 +78570,14 @@
 		(uuid "3b8f4650-c051-47c9-a152-a146151c8f79")
 	)
 	(segment
+		(start 244 185.2)
+		(end 244 186.6)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "3c242826-c289-42b3-87de-d3d5f64b7fd7")
+	)
+	(segment
 		(start 258.5 244)
 		(end 257.7 244)
 		(width 0.35)
@@ -75392,6 +78936,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "63d3be1d-5c11-42f4-ba68-8f32e87cb77e")
+	)
+	(segment
+		(start 244.075 185.125)
+		(end 244 185.2)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "63ecf8f4-58d5-487c-9501-21682a1aae33")
 	)
 	(segment
 		(start 292.25 200.95)
@@ -96146,54 +99698,6 @@
 		(uuid "e702c8a0-301e-4e42-92b4-04245adb2e94")
 	)
 	(segment
-		(start 242.55 183.7)
-		(end 243.95 183.7)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/TCXO_3V0")
-		(uuid "5360bc26-1be4-43e5-ba12-1b49e5ebe7bd")
-	)
-	(segment
-		(start 243.95 183.45)
-		(end 243.95 183.7)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/TCXO_3V0")
-		(uuid "7078f39a-6c5a-4dbb-853e-bcd382b343e8")
-	)
-	(segment
-		(start 240.9125 181.6)
-		(end 240.9125 182)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/TCXO_3V0")
-		(uuid "7ef3b538-0247-422d-a254-de0784f8bf3d")
-	)
-	(segment
-		(start 241.4125 182.5)
-		(end 243 182.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/TCXO_3V0")
-		(uuid "db0796c2-be3b-433a-8722-c1d11cf3cef6")
-	)
-	(segment
-		(start 243 182.5)
-		(end 243.95 183.45)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/TCXO_3V0")
-		(uuid "de5d6273-75d2-4e7e-8d18-3b243773f9cd")
-	)
-	(segment
-		(start 240.9125 182)
-		(end 241.4125 182.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "/TCXO_3V0")
-		(uuid "ec446cf2-8181-45b0-8463-2d8422976c83")
-	)
-	(segment
 		(start 265 179.75)
 		(end 265 178.075)
 		(width 0.2)
@@ -97890,6 +101394,54 @@
 		(uuid "ed776aaa-4cef-41c1-b106-054f7ca72179")
 	)
 	(segment
+		(start 242.55 183.7)
+		(end 243.95 183.7)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/TCXO_3V0")
+		(uuid "5360bc26-1be4-43e5-ba12-1b49e5ebe7bd")
+	)
+	(segment
+		(start 243.95 183.45)
+		(end 243.95 183.7)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/TCXO_3V0")
+		(uuid "7078f39a-6c5a-4dbb-853e-bcd382b343e8")
+	)
+	(segment
+		(start 240.9125 181.6)
+		(end 240.9125 182)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/TCXO_3V0")
+		(uuid "7ef3b538-0247-422d-a254-de0784f8bf3d")
+	)
+	(segment
+		(start 241.4125 182.5)
+		(end 243 182.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/TCXO_3V0")
+		(uuid "db0796c2-be3b-433a-8722-c1d11cf3cef6")
+	)
+	(segment
+		(start 243 182.5)
+		(end 243.95 183.45)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/TCXO_3V0")
+		(uuid "de5d6273-75d2-4e7e-8d18-3b243773f9cd")
+	)
+	(segment
+		(start 240.9125 182)
+		(end 241.4125 182.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/TCXO_3V0")
+		(uuid "ec446cf2-8181-45b0-8463-2d8422976c83")
+	)
+	(segment
 		(start 379.25 253)
 		(end 379.25 255)
 		(width 0.2)
@@ -97985,33 +101537,45 @@
 				(xy 242.201842 184.263851) (xy 242.201843 184.263852) (xy 242.327181 184.30771) (xy 242.354619 184.310282)
 				(xy 242.356923 184.310499) (xy 242.356928 184.3105) (xy 242.356934 184.3105) (xy 242.743072 184.3105)
 				(xy 242.743075 184.310499) (xy 242.772819 184.30771) (xy 242.898157 184.263852) (xy 243.004999 184.184999)
-				(xy 243.019234 184.16571) (xy 243.069002 184.130119) (xy 243.098889 184.1255) (xy 243.193892 184.1255)
-				(xy 243.252083 184.144407) (xy 243.286649 184.189901) (xy 243.299071 184.223207) (xy 243.306204 184.242332)
-				(xy 243.379821 184.340671) (xy 243.399558 184.398586) (xy 243.381484 184.457041) (xy 243.379821 184.459329)
-				(xy 243.306202 184.55767) (xy 243.25591 184.692511) (xy 243.255909 184.692517) (xy 243.249895 184.748459)
-				(xy 243.2495 184.752129) (xy 243.2495 185.447866) (xy 243.249501 185.44787) (xy 243.255908 185.50748)
-				(xy 243.255909 185.507485) (xy 243.306202 185.642329) (xy 243.388613 185.752415) (xy 243.392454 185.757546)
-				(xy 243.392457 185.757548) (xy 243.392458 185.757549) (xy 243.50767 185.843797) (xy 243.642511 185.894089)
-				(xy 243.642512 185.894089) (xy 243.642517 185.894091) (xy 243.702127 185.9005) (xy 244.197872 185.900499)
-				(xy 244.257483 185.894091) (xy 244.373708 185.850742) (xy 244.392329 185.843797) (xy 244.392329 185.843796)
-				(xy 244.392331 185.843796) (xy 244.507546 185.757546) (xy 244.593796 185.642331) (xy 244.597508 185.63238)
-				(xy 244.644089 185.507488) (xy 244.64409 185.507485) (xy 244.644091 185.507483) (xy 244.646141 185.488416)
-				(xy 244.671161 185.43258) (xy 244.724222 185.402114) (xy 244.744574 185.4) (xy 245.599999 185.4)
-				(xy 245.6 185.4) (xy 245.6 184.649) (xy 245.618907 184.590809) (xy 245.668407 184.554845) (xy 245.699 184.55)
-				(xy 246.249999 184.55) (xy 246.25 184.55) (xy 246.25 184.549999) (xy 246.275 184.524999) (xy 246.329516 184.497221)
-				(xy 246.334403 184.496571) (xy 246.357483 184.494091) (xy 246.450685 184.459329) (xy 246.492329 184.443797)
-				(xy 246.492329 184.443796) (xy 246.492331 184.443796) (xy 246.607546 184.357546) (xy 246.693796 184.242331)
-				(xy 246.71518 184.184999) (xy 246.744089 184.107488) (xy 246.744088 184.107488) (xy 246.744091 184.107483)
-				(xy 246.7505 184.047873) (xy 246.750499 183.352128) (xy 246.744091 183.292517) (xy 246.737371 183.2745)
-				(xy 246.693797 183.15767) (xy 246.607549 183.042458) (xy 246.607548 183.042457) (xy 246.607546 183.042454)
-				(xy 246.607541 183.04245) (xy 246.492333 182.956204) (xy 246.486121 182.952813) (xy 246.486939 182.951314)
-				(xy 246.445859 182.918683) (xy 246.429468 182.859734) (xy 246.450857 182.802409) (xy 246.493779 182.771229)
-				(xy 246.567331 182.743796) (xy 246.682546 182.657546) (xy 246.768796 182.542331) (xy 246.819091 182.407483)
-				(xy 246.8255 182.347873) (xy 246.825499 181.852128) (xy 246.819091 181.792517) (xy 246.768796 181.657669)
-				(xy 246.768795 181.657667) (xy 246.752404 181.635771) (xy 246.732667 181.577856) (xy 246.750741 181.519402)
-				(xy 246.761647 181.506444) (xy 247.72048 180.547613) (xy 247.720483 180.547608) (xy 247.773205 180.456292)
-				(xy 247.773205 180.45629) (xy 247.773207 180.456288) (xy 247.8005 180.354427) (xy 247.8005 180.248973)
-				(xy 247.8005 178.34608) (xy 247.819407 178.287889) (xy 247.868907 178.251925) (xy 247.930093 178.251925)
+				(xy 243.019234 184.16571) (xy 243.069002 184.130119) (xy 243.098889 184.1255) (xy 243.337764 184.1255)
+				(xy 243.395955 184.144407) (xy 243.417017 184.165171) (xy 243.466883 184.231784) (xy 243.467454 184.232546)
+				(xy 243.467457 184.232548) (xy 243.467458 184.232549) (xy 243.58267 184.318797) (xy 243.717511 184.369089)
+				(xy 243.717512 184.369089) (xy 243.717517 184.369091) (xy 243.777127 184.3755) (xy 244.372872 184.375499)
+				(xy 244.432483 184.369091) (xy 244.514148 184.338632) (xy 244.567329 184.318797) (xy 244.567329 184.318796)
+				(xy 244.567331 184.318796) (xy 244.682546 184.232546) (xy 244.768796 184.117331) (xy 244.776785 184.095913)
+				(xy 244.819089 183.982488) (xy 244.81909 183.982485) (xy 244.819091 183.982483) (xy 244.8255 183.922873)
+				(xy 244.825499 183.427128) (xy 244.819091 183.367517) (xy 244.784398 183.2745) (xy 244.768797 183.23267)
+				(xy 244.682549 183.117458) (xy 244.682548 183.117457) (xy 244.682546 183.117454) (xy 244.665366 183.104593)
+				(xy 244.567329 183.031202) (xy 244.432488 182.98091) (xy 244.432483 182.980909) (xy 244.432481 182.980908)
+				(xy 244.432477 182.980908) (xy 244.401249 182.97755) (xy 244.372873 182.9745) (xy 244.37287 182.9745)
+				(xy 244.117256 182.9745) (xy 244.059065 182.955593) (xy 244.047252 182.945504) (xy 243.759289 182.657541)
+				(xy 243.261263 182.159515) (xy 243.26126 182.159513) (xy 243.240319 182.147422) (xy 243.199379 182.101951)
+				(xy 243.192985 182.041101) (xy 243.197721 182.025373) (xy 243.215479 181.980346) (xy 243.2255 181.896902)
+				(xy 243.2255 181.7745) (xy 243.244407 181.716309) (xy 243.293907 181.680345) (xy 243.3245 181.6755)
+				(xy 245.18344 181.6755) (xy 245.241631 181.694407) (xy 245.277595 181.743907) (xy 245.279325 181.786117)
+				(xy 245.281571 181.786359) (xy 245.2745 181.852129) (xy 245.2745 182.347866) (xy 245.274501 182.34787)
+				(xy 245.280908 182.40748) (xy 245.280909 182.407485) (xy 245.331202 182.542329) (xy 245.41745 182.657541)
+				(xy 245.417454 182.657546) (xy 245.532669 182.743796) (xy 245.610097 182.772674) (xy 245.65801 182.810723)
+				(xy 245.6745 182.865432) (xy 245.6745 182.88048) (xy 245.655593 182.938671) (xy 245.606093 182.974635)
+				(xy 245.586083 182.978913) (xy 245.567518 182.980908) (xy 245.567514 182.980909) (xy 245.43267 183.031202)
+				(xy 245.317458 183.11745) (xy 245.31745 183.117458) (xy 245.231202 183.23267) (xy 245.18091 183.367511)
+				(xy 245.180908 183.367522) (xy 245.1745 183.427129) (xy 245.1745 183.922866) (xy 245.174501 183.92287)
+				(xy 245.180908 183.98248) (xy 245.180909 183.982485) (xy 245.231202 184.117329) (xy 245.317407 184.232483)
+				(xy 245.317454 184.232546) (xy 245.317457 184.232548) (xy 245.317458 184.232549) (xy 245.43267 184.318797)
+				(xy 245.567511 184.369089) (xy 245.567512 184.369089) (xy 245.567517 184.369091) (xy 245.627127 184.3755)
+				(xy 246.222872 184.375499) (xy 246.282483 184.369091) (xy 246.364148 184.338632) (xy 246.417329 184.318797)
+				(xy 246.417329 184.318796) (xy 246.417331 184.318796) (xy 246.532546 184.232546) (xy 246.618796 184.117331)
+				(xy 246.626785 184.095913) (xy 246.669089 183.982488) (xy 246.66909 183.982485) (xy 246.669091 183.982483)
+				(xy 246.6755 183.922873) (xy 246.675499 183.427128) (xy 246.669091 183.367517) (xy 246.634398 183.2745)
+				(xy 246.618797 183.23267) (xy 246.532549 183.117458) (xy 246.532548 183.117457) (xy 246.532546 183.117454)
+				(xy 246.46517 183.067016) (xy 246.429918 183.017007) (xy 246.4255 182.987763) (xy 246.4255 182.865432)
+				(xy 246.444407 182.807241) (xy 246.489902 182.772674) (xy 246.567331 182.743796) (xy 246.682546 182.657546)
+				(xy 246.768796 182.542331) (xy 246.819091 182.407483) (xy 246.8255 182.347873) (xy 246.825499 181.852128)
+				(xy 246.819091 181.792517) (xy 246.768796 181.657669) (xy 246.768795 181.657667) (xy 246.752404 181.635771)
+				(xy 246.732667 181.577856) (xy 246.750741 181.519402) (xy 246.761647 181.506444) (xy 247.72048 180.547613)
+				(xy 247.720483 180.547608) (xy 247.773205 180.456292) (xy 247.773205 180.45629) (xy 247.773207 180.456288)
+				(xy 247.8005 180.354427) (xy 247.8005 180.248973) (xy 247.8005 178.34608) (xy 247.819407 178.287889)
+				(xy 247.868907 178.251925) (xy 247.930093 178.251925)
 			)
 		)
 		(filled_polygon
