@@ -682,7 +682,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "specctra_dsn": "../../../../../../../Desktop/rtlm.dsn",
       "step": "",
       "vrml": ""
