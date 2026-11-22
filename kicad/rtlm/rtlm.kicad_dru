@@ -1,0 +1,73 @@
+(version 1)
+
+# Six-layer stack: F.Cu signals / In1.Cu GND / In2.Cu +3.3V /
+# In3.Cu split 5 V rails / In4.Cu GND / B.Cu signals.
+# Keep inner copper continuous for planes. Through-vias, pads, and zones
+# remain allowed; their normal clearance and keepout rules still apply.
+# Freerouting layer restrictions must also be configured independently.
+(rule "Inner copper reserved for planes"
+  (layer inner)
+  (severity error)
+  (constraint disallow track))
+
+# USB: JLC06161H-3313, 1 oz outer, 0.0994 mm to adjacent GND.
+# JLC masked non-coplanar differential calculation: 90 ohm,
+# 6.05 mil width = 0.15367 mm; use 0.154 mm, 0.200 mm edge gap.
+# These are layout dimensions, not a fabricated-impedance guarantee.
+# Keep same-layer copper away from the pair; recalculate for coplanar routing.
+(rule "USB 90 ohm trace width both sides of series resistors"
+  (condition "A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN'")
+  (constraint track_width (min 0.154mm) (opt 0.154mm) (max 0.154mm)))
+
+# Pair-gap checks apply to both recognized USB pairs.
+(rule "USB 90 ohm differential gap"
+  (condition "A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN'")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 0.205mm)))
+
+# +/-5um numeric placement tolerance on the .200mm nominal gap.
+# Short pad fanouts and the short layer crossover are not uniform-impedance lines.
+# Windows enclose whole short segments, so the long pair stays constrained.
+
+(rule "USB_J1_fanout short escape only"
+  (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN') && A.enclosedByArea('USB_J1_fanout')")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 0.65mm)))
+
+(rule "USB_ESD_fanout short escape only"
+  (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN') && A.enclosedByArea('USB_ESD_fanout')")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 1.05mm)))
+
+(rule "USB_crossover short escape only"
+  (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN') && A.enclosedByArea('USB_crossover')")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 1.45mm)))
+
+(rule "USB_series_fanout short escape only"
+  (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN' || A.NetName == '/USB_MCU_DP' || A.NetName == '/USB_MCU_DN') && A.enclosedByArea('USB_series_fanout')")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 1.45mm)))
+
+# 96 V maximum input: explicit PCB engineering clearance targets.
+# These do not certify creepage, transients, harness faults or case insulation.
+(rule "Pack positive high-voltage copper"
+  (condition "A.NetName == '/PACK_POS' || A.NetName == '/PACK_POS_FUSED' || B.NetName == '/PACK_POS' || B.NetName == '/PACK_POS_FUSED'")
+  (constraint clearance (min 1.0mm)))
+(rule "Divider midpoint voltage clearance"
+  (condition "A.NetName == 'Net-(R82-Pad2)' || B.NetName == 'Net-(R82-Pad2)'")
+  (constraint clearance (min 0.6mm)))
+
+# Maintain the AMC3330 8mm isolation barrier for all pack-domain copper.
+(rule "Pack to logger isolation barrier"
+  (condition "((A.NetName == '/HLDO_OUT' || A.NetName == '/PACK_NEG' || A.NetName == '/PACK_POS' || A.NetName == '/PACK_POS_FUSED' || A.NetName == '/PACK_V_SENSE' || A.NetName == '/VMON_ISO_SUPPLY' || A.NetName == '/PACK_DIVIDED' || A.NetName == 'Net-(R82-Pad2)' || A.NetName == 'unconnected-(J19-Pin_2-Pad2)' || A.NetName == 'unconnected-(U8-NC-Pad4)') && B.NetName != '' && !(B.NetName == '/HLDO_OUT' || B.NetName == '/PACK_NEG' || B.NetName == '/PACK_POS' || B.NetName == '/PACK_POS_FUSED' || B.NetName == '/PACK_V_SENSE' || B.NetName == '/VMON_ISO_SUPPLY' || B.NetName == '/PACK_DIVIDED' || B.NetName == 'Net-(R82-Pad2)' || B.NetName == 'unconnected-(J19-Pin_2-Pad2)' || B.NetName == 'unconnected-(U8-NC-Pad4)')) || ((B.NetName == '/HLDO_OUT' || B.NetName == '/PACK_NEG' || B.NetName == '/PACK_POS' || B.NetName == '/PACK_POS_FUSED' || B.NetName == '/PACK_V_SENSE' || B.NetName == '/VMON_ISO_SUPPLY' || B.NetName == '/PACK_DIVIDED' || B.NetName == 'Net-(R82-Pad2)' || B.NetName == 'unconnected-(J19-Pin_2-Pad2)' || B.NetName == 'unconnected-(U8-NC-Pad4)') && A.NetName != '' && !(A.NetName == '/HLDO_OUT' || A.NetName == '/PACK_NEG' || A.NetName == '/PACK_POS' || A.NetName == '/PACK_POS_FUSED' || A.NetName == '/PACK_V_SENSE' || A.NetName == '/VMON_ISO_SUPPLY' || A.NetName == '/PACK_DIVIDED' || A.NetName == 'Net-(R82-Pad2)' || A.NetName == 'unconnected-(J19-Pin_2-Pad2)' || A.NetName == 'unconnected-(U8-NC-Pad4)'))")
+  (constraint clearance (min 8mm)))
+
+# One chamfered phase-match section, 3.6mm long. Full routed lengths include R3/R4.
+(rule "USB bounded phase matching"
+  (condition "(A.NetName == '/USB_DP' || A.NetName == '/USB_DN') && A.enclosedByArea('USB_phase_match')")
+  (constraint diff_pair_gap (min 0.195mm) (opt 0.200mm) (max 1.270mm)))
+
+# HRO TYPE-C-31-M-12 OEM drawing 2020-12-08: full rectangular lands,
+# .60mm locating drills, actual .20010mm minimum to GND lands.
+# JLC NPTH design guide specifies .20-.30mm copper clearance:
+# https://jlcpcb.com/blog/npth-design-guide
+# This changes only J1 locating-hole to J1-land checks; global .25mm remains.
+(rule "J1 HRO OEM NPTH to solder land - JLC 0.20mm"
+ (condition "A.memberOfFootprint('J1') && B.memberOfFootprint('J1')")
+ (constraint hole_clearance (min 0.20mm)))

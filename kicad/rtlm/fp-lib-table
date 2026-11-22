@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RTLM_Local")(type "KiCad")(uri "${KIPRJMOD}/RTLM_Local.pretty")(options "")(descr "RTLM reviewed local land patterns"))
+)
