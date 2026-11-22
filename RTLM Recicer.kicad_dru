@@ -1,0 +1,4 @@
+(version 1)
+(rule "ESP32 fine pitch"
+   (condition "A.Parent == 'U1' || B.Parent == 'U1'")
+   (constraint clearance (min 0.05mm)))
