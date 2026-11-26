@@ -1,4 +1,12 @@
 (version 1)
-(rule "ESP32 fine pitch"
-   (condition "A.Parent == 'U1' || B.Parent == 'U1'")
-   (constraint clearance (min 0.05mm)))
+
+# JLCPCB 1 oz requires 0.15 mm between different-net solder pads.
+(rule "Different-net pad clearance"
+ (condition "A.Type == 'Pad' && B.Type == 'Pad'")
+ (constraint clearance (min 0.15mm)))
+
+# Same manufacturer land pattern and local NPTH rule as the transmitter.
+# https://jlcpcb.com/blog/npth-design-guide
+(rule "J1 OEM NPTH to J1 land"
+ (condition "A.memberOfFootprint('J1') && B.memberOfFootprint('J1')")
+ (constraint hole_clearance (min 0.20mm)))

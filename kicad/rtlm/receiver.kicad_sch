@@ -1861,7 +1861,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "E22-900M22S:E22-900M22S"
+		(symbol "RTLM_Local:E22-900M22S"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1892,7 +1892,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "E22-900M22S:E22-900M22S"
+			(property "Footprint" "RTLM_Local:EBYTE_E22_900M22S"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2426,7 +2426,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP32-S3FN8:ESP32-S3FN8"
+		(symbol "RTLM_Local:ESP32-S3FN8"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2457,7 +2457,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ESP32-S3FN8:QFN40P700X700X90-57N"
+			(property "Footprint" "RTLM_Local:ESP32_S3_QFN56_EP_Windowed"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2481,7 +2481,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Description" "Espressif Systems [ENGINEERING SAMPLES]SMD IC , Dual-Core MCU, Wi-Fi 2.4G & BLE 5.0 combo, 8 MB Octal SPI PSRAM, QFN 56-pin, 7*7 mm"
+			(property "Description" "Espressif ESP32-S3FN8, dual-core Wi-Fi and Bluetooth LE MCU, 8 MB Quad SPI flash, QFN-56"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4634,6 +4634,106 @@
 			)
 			(embedded_fonts no)
 		)
+	
+		(symbol "Mechanical:MountingHole"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "mounting hole"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MountingHole_0_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	)
 	(text "50 Ohm Trace"
 		(exclude_from_sim no)
@@ -5952,7 +6052,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25092"
 			(at 213.36 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -5970,13 +6070,15 @@
 			(uuid "4e591a5e-c094-426e-aa85-d2985c322b07")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "R3")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "0402WGF220JTCE" (at 213.36 100.33 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -6049,7 +6151,7 @@
 			(uuid "de0915e8-3005-4a41-a0f1-f069c3ad5f60")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#FLG03")
 					(unit 1)
@@ -6127,7 +6229,7 @@
 			(uuid "f3a06ec1-5215-4725-9c06-86f67cc1c2de")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR021")
 					(unit 1)
@@ -6224,7 +6326,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C880756"
 			(at 153.67 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6242,13 +6344,15 @@
 			(uuid "cdeb19b9-1466-4ea3-a105-81e3e2225439")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C15")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "HH15N1R5B500CT" (at 153.67 59.69 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6339,7 +6443,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 255.27 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6357,13 +6461,15 @@
 			(uuid "c0bdb019-2cdf-48f5-9a38-a424d64df7a2")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CL05A105KA5NQNC" (at 255.27 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6435,7 +6541,7 @@
 			(uuid "9f6e006d-15e1-4724-b3b8-1e66634ba016")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR025")
 					(unit 1)
@@ -6444,7 +6550,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32-S3FN8:ESP32-S3FN8")
+		(lib_id "RTLM_Local:ESP32-S3FN8")
 		(at 184.15 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -6475,7 +6581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-S3FN8:QFN40P700X700X90-57N"
+		(property "Footprint" "RTLM_Local:ESP32_S3_QFN56_EP_Windowed"
 			(at 184.15 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6487,7 +6593,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/ESP32-S3FN8_Espressif_Systems.pdf"
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf"
 			(at 184.15 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6499,7 +6605,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Description" "Espressif Systems [ENGINEERING SAMPLES]SMD IC , Dual-Core MCU, Wi-Fi 2.4G & BLE 5.0 combo, 8 MB Octal SPI PSRAM, QFN 56-pin, 7*7 mm"
+		(property "Description" "ESP32-S3FN8; 8 MB in-package Quad SPI flash; no in-package PSRAM"
 			(at 184.15 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6731,13 +6837,15 @@
 			(uuid "d5e56095-5b46-4c76-83c2-80e782c2bdb2")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "U1")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "LCSC" "C2913196" (at 184.15 82.55 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6809,7 +6917,7 @@
 			(uuid "a2d42142-525c-455b-b796-0776287e8f0b")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR01")
 					(unit 1)
@@ -6887,7 +6995,7 @@
 			(uuid "ae342f58-a626-435c-89ba-71cb8ea73503")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR028")
 					(unit 1)
@@ -6896,7 +7004,7 @@
 		)
 	)
 	(symbol
-		(lib_id "E22-900M22S:E22-900M22S")
+		(lib_id "RTLM_Local:E22-900M22S")
 		(at 237.49 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -6928,7 +7036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "E22-900M22S:E22-900M22S"
+		(property "Footprint" "RTLM_Local:EBYTE_E22_900M22S"
 			(at 237.49 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7046,7 +7154,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C411293"
 			(at 237.49 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7124,7 +7232,7 @@
 			(uuid "b57f446a-840c-407d-94e0-31b0d260db9e")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "IC1")
 					(unit 1)
@@ -7201,7 +7309,7 @@
 			(uuid "502c2be2-1cfe-4eeb-8795-50e0bb8e1c19")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR07")
 					(unit 1)
@@ -7243,7 +7351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+		(property "Footprint" "RTLM_Local:Hirose_UFL_R_SMT_1"
 			(at 262.89 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7298,7 +7406,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C88373"
 			(at 262.89 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7316,13 +7424,15 @@
 			(uuid "ec037e28-10ba-4b09-a375-d332fec6887e")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "U.FL-R-SMT-1(10)" (at 262.89 90.17 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7393,7 +7503,7 @@
 			(uuid "8533f6ec-ad01-4275-9bbd-1c276d7049c3")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR032")
 					(unit 1)
@@ -7471,7 +7581,7 @@
 			(uuid "fe4bc8c7-d0f8-45b8-8fee-195869dba309")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR017")
 					(unit 1)
@@ -7550,7 +7660,7 @@
 			(uuid "59dd098b-9780-4d52-a3d0-142efe69acba")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR027")
 					(unit 1)
@@ -7647,7 +7757,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131394"
 			(at 255.27 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7665,13 +7775,15 @@
 			(uuid "ed93850d-13c3-467a-bb60-c909654cfbde")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C11")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CC0402KRX7R9BB104" (at 255.27 38.1 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7743,7 +7855,7 @@
 			(uuid "d69a7ac9-dbab-4e6a-9d87-eea51b8e85ba")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR015")
 					(unit 1)
@@ -7821,7 +7933,7 @@
 			(uuid "46ea2045-f661-45d2-a49e-b2aea70bf23b")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR02")
 					(unit 1)
@@ -7916,7 +8028,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25744"
 			(at 132.08 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -7934,13 +8046,15 @@
 			(uuid "50565fb3-6a8d-430b-bc6d-0099c69e9314")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "R5")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "0402WGF1002TCE" (at 132.08 35.56 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8012,7 +8126,7 @@
 			(uuid "30a508fc-7135-4ed2-a821-640ef49645da")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR024")
 					(unit 1)
@@ -8110,7 +8224,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7519"
 			(at 63.5 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -8140,13 +8254,15 @@
 			(uuid "79873f53-36af-4474-a56c-92d9ea5bd1ff")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "USBLC6-2SC6" (at 63.5 60.96 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8237,7 +8353,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15850"
 			(at 87.63 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8255,13 +8371,15 @@
 			(uuid "ed951d12-797f-4943-be9e-f43768b3ad3b")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CL21A106KAYNNNE" (at 87.63 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8350,7 +8468,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C11702"
 			(at 242.57 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -8368,13 +8486,15 @@
 			(uuid "b682e9de-f36e-4a6f-b24e-fd32e637498b")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "0402WGF1001TCE" (at 242.57 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -8463,7 +8583,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C370234"
 			(at 248.92 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -8481,13 +8601,15 @@
 			(uuid "e633739c-a3a8-4f6e-8553-6b47928b1949")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "L1")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "SDCL1608C2N0STDF" (at 248.92 44.45 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8559,7 +8681,7 @@
 			(uuid "79e5ddee-5038-4c67-bf48-38d084c27e4e")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR010")
 					(unit 1)
@@ -8654,7 +8776,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C51118"
 			(at 80.01 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8681,13 +8803,15 @@
 			(uuid "1079dc46-6ca6-469c-9604-0c8d2856cd4e")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "U3")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "AP2112K-3.3TRG1" (at 80.01 72.39 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8778,7 +8902,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C190090"
 			(at 115.57 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8796,13 +8920,15 @@
 			(uuid "9182e85b-6fe5-4b14-82ba-ad5506ed53ae")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C13")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "0402CG220F500NT" (at 115.57 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -8891,7 +9017,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3221977"
 			(at 149.86 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -8909,13 +9035,15 @@
 			(uuid "4aa72b6c-daf8-4463-91f0-14d67a5dbc72")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "L3")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "LQW15AN2N4B80D" (at 149.86 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8987,7 +9115,7 @@
 			(uuid "07512166-ffb4-40bf-abdb-1742fb378b12")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR03")
 					(unit 1)
@@ -9084,7 +9212,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15850"
 			(at 72.39 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9102,13 +9230,15 @@
 			(uuid "590b8fac-551c-47f2-9efc-8c6fda182c12")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CL21A106KAYNNNE" (at 72.39 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9197,7 +9327,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25092"
 			(at 213.36 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -9215,13 +9345,15 @@
 			(uuid "43835d39-dd8c-447d-9381-0f0aa9693a52")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "R4")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "0402WGF220JTCE" (at 213.36 97.79 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9293,7 +9425,7 @@
 			(uuid "884db635-6fa4-4edb-8057-409885439c27")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR031")
 					(unit 1)
@@ -9390,7 +9522,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131394"
 			(at 213.36 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9408,13 +9540,15 @@
 			(uuid "7a0dc549-fba6-4d64-8891-5259df65f6b6")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C9")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CC0402KRX7R9BB104" (at 213.36 53.34 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9503,7 +9637,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25905"
 			(at 54.61 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -9521,13 +9655,15 @@
 			(uuid "70d0a8c6-2509-442a-9a5d-0e02fe5dcabd")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "0402WGF5101TCE" (at 54.61 52.07 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -9618,7 +9754,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C318884"
 			(at 144.78 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -9636,13 +9772,15 @@
 			(uuid "67f30632-aef2-435f-81f6-6748079f1bc6")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "SW1")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "TS-1187A-B-A-B" (at 144.78 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
@@ -9665,7 +9803,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "TYPE-C-31-M-12"
 			(at 34.798 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9675,7 +9813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "RTLM_Local:USB_C_HRO_TYPE_C_31_M_12_OEM_20201208"
 			(at 39.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9686,7 +9824,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C165948.pdf"
 			(at 39.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9730,7 +9868,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C165948"
 			(at 35.56 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9793,13 +9931,15 @@
 			(uuid "c868008f-8610-4df5-9c25-06b019a0c696")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "TYPE-C-31-M-12" (at 35.56 59.69 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9890,7 +10030,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C190090"
 			(at 129.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9908,13 +10048,15 @@
 			(uuid "4172d031-9f22-4c8a-80e8-930165a86253")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C12")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "0402CG220F500NT" (at 129.54 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9985,7 +10127,7 @@
 			(uuid "544c689f-df24-4553-88bb-5a6ef063d6e5")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR023")
 					(unit 1)
@@ -10064,7 +10206,7 @@
 			(uuid "fee03103-e5b8-447d-bf6d-e47dd5ec1542")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#FLG02")
 					(unit 1)
@@ -10142,7 +10284,7 @@
 			(uuid "de8c0e2f-ab2e-4cee-9f05-cd3f0a164a17")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR011")
 					(unit 1)
@@ -10219,7 +10361,7 @@
 			(uuid "598db08e-fd60-4b6f-9861-56de9aac210d")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR022")
 					(unit 1)
@@ -10316,7 +10458,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C86816"
 			(at 266.7 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10334,13 +10476,15 @@
 			(uuid "9a0f2d61-c013-441b-9801-4926b45178a1")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C17")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "GRM21BR61E226ME44L" (at 266.7 77.47 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -10429,7 +10573,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C318884"
 			(at 233.68 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10447,13 +10591,15 @@
 			(uuid "a21eec9d-754e-408f-bc56-62abe1888e96")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "SW2")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "TS-1187A-B-A-B" (at 233.68 60.96 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -10544,7 +10690,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10562,13 +10708,15 @@
 			(uuid "4658737a-057d-4c2b-976b-f534c4effcff")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C18")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CC0805KRX7R9BB104" (at 259.08 77.47 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -10657,7 +10805,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C913699"
 			(at 137.16 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -10675,13 +10823,15 @@
 			(uuid "e4241c3f-3289-48a6-926e-664ecb2d5aa6")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "L2")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "LQW15AN24NH00D" (at 137.16 74.93 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10752,7 +10902,7 @@
 			(uuid "ab3e3373-9166-4b8c-91e9-d357faae416f")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR019")
 					(unit 1)
@@ -10870,13 +11020,15 @@
 			(uuid "88dcf3c2-c115-4bca-83db-20bd20a82e60")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "Y1")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "X322540MPB4SI" (at 121.92 74.93 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10948,7 +11100,7 @@
 			(uuid "1682e0d5-00ae-480a-8194-82ea0f765a50")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR026")
 					(unit 1)
@@ -11025,7 +11177,7 @@
 			(uuid "5dd04674-8765-4dc8-9601-8d313bbadbe0")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR013")
 					(unit 1)
@@ -11102,7 +11254,7 @@
 			(uuid "4375efaf-a211-4e92-913f-42b6afab4555")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR06")
 					(unit 1)
@@ -11180,7 +11332,7 @@
 			(uuid "599c1706-cf3e-4bd7-8361-d387c3b8b082")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR08")
 					(unit 1)
@@ -11277,7 +11429,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15850"
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11295,13 +11447,15 @@
 			(uuid "90e2a5fb-ebef-4665-b983-846afaa9e11f")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CL21A106KAYNNNE" (at 227.33 35.56 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
@@ -11337,7 +11491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+		(property "Footprint" "RTLM_Local:Hirose_UFL_R_SMT_1"
 			(at 129.54 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11392,7 +11546,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C88373"
 			(at 129.54 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11410,13 +11564,15 @@
 			(uuid "51faed92-020c-46de-a156-f402be4fd2b9")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "J2")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "U.FL-R-SMT-1(10)" (at 129.54 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -11507,7 +11663,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131394"
 			(at 209.55 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11525,13 +11681,15 @@
 			(uuid "bb1732c6-881b-4d59-8a66-b472d1c1aa1f")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CC0402KRX7R9BB104" (at 209.55 33.02 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11603,7 +11761,7 @@
 			(uuid "7cd6403e-7738-4a36-876e-2eef24f257e0")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR020")
 					(unit 1)
@@ -11698,7 +11856,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25905"
 			(at 54.61 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -11716,13 +11874,15 @@
 			(uuid "5eb97112-51bb-4bff-8496-035f97922512")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "0402WGF5101TCE" (at 54.61 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11794,7 +11954,7 @@
 			(uuid "ba412ea7-f839-4b77-a66d-226c8016a76f")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR029")
 					(unit 1)
@@ -11873,7 +12033,7 @@
 			(uuid "ae9b5426-5abe-4a78-b8f7-3f8438007edb")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR04")
 					(unit 1)
@@ -11970,7 +12130,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C880756"
 			(at 146.05 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11988,13 +12148,15 @@
 			(uuid "abad9719-93cb-418a-a667-c2f4e6b22d0c")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C16")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "HH15N1R5B500CT" (at 146.05 59.69 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -12085,7 +12247,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15850"
 			(at 241.3 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12103,13 +12265,15 @@
 			(uuid "c0746d4d-8b9d-48fa-8c82-7e7944b7a767")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C7")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CL21A106KAYNNNE" (at 241.3 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12182,7 +12346,7 @@
 			(uuid "ed215883-ec04-4fee-9e29-ceee822eb737")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR05")
 					(unit 1)
@@ -12279,7 +12443,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 139.7 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12297,13 +12461,15 @@
 			(uuid "3bbc5827-0361-4f6a-94ae-67f1efc77b22")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C14")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CL05A105KA5NQNC" (at 139.7 43.18 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12375,7 +12541,7 @@
 			(uuid "600ec0f2-444d-4344-8804-2d9c4df3fe4c")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR016")
 					(unit 1)
@@ -12453,7 +12619,7 @@
 			(uuid "ff5b7c50-ad67-4388-a21a-a76e65e40fd1")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR018")
 					(unit 1)
@@ -12550,7 +12716,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131394"
 			(at 213.36 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12568,13 +12734,15 @@
 			(uuid "6672af52-2408-41d3-a886-dc22d5555500")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CC0402KRX7R9BB104" (at 213.36 35.56 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -12646,7 +12814,7 @@
 			(uuid "0ed0259f-58e0-41b8-a763-eab9307cab66")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#FLG01")
 					(unit 1)
@@ -12724,7 +12892,7 @@
 			(uuid "e16ab972-1b54-47f7-84ae-35e060960793")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR09")
 					(unit 1)
@@ -12802,7 +12970,7 @@
 			(uuid "06119943-38f7-425f-946e-f1e0f738bcc0")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR014")
 					(unit 1)
@@ -12880,7 +13048,7 @@
 			(uuid "87751bc3-a205-4d63-a4e2-2c57be150bda")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR030")
 					(unit 1)
@@ -12985,7 +13153,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2286"
 			(at 250.19 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13003,13 +13171,15 @@
 			(uuid "bac81e1c-7c23-4d63-a160-35f35084cb01")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "KT-0603R" (at 250.19 67.31 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -13100,7 +13270,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131394"
 			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13118,13 +13288,15 @@
 			(uuid "c6a4c99e-46bc-4df3-81fb-415bb4bdfd63")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C8")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CC0402KRX7R9BB104" (at 224.79 50.8 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13195,7 +13367,7 @@
 			(uuid "29826d60-2637-478d-b2f6-21ae50d8a1ba")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#PWR012")
 					(unit 1)
@@ -13274,7 +13446,7 @@
 			(uuid "59561b0b-8b67-4f0c-8f27-8de754764238")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "#FLG04")
 					(unit 1)
@@ -13371,7 +13543,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 242.57 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13389,13 +13561,15 @@
 			(uuid "72b170a6-ab85-49a0-bde3-534333da6d04")
 		)
 		(instances
-			(project "RTLM Recicer"
+			(project "receiver"
 				(path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e"
 					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
+	
+		(property "MPN" "CL05A105KA5NQNC" (at 242.57 38.1 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(sheet_instances
 		(path "/"
@@ -13403,4 +13577,33 @@
 		)
 	)
 	(embedded_fonts no)
+
+    (symbol (lib_id "Mechanical:MountingHole") (at 222.25 172.72 0) (unit 1)
+        (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no)
+        (uuid "3bb32c42-aebe-50fa-9f07-68a9a71965e1")
+        (property "Reference" "H1" (at 222.25 168.91 0) (effects (font (size 1.27 1.27))))
+        (property "Value" "MountingHole_3.2mm_M3" (at 222.25 176.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+        (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 222.25 172.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+        (instances (project "receiver" (path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e" (reference "H1") (unit 1)))))
+    (symbol (lib_id "Mechanical:MountingHole") (at 237.49 172.72 0) (unit 1)
+        (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no)
+        (uuid "f9a48381-6ec0-5c83-a99c-20bb463eaf1f")
+        (property "Reference" "H2" (at 237.49 168.91 0) (effects (font (size 1.27 1.27))))
+        (property "Value" "MountingHole_3.2mm_M3" (at 237.49 176.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+        (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 237.49 172.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+        (instances (project "receiver" (path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e" (reference "H2") (unit 1)))))
+    (symbol (lib_id "Mechanical:MountingHole") (at 252.73 172.72 0) (unit 1)
+        (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no)
+        (uuid "c8081128-6d3f-5309-95ac-e5a8078b628d")
+        (property "Reference" "H3" (at 252.73 168.91 0) (effects (font (size 1.27 1.27))))
+        (property "Value" "MountingHole_3.2mm_M3" (at 252.73 176.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+        (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 252.73 172.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+        (instances (project "receiver" (path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e" (reference "H3") (unit 1)))))
+    (symbol (lib_id "Mechanical:MountingHole") (at 267.97 172.72 0) (unit 1)
+        (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no)
+        (uuid "bb4b4b36-c0a5-5c8b-bfbe-6cfbf75fa255")
+        (property "Reference" "H4" (at 267.97 168.91 0) (effects (font (size 1.27 1.27))))
+        (property "Value" "MountingHole_3.2mm_M3" (at 267.97 176.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+        (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 267.97 172.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+        (instances (project "receiver" (path "/cbf131ea-afeb-4647-a41c-09a4a9e79b7e" (reference "H4") (unit 1)))))
 )
