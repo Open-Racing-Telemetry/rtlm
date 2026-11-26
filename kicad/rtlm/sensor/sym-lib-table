@@ -1,1 +1,1 @@
-(sym_lib_table (version 7) (lib (name "TPS") (type "KiCad") (uri "${KIPRJMOD}/TPS.kicad_sym") (options "") (descr "TPS-01 symbols")))
+(sym_lib_table (version 7) (lib (name "TPS") (type "KiCad") (uri "${KIPRJMOD}/TPS.kicad_sym") (options "") (descr "Magnetic Angle Sensor symbols")))

@@ -5,8 +5,8 @@
 	(uuid "5c27da70-292b-4ada-87ff-afdf3da22c84")
 	(paper "A4")
 	(title_block
-		(title "RTLM throttle position sensor")
-		(rev "0.2")
+		(title "RTLM Magnetic Angle Sensor")
+		(rev "0.3")
 	)
 	(lib_symbols
 		(symbol "TPS:#FLG01"
@@ -1615,7 +1615,7 @@
 					)
 				)
 			)
-			(property "Value" "MT6701CT-STD"
+			(property "Value" "MT6701CT-STD-R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2554,7 +2554,7 @@
 		)
 		(uuid "8e01049b-0c40-45a6-b2a3-460be02f9d80")
 	)
-	(label "TPS_OUT"
+	(label "ANGLE_OUT"
 		(at 173.99 132.08 0)
 		(effects
 			(font
@@ -2704,7 +2704,7 @@
 		)
 		(uuid "e5b38418-5848-4de9-aef8-6a78a470f9cf")
 	)
-	(label "TPS_OUT"
+	(label "ANGLE_OUT"
 		(at 227.33 71.12 180)
 		(effects
 			(font
@@ -2829,6 +2829,9 @@
 				)
 			)
 		)
+	
+		(property "MPN" "TLV9001IDBVR" (at 165.1 68.58 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C398363" (at 165.1 68.58 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(symbol
 		(lib_id "TPS:C1")
@@ -2906,6 +2909,9 @@
 				)
 			)
 		)
+	
+		(property "MPN" "CC0603KRX7R9BB104" (at 48.26 104.14 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C14663" (at 48.26 104.14 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(symbol
 		(lib_id "TPS:H2")
@@ -3134,6 +3140,9 @@
 				)
 			)
 		)
+	
+		(property "MPN" "0603WAF1003T5E" (at 48.26 132.08 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C25803" (at 48.26 132.08 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(symbol
 		(lib_id "TPS:R2")
@@ -3211,6 +3220,9 @@
 				)
 			)
 		)
+	
+		(property "MPN" "0603WAF1004T5E" (at 101.6 132.08 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C22935" (at 101.6 132.08 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(symbol
 		(lib_id "TPS:#FLG02")
@@ -3434,6 +3446,9 @@
 				)
 			)
 		)
+	
+		(property "MPN" "0603WAF1000T5E" (at 165.1 132.08 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C22775" (at 165.1 132.08 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(symbol
 		(lib_id "TPS:U1")
@@ -3456,7 +3471,7 @@
 				)
 			)
 		)
-		(property "Value" "MT6701CT-STD"
+		(property "Value" "MT6701CT-STD-R"
 			(at 73.66 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3477,7 +3492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.novosns.com/datasheet/MT6701CT-STD-R/MT6701.pdf"
 			(at 73.66 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3521,8 +3536,8 @@
 		(pin "3"
 			(uuid "85fcad9d-33ba-457f-83b3-29b6df588b45")
 		)
-		(property "MPN" "MT6701CT-STD" (at 73.66 68.58 0) (effects (font (size 1 1)) (hide yes)))
-		(property "LCSC" "C5451785" (at 73.66 68.58 0) (effects (font (size 1 1)) (hide yes)))
+		(property "MPN" "MT6701CT-STD-R" (at 73.66 68.58 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C3003196" (at 73.66 68.58 0) (effects (font (size 1 1)) (hide yes)))
 		(instances
 			(project "tps-01"
 				(path "/5c27da70-292b-4ada-87ff-afdf3da22c84"
@@ -3608,6 +3623,9 @@
 				)
 			)
 		)
+	
+		(property "MPN" "CC0603KRX7R9BB104" (at 165.1 104.14 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C14663" (at 165.1 104.14 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(symbol
 		(lib_id "TPS:R4")
@@ -3685,6 +3703,9 @@
 				)
 			)
 		)
+	
+		(property "MPN" "0603WAF4701T5E" (at 48.26 160.02 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C23162" (at 48.26 160.02 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(symbol
 		(lib_id "TPS:J1")
@@ -3768,6 +3789,9 @@
 				)
 			)
 		)
+	
+		(property "MPN" "430450400" (at 236.22 68.58 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C122413" (at 236.22 68.58 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(symbol
 		(lib_id "TPS:R5")
@@ -3845,6 +3869,9 @@
 				)
 			)
 		)
+	
+		(property "MPN" "0603WAF4701T5E" (at 101.6 160.02 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C23162" (at 101.6 160.02 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(symbol
 		(lib_id "TPS:C2")
@@ -3922,6 +3949,9 @@
 				)
 			)
 		)
+	
+		(property "MPN" "CC0603KRX7R8BB105" (at 88.9 104.14 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C106858" (at 88.9 104.14 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(symbol
 		(lib_id "TPS:#FLG01")

@@ -6,6 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
+	(title_block (title "RTLM Magnetic Angle Sensor") (rev "0.3"))
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
@@ -237,6 +238,9 @@
 				(xyz 0 0 0)
 			)
 		)
+	
+		(property "MPN" "CC0603KRX7R9BB104" (at 58 61.5 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C14663" (at 58 61.5 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -388,6 +392,9 @@
 				(xyz 0 0 0)
 			)
 		)
+	
+		(property "MPN" "0603WAF1004T5E" (at 63 68.5 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C22935" (at 63 68.5 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
@@ -778,6 +785,9 @@
 				(xyz 0 0 0)
 			)
 		)
+	
+		(property "MPN" "TLV9001IDBVR" (at 73 57 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C398363" (at 73 57 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -929,6 +939,9 @@
 				(xyz 0 0 0)
 			)
 		)
+	
+		(property "MPN" "0603WAF4701T5E" (at 72 69 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C23162" (at 72 69 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
@@ -948,7 +961,7 @@
 				)
 			)
 		)
-		(property "Value" "MT6701CT-STD"
+		(property "Value" "MT6701CT-STD-R"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -960,7 +973,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.novosns.com/datasheet/MT6701CT-STD-R/MT6701.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -994,7 +1007,7 @@
 				)
 			)
 		)
-		(property "MPN" "MT6701CT-STD"
+		(property "MPN" "MT6701CT-STD-R"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1006,7 +1019,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5451785"
+		(property "LCSC" "C3003196"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1580,6 +1593,9 @@
 				(xyz 0 0 0)
 			)
 		)
+	
+		(property "MPN" "CC0603KRX7R8BB105" (at 58 64 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C106858" (at 58 64 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -1824,7 +1840,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/TPS_OUT")
+			(net "/ANGLE_OUT")
 			(pintype "passive")
 			(uuid "0808b712-6ada-480d-882e-04f3dffaf946")
 		)
@@ -1840,6 +1856,9 @@
 				(xyz 0 0 0)
 			)
 		)
+	
+		(property "MPN" "0603WAF1000T5E" (at 78 54.5 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C22775" (at 78 54.5 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -1991,6 +2010,9 @@
 				(xyz 0 0 0)
 			)
 		)
+	
+		(property "MPN" "0603WAF4701T5E" (at 75 69 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C23162" (at 75 69 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -2142,6 +2164,9 @@
 				(xyz 0 0 0)
 			)
 		)
+	
+		(property "MPN" "0603WAF1003T5E" (at 59 68.5 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C25803" (at 59 68.5 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 		(layer "F.Cu")
@@ -2475,7 +2500,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/TPS_OUT")
+			(net "/ANGLE_OUT")
 			(pintype "passive")
 			(uuid "8d6feb36-3e7c-46e0-b576-ef99cd8ed122")
 		)
@@ -2501,6 +2526,9 @@
 				(xyz 0 0 0)
 			)
 		)
+	
+		(property "MPN" "430450400" (at 86.5 63 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C122413" (at 86.5 63 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -2652,6 +2680,9 @@
 				(xyz 0 0 0)
 			)
 		)
+	
+		(property "MPN" "CC0603KRX7R9BB104" (at 77 57 0) (effects (font (size 1 1)) (hide yes)))
+		(property "LCSC" "C14663" (at 77 57 0) (effects (font (size 1 1)) (hide yes)))
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -3045,7 +3076,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f682023e-42c6-4b2b-9232-7a12b566a965")
 	)
-	(gr_text "Pedal Position Sensor"
+	(gr_text "Magnetic Angle Sensor"
 		(at 60 58.25 0)
 		(layer "F.SilkS")
 		(uuid "29be178e-d76f-484b-926e-24e9654b834a")
@@ -3709,7 +3740,7 @@
 		(end 78.825 54.5)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/TPS_OUT")
+		(net "/ANGLE_OUT")
 		(uuid "34b674fd-9897-4e19-a48f-b42d0c7b80ce")
 	)
 	(segment
@@ -3717,7 +3748,7 @@
 		(end 80.25 54.5)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/TPS_OUT")
+		(net "/ANGLE_OUT")
 		(uuid "71fc6660-4c75-4f6d-b9b0-7dc48ca9e752")
 	)
 	(segment
@@ -3725,7 +3756,7 @@
 		(end 83.5 57.75)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/TPS_OUT")
+		(net "/ANGLE_OUT")
 		(uuid "ae8190f4-b2d7-458e-a9bc-49164909644b")
 	)
 	(zone

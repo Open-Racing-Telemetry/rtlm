@@ -1,4 +1,4 @@
-"""Generate TPS-01 KiCad sources with the KiCad 10 bundled Python."""
+"""Generate RTLM Magnetic Angle Sensor KiCad sources with the KiCad 10 bundled Python."""
 import json
 from pathlib import Path
 import sys
@@ -18,9 +18,32 @@ HALL = 'Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'
 AMP = 'Package_TO_SOT_SMD:SOT-23-5'
 HOLE = 'MountingHole:MountingHole_3.2mm_M3'
 
+ASSEMBLY_PARTS = {
+    'C1': ('CC0603KRX7R9BB104', 'C14663'),
+    'C2': ('CC0603KRX7R8BB105', 'C106858'),
+    'C3': ('CC0603KRX7R9BB104', 'C14663'),
+    'J1': ('430450400', 'C122413'),
+    'R1': ('0603WAF1003T5E', 'C25803'),
+    'R2': ('0603WAF1004T5E', 'C22935'),
+    'R3': ('0603WAF1000T5E', 'C22775'),
+    'R4': ('0603WAF4701T5E', 'C23162'),
+    'R5': ('0603WAF4701T5E', 'C23162'),
+    'U1': ('MT6701CT-STD-R', 'C3003196'),
+    'U2': ('TLV9001IDBVR', 'C398363'),
+}
+HALL_DATASHEET = 'https://www.novosns.com/datasheet/MT6701CT-STD-R/MT6701.pdf'
+
+
+def assembly_fields(reference):
+    mpn, lcsc = ASSEMBLY_PARTS[reference]
+    fields = {'MPN': mpn, 'LCSC': lcsc}
+    if reference == 'U1':
+        fields['Datasheet'] = HALL_DATASHEET
+    return fields
+
 # Each row carries the schematic and PCB pad map together. A blank net is NC.
 parts = {
-    'U1': ('MT6701CT-STD', HALL, (64, 64, 0), [
+    'U1': ('MT6701CT-STD-R', HALL, (64, 64, 0), [
         ('1', 'VDD', 'power_in', '5V_IN'), ('2', 'MODE', 'input', '5V_IN'),
         ('3', 'OUT', 'output', 'ANGLE_RAW'), ('4', 'GND', 'power_in', 'GND'),
         ('5', 'PUSH', 'output', ''), ('6', 'SDA', 'bidirectional', 'SDA'),
@@ -31,7 +54,7 @@ parts = {
         ('5', 'V+', 'power_in', '5V_IN')]),
     'J1': ('43045-0400', J1, (86.5, 63, 270), [
         ('1', 'GND', 'passive', 'GND'), ('2', '5V', 'passive', '5V_IN'),
-        ('3', 'SIG', 'passive', 'TPS_OUT'), ('4', 'NC', 'passive', '')]),
+        ('3', 'SIG', 'passive', 'ANGLE_OUT'), ('4', 'NC', 'passive', '')]),
     'J2': ('I2C service (DNP)', HEADER, (66.5, 73.5, 90), [
         ('1', 'GND', 'passive', 'GND'), ('2', 'SDA', 'passive', 'SDA'),
         ('3', 'SCL', 'passive', 'SCL')]),
@@ -49,7 +72,7 @@ passive('C2', '1 uF', (58, 64, 180), '5V_IN', 'GND')
 passive('C3', '100 nF', (77, 57, 0), '5V_IN', 'GND')
 passive('R1', '100k 1%', (59, 68.5, 0), 'ANGLE_RAW', 'ANGLE_SCALED')
 passive('R2', '1M 1%', (63, 68.5, 0), 'ANGLE_SCALED', 'GND')
-passive('R3', '100R', (78, 54.5, 0), 'ANGLE_BUF', 'TPS_OUT')
+passive('R3', '100R', (78, 54.5, 0), 'ANGLE_BUF', 'ANGLE_OUT')
 passive('R4', '4.7k', (72, 69, 90), '5V_IN', 'SDA')
 passive('R5', '4.7k', (75, 69, 90), '5V_IN', 'SCL')
 for ref, x in [('H1', 52), ('H2', 76)]:
@@ -129,9 +152,10 @@ def make_schematic():
         libs.append(f'(symbol {q(lib)} {definition})')
         local_libs.append(f'(symbol {q(ref)} {definition})')
         order_fields = ''
-        if ref == 'U1':
-            order_fields = f'(property "MPN" {q(value)} (at {x} {y} 0) (effects (font (size 1 1)) (hide yes)))'
-            order_fields += f'(property "LCSC" "C5451785" (at {x} {y} 0) (effects (font (size 1 1)) (hide yes)))'
+        if ref in ASSEMBLY_PARTS:
+            order_fields = ''.join(
+                f'(property {q(key)} {q(value)} (at {x} {y} 0) (effects (font (size 1 1)) (hide yes)))'
+                for key, value in assembly_fields(ref).items())
         items.append(f'''(symbol (lib_id {q(lib)}) (at {x} {y} 0) (unit 1)
           (in_bom {bom}) (on_board {on_board}) (dnp {dnp}) (uuid {SYMBOLS[ref]})
           (property "Reference" {q(ref)} (at {x} {y-offset:.4f} 0) (effects (font (size 1.27 1.27)) {'(hide yes)' if ref.startswith('#') else ''}))
@@ -145,10 +169,10 @@ def make_schematic():
     p = HERE / f'{NAME}.kicad_sch'
     library_body = '\n'.join(local_libs)
     (HERE / 'TPS.kicad_sym').write_text(f'(kicad_symbol_lib (version 20241209) (generator kicad_symbol_editor)\n{library_body})\n', encoding='utf8')
-    (HERE / 'sym-lib-table').write_text('(sym_lib_table (version 7) (lib (name "TPS") (type "KiCad") (uri "${KIPRJMOD}/TPS.kicad_sym") (options "") (descr "TPS-01 symbols")))\n', encoding='utf8')
+    (HERE / 'sym-lib-table').write_text('(sym_lib_table (version 7) (lib (name "TPS") (type "KiCad") (uri "${KIPRJMOD}/TPS.kicad_sym") (options "") (descr "Magnetic Angle Sensor symbols")))\n', encoding='utf8')
     (HERE / f'{NAME}.kicad_pro').write_text('{}\n', encoding='utf8')
     p.write_text(f'''(kicad_sch (version 20250114) (generator eeschema) (uuid {root})
-      (paper "A4") (title_block (title "RTLM throttle position sensor") (rev "0.2"))
+      (paper "A4") (title_block (title "RTLM Magnetic Angle Sensor") (rev "0.3"))
       (lib_symbols {' '.join(libs)})\n{chr(10).join(items)})\n''', encoding='utf8')
     return root
 
@@ -197,7 +221,7 @@ def apply_silkscreen(board):
         logo.SetFilled(True)
         board.Add(logo)
     title = pcb.PCB_TEXT(board)
-    title.SetText('Pedal Position Sensor')
+    title.SetText('Magnetic Angle Sensor')
     title.SetPosition(point((60, 58.25)))
     title.SetLayer(pcb.F_SilkS)
     title.SetTextSize(point((1.0, 1.0)))
@@ -242,7 +266,7 @@ def route(track, via):
           (73.53, 57.95), 'U2.4', width=.22)
     track('ANGLE_BUF', 'U2.1', (71.1, 56.05), (70.6, 55.55), (70.6, 54.3),
           (71.4, 53.5), (76.175, 53.5), 'R3.1')
-    track('TPS_OUT', 'R3.2', (80, 54.5), (84, 58.5), 'J1.3')
+    track('ANGLE_OUT', 'R3.2', (80, 54.5), (84, 58.5), 'J1.3')
 
     track('SDA', 'U1.6', (68.8, 64.635), (72, 67.835), 'R4.2')
     track('SDA', 'R4.2', (70.16, 70.015), (70.16, 72.38), 'J2.2')
@@ -265,9 +289,10 @@ def make_board(root):
         f.SetPosition(point((x, y)))
         f.SetOrientationDegrees(angle)
         f.SetPath(pcb.KIID_PATH(f'/{root}/{SYMBOLS[ref]}'))
-        if ref == 'U1':
-            f.SetFields({'MPN': value, 'LCSC': 'C5451785'})
-            for field in ('MPN', 'LCSC'):
+        if ref in ASSEMBLY_PARTS:
+            order_fields = assembly_fields(ref)
+            f.SetFields(order_fields)
+            for field in order_fields:
                 f.GetField(field).SetVisible(False)
         f.Value().SetVisible(False)
         f.Reference().SetVisible(False)
