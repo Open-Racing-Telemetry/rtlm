@@ -10,3 +10,13 @@
 (rule "J1 OEM NPTH to J1 land"
  (condition "A.memberOfFootprint('J1') && B.memberOfFootprint('J1')")
  (constraint hole_clearance (min 0.20mm)))
+
+# Assembly margin for tented through vias, checked even on the same net.
+(rule "Receiver via drills to SMD pads"
+ (condition "(A.Type == 'Via' && B.Type == 'Pad' && B.Pad_Type == 'SMD') || (B.Type == 'Via' && A.Type == 'Pad' && A.Pad_Type == 'SMD')")
+ (constraint physical_hole_clearance (min 0.22mm)))
+
+# Keep the via annulus clear of SMD copper. A connecting trace may bridge the gap.
+(rule "Receiver via copper to SMD pads"
+ (condition "(A.Type == 'Via' && B.Type == 'Pad' && B.Pad_Type == 'SMD') || (B.Type == 'Via' && A.Type == 'Pad' && A.Pad_Type == 'SMD')")
+ (constraint physical_clearance (min 0.10mm)))
